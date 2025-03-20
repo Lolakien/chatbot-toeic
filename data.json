@@ -10,5 +10,25 @@
     {
         "question": "lịch trình ôn luyện bao lâu thì đủ?",
         "answer": "Tôi khuyên bạn nên ôn luyện ít nhất 3 tháng."
+    },
+    {
+        "question": "Tôi không biết bắt đầu ôn thi TOEIC từ đâu.",
+        "answer": "Bạn nên bắt đầu với các bài kiểm tra mẫu."
+    },
+    {
+        "question": "Có tài liệu nào tốt cho việc ôn luyện không?",
+        "answer": "Bạn có thể tham khảo sách 'Barron's TOEIC'."
+    },
+    {
+        "question": "Thời gian ôn thi TOEIC là bao lâu?",
+        "answer": "Tôi khuyên bạn nên ôn luyện ít nhất 3 tháng."
+    },
+    {
+        "question": "Tôi nên học gì để chuẩn bị cho kỳ thi TOEIC?",
+        "answer": "Bạn nên bắt đầu với các bài kiểm tra mẫu."
+    },
+    {
+        "question": "Có sách nào bạn gợi ý cho tôi không?",
+        "answer": "Bạn có thể tham khảo sách 'Barron's TOEIC'."
     }
 ]

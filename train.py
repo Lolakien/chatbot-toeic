@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Tải dữ liệu
 with open('data.json', 'r', encoding='utf-8') as f:
@@ -14,7 +14,7 @@ questions = [item['question'] for item in data]
 answers = [item['answer'] for item in data]
 
 # Mã hóa câu hỏi
-vectorizer = CountVectorizer()
+vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(questions).toarray()
 
 # Mã hóa câu trả lời
