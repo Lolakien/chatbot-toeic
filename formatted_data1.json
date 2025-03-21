@@ -1,1098 +1,2630 @@
-[
-    {
-        "input": "question Tôi nên bắt đầu ôn luyện TOEIC từ đâu?",
-        "target": "answer Bạn nên bắt đầu với các bài kiểm tra mẫu. Bắt đầu bằng cách làm quen với cấu trúc đề thi và các dạng câu hỏi sẽ giúp bạn hiểu rõ hơn về yêu cầu của kỳ thi. Các bài kiểm tra mẫu cũng cho bạn cơ hội đánh giá trình độ hiện tại và xác định những điểm cần cải thiện. Bạn có thể tìm thấy nhiều bài kiểm tra mẫu trên internet hoặc trong sách luyện thi TOEIC."
-    },
-    {
-        "input": "question Có tài liệu nào bạn khuyên dùng không?",
-        "target": "answer Bạn có thể tham khảo sách Barrons TOEIC. Đây là một trong những tài liệu phổ biến và hữu ích cho việc ôn luyện TOEIC. Sách này cung cấp các bài kiểm tra mẫu giải thích chi tiết về từng phần thi và nhiều mẹo hữu ích để tăng cường kỹ năng. Ngoài ra bạn cũng có thể tìm các tài liệu khác như Oxford Preparation Course for the TOEIC để có thêm sự lựa chọn."
-    },
-    {
-        "input": "question Lịch trình ôn luyện bao lâu thì đủ?",
-        "target": "answer Tôi khuyên bạn nên ôn luyện ít nhất 3 tháng. Thời gian này sẽ cho bạn đủ thời gian để làm quen với từng phần của bài thi và cải thiện các kỹ năng cần thiết. Tuy nhiên nếu bạn có trình độ tiếng Anh cao hoặc mục tiêu điểm số cao bạn có thể cần nhiều thời gian hơn để ôn luyện. Hãy lập kế hoạch học tập cụ thể và kiên trì thực hiện nó."
-    },
-    {
-        "input": "question Tôi không biết bắt đầu ôn thi TOEIC từ đâu.",
-        "target": "answer Bạn nên bắt đầu với các bài kiểm tra mẫu. Việc này sẽ giúp bạn làm quen với định dạng và loại câu hỏi mà bạn sẽ gặp trong kỳ thi thực tế. Sau khi hoàn thành các bài kiểm tra mẫu bạn có thể phân tích kết quả để xác định những điểm yếu và tập trung cải thiện chúng."
-    },
-    {
-        "input": "question Có tài liệu nào tốt cho việc ôn luyện không?",
-        "target": "answer Bạn có thể tham khảo sách Barrons TOEIC. Sách này không chỉ cung cấp bài kiểm tra mẫu mà còn có phần giải thích và hướng dẫn chi tiết giúp bạn hiểu rõ hơn về các câu hỏi và cách làm bài hiệu quả. Bạn cũng có thể tìm hiểu thêm qua các video hướng dẫn trên YouTube hoặc tham gia các lớp học trực tuyến."
-    },
-    {
-        "input": "question Thời gian ôn thi TOEIC là bao lâu?",
-        "target": "answer Tôi khuyên bạn nên ôn luyện ít nhất 3 tháng. Thời gian này cho phép bạn có đủ thời gian để làm quen với các dạng câu hỏi thực hành các kỹ năng nghe đọc và từ vựng. Nếu bạn không có nhiều thời gian hãy cố gắng dành ít nhất 12 giờ mỗi ngày để ôn luyện."
-    },
-    {
-        "input": "question Tôi nên học gì để chuẩn bị cho kỳ thi TOEIC?",
-        "target": "answer Bạn nên bắt đầu với các bài kiểm tra mẫu. Ngoài ra hãy chú trọng vào các kỹ năng ngôn ngữ như ngữ pháp từ vựng và kỹ năng nghe. Học từ vựng theo chủ đề và thực hành các bài tập nghe sẽ giúp bạn cải thiện khả năng ngôn ngữ tổng thể."
-    },
-    {
-        "input": "question Có sách nào bạn gợi ý cho tôi không?",
-        "target": "answer Bạn có thể tham khảo sách Barrons TOEIC. Sách này được đánh giá cao về nội dung và cấu trúc giúp bạn nắm bắt các kiến thức cần thiết để vượt qua kỳ thi. Ngoài ra bạn cũng có thể tìm đọc sách Target TOEIC hoặc Complete Guide to the TOEIC Test để có thêm tài liệu luyện thi."
-    },
-    {
-        "input": "question Đề thi TOEIC có bao nhiêu phần?",
-        "target": "answer Đề thi TOEIC có 2 phần chính Listening và Reading. Phần Listening đánh giá khả năng hiểu tiếng Anh nói thông qua các đoạn hội thoại và bài nói. Phần Reading kiểm tra khả năng đọc hiểu văn bản tiếng Anh bao gồm các câu hỏi về ngữ pháp từ vựng và ý nghĩa tổng thể của đoạn văn."
-    },
-    {
-        "input": "question Mỗi phần trong đề thi TOEIC có bao nhiêu câu hỏi?",
-        "target": "answer Phần Listening có 100 câu hỏi. Phần này được chia thành 4 phần nhỏ mỗi phần có các dạng câu hỏi khác nhau yêu cầu thí sinh lắng nghe và trả lời. Phần Reading cũng có 100 câu hỏi. Phần này bao gồm các câu hỏi về ngữ pháp hoàn thành câu và đọc hiểu văn bản. Mỗi phần yêu cầu thí sinh áp dụng kỹ năng ngôn ngữ để trả lời chính xác."
-    },
-    {
-        "input": "question Thời gian làm bài thi TOEIC là bao lâu?",
-        "target": "answer Thời gian làm bài thi TOEIC tổng cộng là 2 giờ. Trong đó thí sinh có 45 phút cho phần Listening và 75 phút cho phần Reading. Việc quản lý thời gian là rất quan trọng vì thí sinh cần phải hoàn thành tất cả các câu hỏi trong thời gian quy định."
-    },
-    {
-        "input": "question Phần Listening trong TOEIC gồm những dạng câu hỏi nào?",
-        "target": "answer Phần Listening gồm các dạng câu hỏi như sau Part 1 Photographs Thí sinh sẽ nghe một câu mô tả và chọn hình ảnh phù hợp. Part 2 Questions and Responses Thí sinh nghe câu hỏi và chọn câu trả lời phù hợp nhất từ các lựa chọn. Part 3 Conversations Thí sinh nghe các cuộc hội thoại giữa hai hoặc nhiều người và trả lời câu hỏi liên quan đến nội dung cuộc trò chuyện. Part 4 Talks Thí sinh nghe các bài nói đơn lẻ về một chủ đề cụ thể và trả lời các câu hỏi dựa trên nội dung nghe."
-    },
-    {
-        "input": "question Phần Reading trong TOEIC gồm những dạng câu hỏi nào?",
-        "target": "answer Phần Reading gồm các dạng câu hỏi như sau Part 5 Incomplete Sentences Thí sinh phải chọn từ hoặc cụm từ để hoàn thành câu. Part 6 Text Completion Thí sinh điền từ vào chỗ trống trong một đoạn văn ngắn. Part 7 Reading Comprehension Thí sinh đọc các đoạn văn dài hơn và trả lời các câu hỏi liên quan đến nội dung đọc."
-    },
-    {
-        "input": "question Part 1 trong TOEIC là phần gì?",
-        "target": "answer Part 1 là phần Photographs. Trong phần này thí sinh sẽ nhìn vào một bức ảnh và nghe một câu mô tả. Nhiệm vụ của thí sinh là chọn câu mô tả đúng nhất về hình ảnh đó từ các lựa chọn có sẵn. Phần này giúp đánh giá khả năng nghe và hiểu mô tả bằng tiếng Anh."
-    },
-    {
-        "input": "question Part 2 trong TOEIC yêu cầu thí sinh làm gì?",
-        "target": "answer Part 2 yêu cầu thí sinh nghe câu hỏi và chọn câu trả lời phù hợp nhất từ các lựa chọn. Đây là phần hỏi đáp nơi thí sinh cần lắng nghe kỹ và hiểu nội dung câu hỏi để đưa ra lựa chọn chính xác. Phần này giúp kiểm tra khả năng hiểu và phản ứng nhanh với các câu hỏi bằng tiếng Anh."
-    },
-    {
-        "input": "question Part 3 và Part 4 trong TOEIC khác nhau như thế nào?",
-        "target": "answer Part 3 gồm các cuộc hội thoại giữa 2 hoặc nhiều người. Thí sinh sẽ nghe các cuộc trò chuyện và trả lời các câu hỏi liên quan đến nội dung hội thoại. Phần này thường yêu cầu thí sinh chú ý đến các chi tiết và ngữ cảnh. Part 4 là các bài nói đơn lẻ talks về một chủ đề cụ thể. Thí sinh sẽ nghe một bài nói từ một người diễn thuyết và trả lời các câu hỏi dựa trên thông tin trong bài nói. Phần này giúp đánh giá khả năng hiểu các thông tin được trình bày trong một bài nói."
-    },
-    {
-        "input": "question Part 5 trong TOEIC tập trung vào kỹ năng gì?",
-        "target": "answer Part 5 tập trung vào kỹ năng ngữ pháp và từ vựng thông qua các câu hỏi điền vào chỗ trống. Thí sinh sẽ phải chọn từ hoặc cụm từ chính xác để hoàn thành câu. Các câu hỏi thường liên quan đến các chủ đề ngữ pháp như thì mạo từ giới từ và cấu trúc câu. Việc làm quen với các quy tắc ngữ pháp và mở rộng vốn từ vựng sẽ giúp thí sinh làm tốt phần này."
-    },
-    {
-        "input": "question Part 6 và Part 7 trong TOEIC có gì đặc biệt?",
-        "target": "answer Part 6 yêu cầu thí sinh hoàn thành các đoạn văn ngắn thường là các đoạn văn có từ 23 câu nơi thí sinh cần chọn từ hoặc cụm từ để điền vào chỗ trống sao cho đoạn văn hoàn chỉnh và hợp lý. Part 7 yêu cầu đọc và hiểu các đoạn văn dài hơn có thể là nhiều câu hỏi cho một đoạn văn. Phần này thường bao gồm các bài đọc từ thực tế như email quảng cáo hoặc các tài liệu khác và yêu cầu thí sinh trả lời các câu hỏi dựa trên thông tin trong đoạn văn."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong phần Listening?",
-        "target": "answer Có 100 câu hỏi trong phần Listening. Phần này được chia thành 4 phần nhỏ mỗi phần có các câu hỏi khác nhau bao gồm hội thoại bài nói và các câu hỏi liên quan đến nội dung nghe. Thí sinh cần chú ý và ghi nhớ thông tin để trả lời chính xác."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong phần Reading?",
-        "target": "answer Có 100 câu hỏi trong phần Reading. Phần này được chia thành 3 phần Part 5 ngữ pháp Part 6 hoàn thành câu và Part 7 đọc hiểu. Thí sinh cần quản lý thời gian và đọc kỹ để trả lời đúng các câu hỏi."
-    },
-    {
-        "input": "question Điểm số tối đa của bài thi TOEIC là bao nhiêu?",
-        "target": "answer Điểm số tối đa của bài thi TOEIC là 990 điểm. Điểm số này được tính dựa trên hiệu suất của thí sinh trong cả hai phần Listening và Reading. Mỗi phần có điểm tối đa là 495 và tổng điểm sẽ cho thấy khả năng ngôn ngữ tổng quát của thí sinh."
-    },
-    {
-        "input": "question Cách tính điểm bài thi TOEIC như thế nào?",
-        "target": "answer Điểm số từ phần Listening và Reading được tính riêng và sau đó cộng lại để có tổng điểm. Mỗi phần sẽ có các câu hỏi khác nhau và điểm số sẽ được quy đổi dựa trên số câu hỏi đúng. Kết quả cuối cùng sẽ là tổng điểm mà thí sinh nhận được từ cả hai phần."
-    },
-    {
-        "input": "question Có phần thi Nói và Viết trong TOEIC không?",
-        "target": "answer Đề thi TOEIC truyền thống không bao gồm phần thi Nói và Viết nhưng có một phiên bản khác gọi là TOEIC Speaking and Writing. Phiên bản này được thiết kế để đánh giá khả năng nói và viết của thí sinh bằng các bài thi riêng biệt giúp tổ chức và nhà tuyển dụng có cái nhìn toàn diện hơn về khả năng ngôn ngữ của ứng viên."
-    },
-    {
-        "input": "question Thí sinh cần chuẩn bị gì trước khi thi TOEIC?",
-        "target": "answer Thí sinh cần mang theo giấy tờ tùy thân và bút chì để làm bài. Giấy tờ tùy thân thường là chứng minh nhân dân hoặc hộ chiếu để xác thực danh tính. Ngoài ra thí sinh cũng nên chuẩn bị tâm lý thoải mái và tự tin trước khi bước vào phòng thi."
-    },
-    {
-        "input": "question Đề thi TOEIC có bao nhiêu dạng bài?",
-        "target": "answer Đề thi TOEIC có nhiều dạng bài bao gồm các câu hỏi nghe đọc hiểu ngữ pháp và từ vựng. Mỗi dạng bài sẽ kiểm tra các kỹ năng khác nhau yêu cầu thí sinh áp dụng kiến thức ngôn ngữ vào các tình huống thực tế. Việc làm quen với các dạng bài này sẽ giúp thí sinh tự tin hơn khi làm bài thi."
-    },
-    {
-        "input": "question Thí sinh có thể làm bài thi TOEIC trực tuyến không?",
-        "target": "answer Có hiện nay có nhiều trung tâm tổ chức thi TOEIC trực tuyến. Điều này giúp thí sinh linh hoạt hơn trong việc chọn thời gian và địa điểm thi. Các bài thi trực tuyến thường được thiết kế tương tự như bài thi giấy đảm bảo tính chính xác và công bằng. Thí sinh cần kiểm tra xem trung tâm thi có cung cấp dịch vụ này và chuẩn bị các thiết bị cần thiết như máy tính tai nghe và kết nối internet ổn định."
-    },
-    {
-        "input": "question Thời gian thông báo kết quả thi TOEIC là bao lâu?",
-        "target": "answer Kết quả thi TOEIC thường được công bố trong vòng 710 ngày làm việc. Thời gian này có thể thay đổi tùy thuộc vào trung tâm tổ chức thi. Thí sinh có thể kiểm tra kết quả qua trang web của ETS hoặc thông qua email được cung cấp khi đăng ký thi. Kết quả sẽ bao gồm điểm số cụ thể cho từng phần thi và tổng điểm."
-    },
-    {
-        "input": "question Điểm số TOEIC có thời hạn bao lâu?",
-        "target": "answer Điểm số TOEIC có thời hạn trong 2 năm kể từ ngày thi. Sau thời gian này điểm số sẽ không còn giá trị và thí sinh cần phải thi lại để có điểm số mới. Điều này là do khả năng ngôn ngữ có thể thay đổi theo thời gian vì vậy các tổ chức thường yêu cầu điểm số gần đây để đánh giá kỹ năng của thí sinh."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện kỹ năng nghe TOEIC?",
-        "target": "answer Nghe các bản tin podcast và video tiếng Anh hàng ngày. Đây là cách hiệu quả để làm quen với giọng điệu và ngữ điệu của người bản ngữ. Sử dụng tài liệu luyện nghe TOEIC như sách và bài tập trực tuyến cũng rất quan trọng. Ghi chú các từ vựng mới khi nghe sẽ giúp bạn nhớ lâu hơn và áp dụng vào thực tế."
-    },
-    {
-        "input": "question Cách làm phần Part 1 trong TOEIC hiệu quả?",
-        "target": "answer Quan sát kỹ hình ảnh Hãy chú ý đến các chi tiết trong hình ảnh như người đồ vật và bối cảnh. Dự đoán nội dung mô tả dựa trên hình ảnh sẽ giúp bạn hiểu rõ hơn. Tập trung vào các từ khóa trong câu mô tả để xác định thông tin chính và lựa chọn câu trả lời phù hợp."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt phần Part 2 trong TOEIC?",
-        "target": "answer Lắng nghe kỹ câu hỏi Đây là phần hỏi đáp vì vậy bạn cần phải nắm bắt được câu hỏi để chọn câu trả lời đúng. Phân tích các lựa chọn trước khi nghe cũng rất hữu ích. Thực hành nhiều bài tập mô phỏng giúp bạn quen với các dạng câu hỏi và cải thiện khả năng phản xạ."
-    },
-    {
-        "input": "question Cách phân bổ thời gian cho phần Reading trong TOEIC?",
-        "target": "answer Dành khoảng 1 phút cho mỗi câu hỏi cụ thể là 25 phút cho Part 5 20 phút cho Part 6 và 30 phút cho Part 7. Điều này giúp bạn quản lý thời gian hiệu quả và không bị áp lực khi gần hết thời gian. Hãy luôn theo dõi thời gian và điều chỉnh tốc độ làm bài nếu cần thiết."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện kỹ năng đọc hiểu TOEIC?",
-        "target": "answer Đọc sách báo tiếng Anh hàng ngày Việc này không chỉ giúp bạn nâng cao từ vựng mà còn cải thiện khả năng hiểu văn bản. Ghi chú từ vựng mới và làm bài tập đọc hiểu theo định dạng TOEIC sẽ giúp bạn quen với cấu trúc câu hỏi và cải thiện điểm số."
-    },
-    {
-        "input": "question Cách làm phần Part 5 trong TOEIC nhanh và chính xác?",
-        "target": "answer Đọc kỹ câu Hiểu rõ ngữ cảnh của câu sẽ giúp bạn nhận diện được từ cần chọn. Lưu ý ngữ pháp để tránh chọn sai. Thực hành nhiều bài tập sẽ nâng cao tốc độ làm bài và tăng cường độ chính xác."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt phần Part 7 trong TOEIC?",
-        "target": "answer Đọc lướt qua đoạn văn Hãy tìm kiếm thông tin cụ thể và quản lý thời gian hợp lý. Tập trung vào các từ khóa và câu chính để hiểu nội dung mà không cần đọc từng từ một. Việc này giúp tiết kiệm thời gian và nâng cao hiệu quả làm bài."
-    },
-    {
-        "input": "question Cách luyện nghe TOEIC tại nhà hiệu quả?",
-        "target": "answer Sử dụng tài nguyên đúng Chọn tài liệu luyện nghe phù hợp như bài nghe TOEIC audio từ sách học. Nghe và lặp lại sẽ giúp bạn cải thiện khả năng nghe và phát âm. Tham gia các nhóm học trực tuyến cũng là một cách tốt để trao đổi và nhận phản hồi."
-    },
-    {
-        "input": "question Làm thế nào để tăng tốc độ đọc hiểu trong TOEIC?",
-        "target": "answer Thực hành đọc nhanh Áp dụng kỹ thuật scanning quét để tìm thông tin cụ thể và skimming lướt để lấy ý chính. Đặt mục tiêu cụ thể cho mỗi buổi luyện tập để theo dõi tiến bộ."
-    },
-    {
-        "input": "question Cách xử lý các câu hỏi khó trong phần Reading?",
-        "target": "answer Đọc kỹ câu hỏi Tìm kiếm từ khóa trong đoạn văn để xác định thông tin cần thiết. Sử dụng phương pháp loại bỏ để giảm số lượng lựa chọn và tìm ra câu trả lời đúng."
-    },
-    {
-        "input": "question Làm thế nào để ghi nhớ từ vựng TOEIC lâu hơn?",
-        "target": "answer Sử dụng flashcards Tạo flashcards với từ vựng mới và nghĩa của chúng. Áp dụng từ vựng vào thực tế hàng ngày và ôn tập định kỳ để củng cố trí nhớ."
-    },
-    {
-        "input": "question Cách luyện tập để làm tốt phần Part 3 và Part 4?",
-        "target": "answer Nghe thực tế Nghe các đoạn hội thoại thực tế ghi chú trong quá trình nghe để nhớ thông tin quan trọng và thực hành các đề thi mẫu để làm quen với định dạng."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong đề thi TOEIC?",
-        "target": "answer Đọc kỹ câu hỏi Cẩn thận với các lựa chọn hãy chắc chắn rằng bạn hiểu rõ ý nghĩa của từng lựa chọn trước khi quyết định. Làm nhiều đề thi mẫu để quen với các dạng câu hỏi và nhận diện bẫy."
-    },
-    {
-        "input": "question Cách luyện nghe TOEIC với tốc độ nhanh?",
-        "target": "answer Nghe tài liệu tốc độ cao Tìm các tài liệu luyện nghe có tốc độ nhanh như tin tức hoặc podcast tiếng Anh. Bạn có thể bắt đầu bằng cách điều chỉnh tốc độ phát lại ở mức thấp hơn và dần dần tăng lên. Nghe và lặp lại nhiều lần Nghe một đoạn hội thoại hoặc bài nói nhiều lần. Lần đầu tiên chỉ nghe để hiểu nội dung chung những lần sau hãy cố gắng ghi nhớ chi tiết và nhận diện từ vựng. Ghi chép lại các điểm quan trọng Ghi chú lại từ vựng mới và các cụm từ quan trọng khi nghe. Việc này không chỉ giúp bạn ghi nhớ mà còn cải thiện khả năng viết và nói."
-    },
-    {
-        "input": "question Làm thế nào để làm bài thi TOEIC đạt điểm cao?",
-        "target": "answer Lên kế hoạch học tập Xác định mục tiêu điểm số và lập kế hoạch học tập rõ ràng. Phân bổ thời gian cho từng kỹ năng nghe đọc ngữ pháp. Thực hành đều đặn Làm các bài thi mẫu và luyện tập thường xuyên để làm quen với định dạng đề thi. Điều này sẽ giúp bạn quản lý thời gian tốt hơn khi thi thật. Tham gia lớp học Nếu có thể tham gia lớp học luyện thi TOEIC để nhận được sự hướng dẫn từ giáo viên có kinh nghiệm. Họ có thể cung cấp cho bạn các mẹo và chiến lược làm bài thi hiệu quả."
-    },
-    {
-        "input": "question Có nên tham gia khóa học luyện thi TOEIC không?",
-        "target": "answer Có Tham gia khóa học luyện thi TOEIC có thể giúp bạn nhận được sự hướng dẫn từ giáo viên và có lộ trình học tập rõ ràng. Giáo viên sẽ giúp bạn phát hiện điểm yếu và cung cấp tài liệu phù hợp. Học nhóm Học cùng bạn bè cũng có thể tạo ra động lực và giúp bạn trao đổi kiến thức làm bài tập nhóm và luyện tập các kỹ năng giao tiếp."
-    },
-    {
-        "input": "question Thời gian học TOEIC tối ưu là bao lâu?",
-        "target": "answer Tùy thuộc vào mức độ hiện tại Nếu bạn đã có nền tảng tiếng Anh tốt bạn có thể chỉ cần 13 tháng để ôn luyện. Nếu bạn bắt đầu từ con số 0 thời gian có thể kéo dài từ 6 tháng đến 1 năm. Lên kế hoạch Hãy đặt ra một lịch trình học tập cụ thể và cố gắng theo sát. Thực hành đều đặn mỗi ngày sẽ hiệu quả hơn việc học dồn dập vào cuối tuần."
-    },
-    {
-        "input": "question Phần mềm nào giúp luyện thi TOEIC tốt?",
-        "target": "answer TOEIC Test Ứng dụng này cung cấp nhiều bài thi mẫu với cấu trúc giống như bài thi thực tế cho phép bạn làm quen với định dạng và thời gian làm bài. 英語の耳 Eigo no Mimi Ứng dụng này tập trung vào luyện nghe cung cấp nhiều bài luyện nghe từ dễ đến khó phù hợp với mọi trình độ."
-    },
-    {
-        "input": "question Có tài liệu nào miễn phí để luyện thi TOEIC không?",
-        "target": "answer Nhiều tài nguyên miễn phí Trên internet có rất nhiều trang web cung cấp tài liệu luyện thi TOEIC miễn phí bao gồm các bài kiểm tra mẫu video hướng dẫn và bài tập luyện. YouTube Nhiều kênh YouTube chuyên về luyện thi TOEIC cung cấp các bài giảng và mẹo làm bài."
-    },
-    {
-        "input": "question Làm thế nào để tự đánh giá trình độ TOEIC của mình?",
-        "target": "answer Làm các bài thi mẫu Tìm các bài thi mẫu trên mạng hoặc trong sách luyện thi. Sau khi làm xong so sánh điểm số của bạn với tiêu chuẩn để đánh giá trình độ. Phân tích kết quả Xem xét các câu hỏi bạn làm sai và tìm hiểu lý do để cải thiện. Việc này sẽ giúp bạn nhận diện điểm yếu và điều chỉnh phương pháp học."
-    },
-    {
-        "input": "question Từ vựng thường gặp trong TOEIC là gì?",
-        "target": "answer Một số từ vựng quan trọng Kinh doanh revenue doanh thu profit lợi nhuận investment đầu tư marketing tiếp thị strategy chiến lược. Du lịch itinerary lịch trình reservation đặt chỗ departure khởi hành arrival đến nơi accommodation chỗ ở. Học từ vựng theo chủ đề Chia từ vựng thành các chủ đề khác nhau và học theo từng nhóm để dễ ghi nhớ."
-    },
-    {
-        "input": "question Cấu trúc ngữ pháp nào quan trọng trong TOEIC?",
-        "target": "answer Thì Hiểu và sử dụng đúng các thì cơ bản như hiện tại đơn hiện tại tiếp diễn quá khứ đơn và tương lai. Câu điều kiện Nắm vững cách sử dụng câu điều kiện loại 0 1 và 2. Câu bị động Cấu trúc câu bị động cũng thường xuyên xuất hiện trong đề thi cần học cách chuyển đổi câu chủ động sang câu bị động."
-    },
-    {
-        "input": "question Làm thế nào để học từ vựng TOEIC hiệu quả?",
-        "target": "answer Sử dụng flashcards Tạo flashcards với từ vựng mới và nghĩa của chúng. Ôn tập thường xuyên để củng cố kiến thức. Đặt từ vào ngữ cảnh Cố gắng sử dụng từ vựng mới trong câu hoặc tình huống thực tế để ghi nhớ lâu hơn."
-    },
-    {
-        "input": "question Những cụm từ thường xuất hiện trong phần Listening TOEIC?",
-        "target": "answer Cụm từ thông dụng Can you please... I would like to... In order to... According to... As a result of.... Luyện nghe các cụm từ này Nghe và ghi nhớ để có thể nhận diện nhanh chóng khi gặp trong bài thi."
-    },
-    {
-        "input": "question Cách phân biệt các thì trong tiếng Anh khi làm TOEIC?",
-        "target": "answer Thì hiện tại Dùng cho hành động đang diễn ra hoặc thói quen ví dụ I study every day. Thì quá khứ Dùng cho hành động đã xảy ra ví dụ I studied yesterday. Thì tương lai Dùng cho hành động sẽ xảy ra ví dụ I will study tomorrow."
-    },
-    {
-        "input": "question Những giới từ thường gặp trong TOEIC?",
-        "target": "answer Giới từ chỉ thời gian in tháng năm on ngày at giờ. Giới từ chỉ địa điểm in trong on trên at tại. Giới từ chỉ mục đích for cho with với about về."
-    },
-    {
-        "input": "question Cách nhận biết các loại từ danh từ động từ tính từ trong TOEIC?",
-        "target": "answer Danh từ Thường có mạo từ đứng trước a an the hoặc có thể đếm đượckhông đếm được. Động từ Có thể xuất hiện ở dạng nguyên thể quá khứ hoặc gerund đuôi ing. Tính từ Thường đứng trước danh từ để mô tả đặc điểm."
-    },
-    {
-        "input": "question Những cấu trúc câu phổ biến trong phần Reading TOEIC?",
-        "target": "answer Câu đơn giản S V O ví dụ She reads books. Câu phức Câu có mệnh đề chính và mệnh đề phụ ví dụ Although it was raining we went out. Câu hỏi Thường có dạng đảo ngữ ví dụ Are you coming?."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt phần ngữ pháp trong Part 5?",
-        "target": "answer Đọc kỹ câu Hiểu ngữ cảnh và nghĩa của câu trước khi chọn từ. Nắm vững ngữ pháp Học thuộc các quy tắc ngữ pháp quan trọng và làm bài tập thực hành."
-    },
-    {
-        "input": "question Những từ đồng nghĩa thường gặp trong TOEIC?",
-        "target": "answer Một số từ đồng nghĩa beginstart assisthelp finishcomplete purchasebuy importantessential."
-    },
-    {
-        "input": "question Cách học cụm động từ phrasal verbs cho TOEIC?",
-        "target": "answer Tạo danh sách Lập danh sách các cụm động từ phổ biến và nghĩa của chúng. Sử dụng trong câu Cố gắng viết câu với các cụm động từ để ghi nhớ cách dùng."
-    },
-    {
-        "input": "question Những lỗi ngữ pháp thường gặp trong TOEIC?",
-        "target": "answer Các lỗi phổ biến Sử dụng sai thì thiếu chủ ngữ sử dụng sai giới từ và sai mạo từ."
-    },
-    {
-        "input": "question Cách sử dụng mạo từ a an the trong TOEIC?",
-        "target": "answer Mạo từ không xác định a dùng với phụ âm an với nguyên âm the dùng khi đề cập đến đối tượng cụ thể."
-    },
-    {
-        "input": "question Những từ nối linking words thường gặp trong TOEIC?",
-        "target": "answer Một số từ nối and but so therefore however although."
-    },
-    {
-        "input": "question Cách làm bài tập điền từ vào chỗ trống trong TOEIC?",
-        "target": "answer Đọc kỹ câu phân tích từ vựng và dự đoán từ cần điền."
-    },
-    {
-        "input": "question Có nên sử dụng từ điển khi làm bài TOEIC không?",
-        "target": "answer Có thể sử dụng từ điển nhưng nên hạn chế vì thời gian có hạn."
-    },
-    {
-        "input": "question Cách xác định trọng âm trong từ vựng TOEIC?",
-        "target": "answer Trọng âm thường đặt ở âm tiết đầu tiên hoặc âm tiết thứ hai tùy thuộc vào từ."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện kỹ năng viết cho TOEIC?",
-        "target": "answer Thực hành viết đoạn văn ngắn sử dụng từ vựng và ngữ pháp đã học."
-    },
-    {
-        "input": "question Có nên tham gia lớp học tiếng Anh trước khi thi TOEIC không?",
-        "target": "answer Tham gia lớp học có thể giúp bạn ôn tập và nhận được phản hồi từ giáo viên."
-    },
-    {
-        "input": "question Làm thế nào để ghi nhớ các cấu trúc ngữ pháp hiệu quả?",
-        "target": "answer Tạo bảng tóm tắt các cấu trúc ngữ pháp và ôn tập thường xuyên."
-    },
-    {
-        "input": "question Tài liệu nào phù hợp để ôn thi TOEIC?",
-        "target": "answer Tài liệu ôn thi TOEIC nên bao gồm sách giáo trình bài tập thực hành và các đề thi mẫu. Một số tài liệu nổi bật như Official TOEIC Practice Tests Cung cấp các bài thi thực tế và hướng dẫn chi tiết. Barrons TOEIC Cung cấp lý thuyết bài tập và đề thi mẫu."
-    },
-    {
-        "input": "question Sách nào tốt để luyện nghe TOEIC?",
-        "target": "answer Target TOEIC Second Edition Sách này bao gồm nhiều bài nghe và câu hỏi thực hành giúp cải thiện kỹ năng nghe. Listening Practice for the TOEIC Tập trung hoàn toàn vào luyện nghe với nhiều bài nghe đa dạng."
-    },
-    {
-        "input": "question Sách nào tốt để luyện đọc TOEIC?",
-        "target": "answer Reading Comprehension for the TOEIC Cung cấp các bài đọc và câu hỏi theo định dạng TOEIC. TOEIC Reading and Vocabulary Kết hợp giữa luyện đọc và từ vựng giúp nâng cao cả hai kỹ năng."
-    },
-    {
-        "input": "question Có ứng dụng nào hỗ trợ luyện thi TOEIC không?",
-        "target": "answer TOEIC Test Pro Ứng dụng này cung cấp nhiều bài thi mẫu và bài tập. Magoosh TOEIC Prep Ứng dụng giúp bạn luyện tập từ vựng và ngữ pháp với video hướng dẫn."
-    },
-    {
-        "input": "question Tài liệu nào giúp học từ vựng TOEIC hiệu quả?",
-        "target": "answer TOEIC Vocabulary Flashcards Bộ flashcards giúp bạn ghi nhớ từ vựng nhanh chóng. Word Power for the TOEIC Cung cấp từ vựng cần thiết cho bài thi TOEIC cùng với bài tập thực hành."
-    },
-    {
-        "input": "question Sách nào phù hợp cho người mới bắt đầu học TOEIC?",
-        "target": "answer Oxford Preparation Course for the TOEIC Sách này rất phù hợp với người mới bắt đầu bao gồm hướng dẫn chi tiết và bài tập cơ bản. Easy TOEIC Tập trung vào các khái niệm cơ bản và từ vựng dễ hiểu."
-    },
-    {
-        "input": "question Có trang web nào miễn phí để luyện thi TOEIC không?",
-        "target": "answer ETS TOEICs Official Website Cung cấp một số tài nguyên miễn phí và bài thi mẫu. Exam English Cung cấp các bài kiểm tra mẫu và tài nguyên học tập miễn phí."
-    },
-    {
-        "input": "question Tài liệu nào giúp luyện đề thi TOEIC sát với thực tế?",
-        "target": "answer Official TOEIC Practice Tests Các đề thi được thiết kế tương tự như trong bài thi thực tế. Kaplans TOEIC Listening and Reading Prep Cung cấp các bài thi sát với thực tế và lời giải chi tiết."
-    },
-    {
-        "input": "question Sách nào giúp luyện kỹ năng làm bài TOEIC nhanh?",
-        "target": "answer TOEIC Test Success Tập trung vào các chiến lược làm bài và mẹo để đạt điểm cao. Speed Up Your TOEIC Cung cấp các bài tập giúp cải thiện tốc độ làm bài."
-    },
-    {
-        "input": "question Có sách nào tập trung vào Part 7 trong TOEIC không?",
-        "target": "answer TOEIC Reading Part 7 Strategies Sách này cung cấp các chiến lược và bài tập cho Part 7. Mastering TOEIC Part 7 Tập trung vào các kỹ thuật làm bài cho phần đọc hiểu."
-    },
-    {
-        "input": "question Tài liệu nào giúp luyện ngữ pháp TOEIC hiệu quả?",
-        "target": "answer English Grammar for the TOEIC Cung cấp lý thuyết và bài tập ngữ pháp phù hợp với TOEIC. TOEIC Grammar Practice Tập trung vào các cấu trúc ngữ pháp thường gặp trong bài thi."
-    },
-    {
-        "input": "question Sách nào phù hợp để luyện thi TOEIC cấp tốc?",
-        "target": "answer TOEIC in 30 Days Sách này cung cấp lộ trình ôn tập nhanh chóng và hiệu quả. TOEIC Express Tập trung vào việc ôn tập các kỹ năng cần thiết trong thời gian ngắn."
-    },
-    {
-        "input": "question Có sách nào chuyên về từ vựng TOEIC không?",
-        "target": "answer TOEIC Vocabulary Builder Cung cấp từ vựng cần thiết cho bài thi cùng với bài tập thực hành. Essential TOEIC Vocabulary Tập trung vào những từ vựng quan trọng nhất cho TOEIC."
-    },
-    {
-        "input": "question Tài liệu nào giúp luyện kỹ năng nghe TOEIC từ cơ bản đến nâng cao?",
-        "target": "answer Comprehensive Listening for the TOEIC Tài liệu này hướng dẫn từ cơ bản đến nâng cao với nhiều bài nghe thực tế. TOEIC Listening Strategies Cung cấp các chiến lược và bài tập luyện nghe hiệu quả."
-    },
-    {
-        "input": "question Sách nào phù hợp để luyện thi TOEIC đạt 800?",
-        "target": "answer Cracking the TOEIC Sách này cung cấp các chiến lược và mẹo để đạt điểm cao. High Score TOEIC Tập trung vào việc phát triển kỹ năng cần thiết để đạt điểm trên 800."
-    },
-    {
-        "input": "question Có nên tham gia lớp học luyện thi TOEIC không?",
-        "target": "answer Tham gia lớp học có thể giúp bạn nhận được sự hướng dẫn từ giáo viên và có lộ trình học tập rõ ràng."
-    },
-    {
-        "input": "question Thời gian học TOEIC tối ưu là bao lâu?",
-        "target": "answer Thời gian học tùy thuộc vào trình độ hiện tại thường từ 3 đến 6 tháng là hợp lý để chuẩn bị."
-    },
-    {
-        "input": "question Cách chọn sách luyện thi TOEIC phù hợp?",
-        "target": "answer Lựa chọn sách dựa trên mục tiêu của bạn kỹ năng cần cải thiện và phong cách học tập của bạn."
-    },
-    {
-        "input": "question Có nên luyện thi TOEIC qua các video trên YouTube không?",
-        "target": "answer Có có rất nhiều video hữu ích giúp bạn cải thiện kỹ năng nghe và hiểu bài thi."
-    },
-    {
-        "input": "question Các mẹo thi TOEIC nào cần nhớ?",
-        "target": "answer Quản lý thời gian đọc kỹ câu hỏi và thực hành nhiều đề thi mẫu để quen với định dạng."
-    },
-    {
-        "input": "question Làm thế nào để quản lý thời gian khi thi TOEIC?",
-        "target": "answer Lập kế hoạch cho từng phần thi Trước khi bắt đầu hãy xác định thời gian và số câu hỏi cho mỗi phần. Chẳng hạn bạn có thể dành 45 phút cho phần Listening và 75 phút cho phần Reading. Theo dõi thời gian Sử dụng đồng hồ hoặc đồng hồ đếm ngược để theo dõi thời gian. Hãy chắc chắn rằng bạn biết thời gian còn lại cho mỗi phần để không bị áp lực khi gần hết thời gian. Dành thời gian cho câu hỏi khó Nếu gặp câu hỏi khó hãy đánh dấu lại và tiếp tục với các câu hỏi khác. Sau khi hoàn thành quay lại các câu đã đánh dấu để có thể giải quyết chúng."
-    },
-    {
-        "input": "question Cách giữ bình tĩnh khi thi TOEIC?",
-        "target": "answer Thực hành thi thử Làm các bài kiểm tra mẫu trước khi thi để quen với áp lực. Càng quen với môi trường thi bạn sẽ cảm thấy tự tin hơn. Hít thở sâu Trước khi bắt đầu thi hãy thực hiện một vài bài tập hít thở sâu để giảm căng thẳng và giúp bạn tập trung. Đặt mục tiêu thực tế Đặt ra các mục tiêu có thể đạt được thay vì áp lực phải đạt điểm tối đa. Điều này giúp giảm áp lực và bạn sẽ cảm thấy thoải mái hơn."
-    },
-    {
-        "input": "question Kinh nghiệm làm bài thi TOEIC đạt điểm cao?",
-        "target": "answer Ôn tập đều đặn Hãy lập kế hoạch ôn tập cụ thể và thực hiện nó một cách đều đặn. Ôn tập thường xuyên giúp củng cố kiến thức và kỹ năng. Sử dụng tài liệu chất lượng Chọn những tài liệu luyện thi uy tín và phù hợp với mục tiêu của bạn. Thực hành làm bài thi mẫu Làm nhiều bài thi mẫu để làm quen với định dạng và loại câu hỏi."
-    },
-    {
-        "input": "question Cách chuẩn bị tâm lý trước khi thi TOEIC?",
-        "target": "answer Hãy có một lịch trình ôn tập hợp lý Không nên học quá muộn trước ngày thi điều này có thể khiến bạn cảm thấy mệt mỏi. Thư giãn trước ngày thi Dành thời gian thư giãn làm những điều bạn thích để giảm căng thẳng. Tưởng tượng thành công Hình dung ra tình huống thi thành công trong đầu điều này giúp tăng cường sự tự tin."
-    },
-    {
-        "input": "question Làm thế nào để tập trung trong phòng thi TOEIC?",
-        "target": "answer Tránh phân tâm Đảm bảo rằng bạn không bị phân tâm bởi tiếng ồn hoặc những người xung quanh. Nếu có thể chọn chỗ ngồi yên tĩnh. Đọc kỹ câu hỏi Tập trung vào từng câu hỏi một. Đừng để những câu hỏi khó làm bạn mất tập trung vào những câu khác. Tự nhắc nhở bản thân Nếu bạn cảm thấy lạc lối hãy tự nhắc mình về mục tiêu và lý do bạn đang thi."
-    },
-    {
-        "input": "question Cách xử lý khi gặp câu hỏi khó trong TOEIC?",
-        "target": "answer Đánh dấu câu hỏi Nếu bạn không chắc chắn về câu trả lời hãy đánh dấu câu hỏi đó và tiếp tục. Bạn sẽ có thời gian quay lại sau. Sử dụng phương pháp loại trừ Nếu không chắc chắn hãy cố gắng loại bỏ các lựa chọn không hợp lý trước khi quyết định. Giữ bình tĩnh Đừng để một câu hỏi khó làm bạn cảm thấy hoang mang. Hãy tin tưởng vào khả năng của mình."
-    },
-    {
-        "input": "question Kinh nghiệm làm bài thi TOEIC phần Listening?",
-        "target": "answer Lắng nghe kỹ Trong khi nghe hãy chú ý đến từ khóa và ý chính. Ghi chú lại các thông tin quan trọng có thể giúp bạn trả lời câu hỏi. Thực hành nghe Nghe các tài liệu tiếng Anh hàng ngày để cải thiện kỹ năng nghe và làm quen với giọng điệu khác nhau. Nắm bắt ngữ cảnh Cố gắng hiểu ngữ cảnh của cuộc hội thoại hoặc bài nói để dễ dàng trả lời câu hỏi."
-    },
-    {
-        "input": "question Kinh nghiệm làm bài thi TOEIC phần Reading?",
-        "target": "answer Đọc lướt Hãy sử dụng kỹ thuật đọc lướt để tìm kiếm thông tin chính. Điều này giúp tiết kiệm thời gian. Quản lý thời gian Đảm bảo bạn không dành quá nhiều thời gian cho một câu hỏi. Nếu cần hãy quay lại sau. Chú ý đến cấu trúc câu Hiểu rõ cấu trúc câu sẽ giúp bạn chọn được câu trả lời chính xác hơn."
-    },
-    {
-        "input": "question Cách phân bổ thời gian cho từng phần trong TOEIC?",
-        "target": "answer Phần Listening 45 phút cho 100 câu hỏi. Hãy cố gắng hoàn thành phần này trong khoảng 40 phút để có thời gian kiểm tra lại. Phần Reading 75 phút cho 100 câu hỏi. Dành 25 phút cho Part 5 20 phút cho Part 6 và 30 phút cho Part 7. Theo dõi thời gian Sử dụng đồng hồ để theo dõi thời gian và điều chỉnh tốc độ làm bài nếu cần."
-    },
-    {
-        "input": "question Làm thế nào để tránh bị mất điểm oan trong TOEIC?",
-        "target": "answer Đọc kỹ câu hỏi Đảm bảo bạn hiểu rõ câu hỏi trước khi chọn câu trả lời. Các từ như always hay never có thể thay đổi hoàn toàn nghĩa của câu. Không chọn ngẫu nhiên Nếu bạn không chắc chắn hãy sử dụng phương pháp loại trừ để giảm thiểu rủi ro. Thực hành nhiều Làm nhiều bài kiểm tra mẫu để làm quen với các dạng câu hỏi và những bẫy thường gặp."
-    },
-    {
-        "input": "question Cách ôn tập trong tuần cuối trước khi thi TOEIC?",
-        "target": "answer Ôn tập nhẹ nhàng Tập trung vào ôn lại các kiến thức đã học không nên học quá nhiều thông tin mới. Giải đề thi mẫu Làm một số bài thi mẫu để kiểm tra mức độ chuẩn bị của bạn. Thư giãn và nghỉ ngơi Đảm bảo bạn có đủ giấc ngủ và thư giãn trước ngày thi để có tinh thần tốt nhất."
-    },
-    {
-        "input": "question Kinh nghiệm thi TOEIC cho người mới bắt đầu?",
-        "target": "answer Bắt đầu từ căn bản Nắm vững ngữ pháp cơ bản và từ vựng thông dụng trước khi tiến tới các chủ đề phức tạp hơn. Thực hành đều đặn Dành thời gian hàng ngày để ôn luyện các kỹ năng nghe đọc và làm bài. Học nhóm Tham gia nhóm học để trao đổi kiến thức và luyện tập cùng nhau."
-    },
-    {
-        "input": "question Cách làm bài thi TOEIC khi không có nhiều thời gian ôn tập?",
-        "target": "answer Tập trung vào các phần quan trọng Nếu thời gian hạn chế hãy ưu tiên ôn luyện các phần mà bạn cảm thấy yếu nhất. Sử dụng tài liệu tóm tắt Tìm các tài liệu ôn thi tóm tắt để nắm bắt nhanh những kiến thức cần thiết. Làm bài kiểm tra mẫu Thực hành làm bài kiểm tra mẫu để làm quen với định dạng và loại câu hỏi."
-    },
-    {
-        "input": "question Làm thế nào để đạt điểm cao trong phần Listening TOEIC?",
-        "target": "answer Luyện nghe thường xuyên Nghe các đoạn hội thoại bản tin và podcast để cải thiện kỹ năng nghe. Ghi chú thông tin Trong khi nghe ghi chú lại các thông tin quan trọng để dễ dàng trả lời câu hỏi. Thực hành các phần thi mẫu Làm các bài thi mẫu để làm quen với các dạng câu hỏi trong phần Listening."
-    },
-    {
-        "input": "question Kinh nghiệm thi TOEIC cho người đi làm?",
-        "target": "answer Sắp xếp thời gian hợp lý Dành thời gian ôn luyện vào các ngày nghỉ hoặc buổi tối để không ảnh hưởng đến công việc. Học từ vựng theo chủ đề liên quan đến công việc Tập trung vào các từ vựng và cụm từ thường gặp trong môi trường làm việc. Thực hành kỹ năng nghe trong lúc làm việc Nghe các bản tin tiếng Anh hoặc podcast liên quan đến ngành nghề của bạn trong khi làm việc để cải thiện kỹ năng."
-    },
-    {
-        "input": "question Cách ghi nhớ từ vựng hiệu quả khi ôn thi TOEIC?",
-        "target": "answer Sử dụng flashcards Ghi từ vựng lên flashcards và ôn tập thường xuyên. Cố gắng sử dụng từ vựng trong câu để ghi nhớ lâu hơn. Học từ trong ngữ cảnh Đọc các bài văn hoặc nghe các đoạn hội thoại để thấy cách sử dụng từ trong ngữ cảnh cụ thể."
-    },
-    {
-        "input": "question Tại sao nên tham gia lớp học luyện thi TOEIC?",
-        "target": "answer Hướng dẫn từ giáo viên Tham gia lớp học giúp bạn có sự hướng dẫn từ giáo viên có kinh nghiệm giúp bạn xác định điểm yếu và cải thiện nhanh chóng. Tạo động lực Học cùng bạn bè sẽ tạo ra động lực và giúp bạn duy trì thói quen học tập tốt hơn."
-    },
-    {
-        "input": "question Có nên sử dụng từ điển khi làm bài thi TOEIC không?",
-        "target": "answer Nên hạn chế sử dụng từ điển Trong điều kiện thi thực tế bạn không thể sử dụng từ điển. Hãy cố gắng học từ vựng và ghi nhớ nghĩa của chúng trước khi thi."
-    },
-    {
-        "input": "question Cách tối ưu hóa kỹ năng nghe trong thời gian ngắn?",
-        "target": "answer Nghe nhiều loại tài liệu khác nhau Đa dạng hóa tài liệu nghe để làm quen với nhiều giọng nói và phong cách khác nhau. Thực hành nghe chủ động Chú ý và ghi chú lại các từ vựng mới khi nghe để cải thiện khả năng nghe."
-    },
-    {
-        "input": "question Cách đánh giá tiến bộ trong quá trình ôn tập?",
-        "target": "answer Thực hiện bài kiểm tra mẫu thường xuyên Làm bài kiểm tra mẫu mỗi tuần để theo dõi sự tiến bộ của bạn và điều chỉnh phương pháp học tập. Ghi lại điểm số Lưu lại điểm số của các bài thi mẫu để thấy rõ sự cải thiện theo thời gian và xác định các kỹ năng cần cải thiện thêm."
-    },
-    {
-        "input": "question Part 1 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 1 là phần mô tả tranh. Trong phần này bạn sẽ thấy một bức tranh và nghe 4 câu mô tả khác nhau. Nhiệm vụ của bạn là chọn câu mô tả chính xác nhất về bức tranh. Ví dụ nếu bức tranh có hình ảnh một người đang đứng trước cửa hàng bạn có thể nghe các câu như The man is opening the door The woman is holding a bag hoặc các câu khác có thể không liên quan đến bức tranh."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 1 trong TOEIC?",
-        "target": "answer Tập trung quan sát tranh và nghe kỹ Khi nghe mô tả hãy chú ý đến các chi tiết trong bức tranh. Bạn nên cố gắng hình dung các hành động và đối tượng trong tranh. Ví dụ nếu tranh có một người đang ngồi trên ghế bạn sẽ nghe các câu như The man is sitting on the chair The chair is next to the table. Hãy ghi nhớ vị trí và trạng thái của các đối tượng trong tranh."
-    },
-    {
-        "input": "question Có những loại tranh nào thường xuất hiện trong Part 1?",
-        "target": "answer Tranh trong Part 1 thường là các cảnh trong văn phòng nhà hàng siêu thị hoặc ngoài trời. Ví dụ Một người đang làm việc trong văn phòng. Một gia đình đang ăn tối trong nhà hàng. Người tiêu dùng đang mua sắm trong siêu thị. Một nhóm bạn đang chơi thể thao ngoài trời."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 1?",
-        "target": "answer Chú ý đến các chi tiết nhỏ trong tranh Đôi khi các câu mô tả có thể đưa ra thông tin sai lệch. Ví dụ nếu bạn thấy một người đang cầm túi nhưng câu nói là The man is holding a book thì đó là một câu bẫy. Hãy luôn đối chiếu hình ảnh với câu mô tả để xác định câu chính xác."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 1?",
-        "target": "answer Part 1 có 6 câu hỏi. Mỗi câu hỏi sẽ có một bức tranh và 4 câu mô tả. Bạn sẽ nghe các mô tả này một lần duy nhất vì vậy hãy chú ý lắng nghe và nhanh chóng đưa ra quyết định. Ví dụ Bạn sẽ nghe 4 câu mô tả về một bức tranh có người đang đứng trong công viên."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 1 trong TOEIC?",
-        "target": "answer Thực hành với tranh Bạn nên tìm kiếm tài liệu luyện thi TOEIC có chứa hình ảnh và mô tả. Sử dụng sách luyện thi hoặc các trang web cung cấp bài tập mô phỏng. Cố gắng làm quen với các loại tranh thường gặp như cảnh trong văn phòng nhà hàng hoặc các hoạt động ngoài trời. Ngoài ra hãy luyện tập nghe bằng cách xem các video có phụ đề tiếng Anh để cải thiện khả năng nhận diện từ và ngữ điệu."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 1 không?",
-        "target": "answer Có nhưng hạn chế Ghi chú có thể giúp bạn nhớ lại các chi tiết quan trọng trong bức tranh. Tuy nhiên hãy cố gắng hạn chế việc ghi chú để không làm bạn phân tâm khỏi việc lắng nghe. Bạn có thể ghi lại những từ khóa hoặc mô tả ngắn gọn để hỗ trợ việc ra quyết định nhưng hãy ưu tiên cho việc quan sát tranh và nghe chính xác các câu mô tả."
-    },
-    {
-        "input": "question Thời gian làm Part 1 là bao lâu?",
-        "target": "answer Thời gian cho Part 1 là khoảng 6 phút. Trong khoảng thời gian này bạn sẽ nghe 6 câu hỏi tương ứng với 6 bức tranh khác nhau. Mỗi câu hỏi sẽ có 4 câu mô tả. Hãy quản lý thời gian một cách thông minh nếu bạn cảm thấy một câu hỏi mất quá nhiều thời gian hãy nhanh chóng đưa ra câu trả lời và chuyển sang câu tiếp theo."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện kỹ năng nghe cho Part 1?",
-        "target": "answer Nghe các đoạn hội thoại thực tế Hãy thường xuyên nghe các chương trình tiếng Anh như tin tức podcast hoặc video trên YouTube. Chọn các chủ đề liên quan đến cuộc sống hàng ngày công việc và các tình huống xã hội. Khi nghe hãy chú ý đến cách mọi người mô tả hình ảnh hoặc tình huống để làm quen với ngữ điệu và từ vựng. Bạn cũng có thể tham gia các lớp học tiếng Anh hoặc nhóm học để thực hành nghe cùng bạn bè."
-    },
-    {
-        "input": "question Có cần học từ vựng chuyên ngành không?",
-        "target": "answer Có nếu bạn muốn nâng cao kỹ năng Việc học từ vựng liên quan đến các chủ đề thường gặp trong Part 1 sẽ giúp ích rất nhiều cho bạn. Ví dụ từ vựng liên quan đến đồ dùng văn phòng hoạt động gia đình và các tình huống xã hội như mua sắm ăn uống. Hãy tạo một danh sách từ vựng và ôn tập thường xuyên thực hành sử dụng chúng trong các câu khác nhau để ghi nhớ lâu hơn."
-    },
-    {
-        "input": "question Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 1?",
-        "target": "answer Phân tích các từ khóa Khi nghe hãy chú ý đến các từ khóa trong từng câu mô tả. Nếu bạn nhận thấy một từ hoặc cụm từ không phù hợp với bức tranh hãy loại bỏ lựa chọn đó ngay lập tức. Ví dụ nếu bức tranh có một người đang đứng và bạn nghe câu The man is sitting thì đó có thể là một câu bẫy và không phải câu đúng. Hãy luôn kiểm tra các yếu tố như vị trí hành động và các đối tượng khác trong tranh."
-    },
-    {
-        "input": "question Có nên làm bài kiểm tra mẫu cho Part 1 không?",
-        "target": "answer Rất nên Làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi và cải thiện khả năng nghe. Bạn có thể tìm thấy nhiều nguồn tài liệu trên internet hoặc trong sách luyện thi. Hãy cố gắng làm nhiều bài kiểm tra khác nhau để tăng cường kỹ năng và sự tự tin của bản thân. Sau mỗi bài kiểm tra hãy phân tích các câu trả lời của bạn để hiểu được những sai lầm và cải thiện chúng."
-    },
-    {
-        "input": "question Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 1?",
-        "target": "answer Thực hành thường xuyên Càng thực hành nhiều với các bài luyện thi và các bức tranh mô tả bạn sẽ càng tự tin hơn khi gặp câu hỏi thực tế trong kỳ thi. Hãy đưa ra các mục tiêu cụ thể cho mỗi buổi học như hoàn thành một số câu hỏi hoặc cải thiện tốc độ làm bài. Bên cạnh đó việc tham gia vào các nhóm học hoặc lớp luyện thi cũng giúp tạo ra động lực và sự hỗ trợ từ những người cùng học."
-    },
-    {
-        "input": "question Các yếu tố nào ảnh hưởng đến điểm số trong Part 1?",
-        "target": "answer Kỹ năng nghe và khả năng quan sát Điểm số của bạn trong Part 1 sẽ phụ thuộc vào khả năng của bạn trong việc lắng nghe chính xác và nhận diện các chi tiết trong bức tranh. Ngoài ra việc bạn có thể phân tích và loại bỏ các câu bẫy cũng sẽ ảnh hưởng lớn đến kết quả. Việc bạn có một vốn từ vựng phong phú và hiểu ngữ cảnh trong các câu mô tả cũng là yếu tố quan trọng."
-    },
-    {
-        "input": "question Part 2 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 2 là phần hỏi đáp. Trong phần này bạn sẽ nghe một câu hỏi hoặc câu nói và sau đó chọn câu trả lời phù hợp nhất từ ba lựa chọn có sẵn. Ví dụ nếu bạn nghe câu hỏi Where is the meeting room? bạn sẽ chọn một trong ba câu trả lời như Its on the second floor Its at the reception hoặc I dont know."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 2?",
-        "target": "answer Tập trung nghe từ khóa trong câu hỏi Khi nghe câu hỏi hãy chú ý đến các từ khóa quan trọng vì chúng sẽ giúp bạn xác định nội dung chính của câu hỏi. Ví dụ nếu câu hỏi là When does the meeting start? từ khóa là when và câu trả lời phải liên quan đến thời gian chẳng hạn như It starts at 3 PM."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 2?",
-        "target": "answer Part 2 có các loại câu hỏi như Hỏi thông tin What Where When Ví dụ What time is the presentation? Câu hỏi YesNo Ví dụ Do you need help? câu trả lời có thể là Yes hoặc No Câu hỏi lựa chọn Ví dụ Would you like coffee or tea? câu trả lời sẽ là một trong hai lựa chọn."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 2?",
-        "target": "answer Chú ý đến các câu trả lời có từ khóa tương tự nhưng không liên quan Đôi khi có những câu trả lời nghe có vẻ đúng nhưng lại không liên quan đến câu hỏi. Ví dụ nếu câu hỏi là Where is the printer? và một trong các câu trả lời là It costs 100 thì đó là một câu trả lời không liên quan."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 2?",
-        "target": "answer Part 2 có 25 câu hỏi. Mỗi câu hỏi sẽ có 3 lựa chọn trả lời. Bạn sẽ nghe mỗi câu hỏi một lần và phải chọn câu trả lời phù hợp nhất. Ví dụ bạn nghe câu Who is in charge of the project? và chọn câu trả lời như Mr. Smith is."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 2 trong TOEIC?",
-        "target": "answer Thực hành nghe Bạn nên luyện tập nghe các đoạn hội thoại tiếng Anh đặc biệt là các tình huống giao tiếp hàng ngày. Sử dụng tài liệu luyện thi TOEIC hoặc các ứng dụng học tiếng Anh để làm quen với các dạng câu hỏi trong Part 2."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 2 không?",
-        "target": "answer Có nhưng hạn chế Ghi chú có thể giúp bạn nhớ lại câu hỏi và các lựa chọn trả lời. Tuy nhiên hãy cố gắng không ghi chú quá nhiều để không làm bạn phân tâm. Tập trung vào việc lắng nghe và phân tích câu hỏi là điều quan trọng hơn."
-    },
-    {
-        "input": "question Thời gian làm Part 2 là bao lâu?",
-        "target": "answer Thời gian cho Part 2 là khoảng 25 phút. Trong khoảng thời gian này bạn sẽ nghe 25 câu hỏi và có thời gian để đưa ra câu trả lời cho từng câu. Hãy chắc chắn rằng bạn quản lý thời gian tốt để không bị áp lực."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện kỹ năng nghe cho Part 2?",
-        "target": "answer Xem phim hoặc chương trình tiếng Anh Xem các bộ phim hoặc chương trình truyền hình tiếng Anh có phụ đề để cải thiện khả năng nghe và hiểu ngữ điệu. Khi xem hãy cố gắng chú ý đến các câu hỏi và câu trả lời trong các tình huống giao tiếp."
-    },
-    {
-        "input": "question Có cần học từ vựng liên quan đến các chủ đề trong Part 2 không?",
-        "target": "answer Có rất cần thiết Việc học từ vựng liên quan đến các chủ đề thường gặp trong Part 2 sẽ giúp bạn dễ dàng hiểu câu hỏi và câu trả lời hơn. Hãy tạo danh sách từ vựng về các chủ đề như công việc du lịch ẩm thực và các tình huống hàng ngày."
-    },
-    {
-        "input": "question Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 2?",
-        "target": "answer Lắng nghe kỹ và phân tích Khi nghe câu hỏi hãy xác định chủ đề chính và từ khóa. Sau đó lắng nghe các lựa chọn trả lời một cách cẩn thận. Hãy loại bỏ các lựa chọn mà bạn biết là sai hoặc không liên quan."
-    },
-    {
-        "input": "question Có nên làm bài kiểm tra mẫu cho Part 2 không?",
-        "target": "answer Rất nên Làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi và cải thiện khả năng nghe. Hãy tìm kiếm các tài liệu luyện thi có chứa câu hỏi mẫu của Part 2 và thực hành thường xuyên."
-    },
-    {
-        "input": "question Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 2?",
-        "target": "answer Thực hành liên tục Thực hành thường xuyên với các bài kiểm tra mẫu sẽ giúp bạn tự tin hơn khi gặp câu hỏi thực tế trong kỳ thi. Bạn cũng có thể tham gia nhóm học hoặc lớp học để luyện tập cùng bạn bè."
-    },
-    {
-        "input": "question Các yếu tố nào ảnh hưởng đến điểm số trong Part 2?",
-        "target": "answer Kỹ năng nghe và khả năng phân tích Điểm số của bạn trong Part 2 phụ thuộc vào khả năng lắng nghe chính xác và phân tích câu hỏi và câu trả lời. Việc bạn có thể nhận diện từ khóa và hiểu ngữ cảnh cũng rất quan trọng."
-    },
-    {
-        "input": "question Cách xử lý khi không hiểu câu hỏi trong Part 2?",
-        "target": "answer Đừng hoảng sợ hãy lắng nghe cẩn thận Nếu bạn không hiểu rõ câu hỏi hãy cố gắng nắm bắt từ khóa chính và các thông tin có thể. Nếu cần hãy loại bỏ các lựa chọn mà bạn biết là sai để tăng khả năng chọn đúng. Nên duy trì sự bình tĩnh và tự tin."
-    },
-    {
-        "input": "question Part 3 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 3 là phần hội thoại ngắn. Trong phần này bạn sẽ nghe một đoạn hội thoại giữa 23 người và sau đó trả lời câu hỏi. Ví dụ bạn nghe một đoạn hội thoại về lịch họp và trả lời câu hỏi như What time is the meeting?."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 3?",
-        "target": "answer Tập trung nghe các chi tiết như tên người địa điểm thời gian Khi nghe đoạn hội thoại hãy chú ý đến các thông tin quan trọng. Ví dụ nếu hội thoại nói về việc đặt phòng khách sạn bạn cần nghe rõ ngày giờ và tên khách sạn để có thể trả lời chính xác."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 3?",
-        "target": "answer Part 3 có các câu hỏi về thông tin chi tiết ý chính và suy luận. Ví dụ What is the mans problem? thông tin chi tiết Where does the conversation take place? ý chính What does the woman suggest? suy luận."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 3?",
-        "target": "answer Chú ý đến các từ đồng âm hoặc từ gây nhiễu Đôi khi hội thoại có thể sử dụng từ ngữ tương tự nhưng có nghĩa khác. Ví dụ nếu hội thoại nói về booking a room nhưng câu hỏi lại hỏi về booking a flight bạn cần phải phân biệt để tránh nhầm lẫn."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 3?",
-        "target": "answer Part 3 có 39 câu hỏi chia thành 13 đoạn hội thoại. Mỗi đoạn hội thoại có 3 câu hỏi. Ví dụ bạn nghe một đoạn hội thoại về việc đổi lịch hẹn và trả lời 3 câu hỏi liên quan."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 3 trong TOEIC?",
-        "target": "answer Luyện nghe hội thoại thực tế Bạn nên nghe các đoạn hội thoại tiếng Anh từ phim chương trình truyền hình hoặc podcast. Điều này giúp bạn làm quen với ngữ điệu và cách diễn đạt trong giao tiếp hàng ngày."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 3 không?",
-        "target": "answer Có nhưng nên ghi chú các điểm quan trọng Khi nghe hội thoại bạn có thể ghi chú nhanh các thông tin như tên thời gian địa điểm để giúp bạn nhớ dễ hơn. Tuy nhiên hãy đảm bảo rằng việc ghi chú không làm bạn phân tâm khỏi việc lắng nghe."
-    },
-    {
-        "input": "question Thời gian làm Part 3 là bao lâu?",
-        "target": "answer Thời gian cho Part 3 là khoảng 30 phút. Bạn sẽ có thời gian để nghe 13 đoạn hội thoại và trả lời 39 câu hỏi. Hãy quản lý thời gian để không bỏ lỡ câu hỏi nào."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện khả năng lắng nghe cho Part 3?",
-        "target": "answer Thực hành với các bài tập nghe Bạn có thể sử dụng tài liệu luyện thi TOEIC hoặc các ứng dụng học tiếng Anh để thực hành. Hãy cố gắng nghe nhiều loại hội thoại khác nhau để tăng cường kỹ năng."
-    },
-    {
-        "input": "question Có cần chú ý đến ngữ điệu trong Part 3 không?",
-        "target": "answer Có ngữ điệu rất quan trọng Ngữ điệu có thể giúp bạn hiểu rõ hơn về cảm xúc và ý định của người nói. Hãy chú ý đến cách mà người nói diễn đạt để có thể hiểu ngữ cảnh tốt hơn."
-    },
-    {
-        "input": "question Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 3?",
-        "target": "answer Lắng nghe kỹ và phân tích Khi nghe đoạn hội thoại hãy chú ý đến các từ khoá và thông tin chính. Sau đó khi nghe câu hỏi hãy xác định câu hỏi đang hỏi về thông tin nào để chọn câu trả lời phù hợp."
-    },
-    {
-        "input": "question Có nên làm bài kiểm tra mẫu cho Part 3 không?",
-        "target": "answer Rất nên Làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi và cải thiện khả năng nghe. Bạn có thể tìm kiếm các tài liệu luyện thi có chứa câu hỏi mẫu của Part 3 và thực hành thường xuyên."
-    },
-    {
-        "input": "question Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 3?",
-        "target": "answer Thực hành liên tục Thực hành thường xuyên với các bài kiểm tra mẫu sẽ giúp bạn tự tin hơn khi gặp câu hỏi thực tế trong kỳ thi. Hãy đặt mục tiêu cụ thể cho mỗi buổi học như hoàn thành một số đoạn hội thoại."
-    },
-    {
-        "input": "question Các yếu tố nào ảnh hưởng đến điểm số trong Part 3?",
-        "target": "answer Kỹ năng nghe và khả năng phân tích Điểm số của bạn trong Part 3 phụ thuộc vào khả năng lắng nghe chính xác và phân tích nội dung hội thoại. Việc bạn có thể nhận diện từ khoá và hiểu ngữ cảnh cũng rất quan trọng."
-    },
-    {
-        "input": "question Cách xử lý khi không hiểu đoạn hội thoại trong Part 3?",
-        "target": "answer Đừng hoảng sợ hãy lắng nghe cẩn thận Nếu bạn không hiểu rõ một phần nào đó trong hội thoại hãy cố gắng nắm bắt từ khoá chính và các thông tin có thể. Nếu cần hãy loại bỏ các lựa chọn mà bạn biết là sai để tăng khả năng chọn đúng."
-    },
-    {
-        "input": "question Part 4 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 4 là phần bài nói ngắn. Trong phần này bạn sẽ nghe một đoạn độc thoại và sau đó trả lời câu hỏi. Ví dụ bạn nghe một thông báo về chuyến bay và trả lời câu hỏi như What time does the flight depart?."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 4?",
-        "target": "answer Tập trung nghe các từ khóa như tên người địa điểm thời gian Khi nghe bài nói hãy chú ý đến các thông tin quan trọng. Ví dụ nếu bài nói về lịch trình du lịch bạn cần nghe rõ ngày giờ và địa điểm để có thể trả lời chính xác."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 4?",
-        "target": "answer Part 4 có các câu hỏi về thông tin chi tiết ý chính và suy luận. Ví dụ What is the main purpose of the announcement? ý chính Who is the speaker? chi tiết What is being offered? suy luận."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 4?",
-        "target": "answer Chú ý đến các từ đồng âm hoặc từ gây nhiễu Đôi khi bài nói có thể sử dụng từ ngữ tương tự nhưng có nghĩa khác. Ví dụ bài nói về a new product launch nhưng câu hỏi lại hỏi về a new store opening bạn cần phân biệt để tránh nhầm lẫn."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 4?",
-        "target": "answer Part 4 có 30 câu hỏi chia thành 10 bài nói. Mỗi bài nói có 3 câu hỏi. Ví dụ bạn nghe một bài nói về thay đổi lịch trình tàu và trả lời 3 câu hỏi liên quan."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 4 trong TOEIC?",
-        "target": "answer Luyện nghe các bài nói thực tế Bạn nên nghe các đoạn thông báo bài giảng hoặc podcast tiếng Anh. Điều này giúp bạn làm quen với cách diễn đạt và ngữ điệu trong giao tiếp hàng ngày."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 4 không?",
-        "target": "answer Có nhưng nên ghi chú các điểm quan trọng Khi nghe bài nói bạn có thể ghi chú nhanh các thông tin như tên thời gian địa điểm để giúp bạn nhớ dễ hơn. Tuy nhiên hãy đảm bảo rằng việc ghi chú không làm bạn phân tâm khỏi việc lắng nghe."
-    },
-    {
-        "input": "question Thời gian làm Part 4 là bao lâu?",
-        "target": "answer Thời gian cho Part 4 là khoảng 30 phút. Bạn sẽ có thời gian để nghe 10 bài nói và trả lời 30 câu hỏi. Hãy quản lý thời gian để không bỏ lỡ câu hỏi nào."
-    },
-    {
-        "input": "question Làm thế nào để cải thiện khả năng lắng nghe cho Part 4?",
-        "target": "answer Thực hành với các bài tập nghe Bạn có thể sử dụng tài liệu luyện thi TOEIC hoặc các ứng dụng học tiếng Anh để thực hành. Hãy cố gắng nghe nhiều loại bài nói khác nhau để tăng cường kỹ năng."
-    },
-    {
-        "input": "question Có cần chú ý đến ngữ điệu trong Part 4 không?",
-        "target": "answer Có ngữ điệu rất quan trọng Ngữ điệu có thể giúp bạn hiểu rõ hơn về cảm xúc và ý định của người nói. Hãy chú ý đến cách mà người nói diễn đạt để có thể hiểu ngữ cảnh tốt hơn."
-    },
-    {
-        "input": "question Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 4?",
-        "target": "answer Lắng nghe kỹ và phân tích Khi nghe bài nói hãy chú ý đến các từ khoá và thông tin chính. Sau đó khi nghe câu hỏi hãy xác định câu hỏi đang hỏi về thông tin nào để chọn câu trả lời phù hợp."
-    },
-    {
-        "input": "question Có nên làm bài kiểm tra mẫu cho Part 4 không?",
-        "target": "answer Rất nên Làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi và cải thiện khả năng nghe. Bạn có thể tìm kiếm các tài liệu luyện thi có chứa câu hỏi mẫu của Part 4 và thực hành thường xuyên."
-    },
-    {
-        "input": "question Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 4?",
-        "target": "answer Thực hành liên tục Thực hành thường xuyên với các bài kiểm tra mẫu sẽ giúp bạn tự tin hơn khi gặp câu hỏi thực tế trong kỳ thi. Hãy đặt mục tiêu cụ thể cho mỗi buổi học như hoàn thành một số bài nói."
-    },
-    {
-        "input": "question Các yếu tố nào ảnh hưởng đến điểm số trong Part 4?",
-        "target": "answer Kỹ năng nghe và khả năng phân tích Điểm số của bạn trong Part 4 phụ thuộc vào khả năng lắng nghe chính xác và phân tích nội dung bài nói. Việc bạn có thể nhận diện từ khoá và hiểu ngữ cảnh cũng rất quan trọng."
-    },
-    {
-        "input": "question Cách xử lý khi không hiểu bài nói trong Part 4?",
-        "target": "answer Đừng hoảng sợ hãy lắng nghe cẩn thận Nếu bạn không hiểu rõ một phần nào đó trong bài nói hãy cố gắng nắm bắt từ khoá chính và các thông tin có thể. Nếu cần hãy loại bỏ các lựa chọn mà bạn biết là sai để tăng khả năng chọn đúng."
-    },
-    {
-        "input": "question Part 5 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 5 là phần điền vào chỗ trống. Bạn sẽ chọn từ hoặc cụm từ phù hợp để hoàn thành câu. Ví dụ The meeting will start _____ 9 a.m. A. at B. in C. on D. for. Đáp án đúng là A. at."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 5?",
-        "target": "answer Bạn cần nắm vững ngữ pháp và từ vựng Để làm tốt Part 5 bạn nên có kiến thức vững về ngữ pháp tiếng Anh cách sử dụng từ vựng và các cụm từ thông dụng. Ví dụ Nếu câu hỏi liên quan đến thì quá khứ bạn cần chọn động từ chia ở quá khứ."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 5?",
-        "target": "answer Part 5 có các câu hỏi về ngữ pháp từ vựng và cụm từ cố định. Ví dụ She is interested _____ learning English. A. in B. on C. at D. for. Đáp án đúng là A. in."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 5?",
-        "target": "answer Bạn cần chú ý đến các từ gây nhiễu Trong Part 5 có thể có những từ nghe giống nhau hoặc có nghĩa tương tự nhưng không đúng trong ngữ cảnh. Ví dụ Câu hỏi yêu cầu chọn giới từ nhưng các đáp án có cả liên từ và trạng từ. Hãy đọc kỹ câu hỏi và xác định loại từ cần điền."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 5?",
-        "target": "answer Part 5 có 30 câu hỏi. Mỗi câu hỏi sẽ có 4 lựa chọn. Ví dụ The report _____ by the manager yesterday. A. was written B. wrote C. writes D. writing. Đáp án đúng là A. was written."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 5 trong TOEIC?",
-        "target": "answer Học ngữ pháp và từ vựng Để chuẩn bị cho Part 5 bạn nên ôn tập kiến thức ngữ pháp và từ vựng thường gặp trong các bài thi. Hãy tham khảo sách giáo trình và tài liệu luyện thi làm nhiều bài tập điền vào chỗ trống."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 5 không?",
-        "target": "answer Có nhưng chỉ ghi chú những điểm chính Khi làm Part 5 bạn có thể ghi chú nhanh các quy tắc ngữ pháp hoặc từ vựng mà bạn không chắc chắn. Điều này giúp bạn dễ dàng nhớ lại khi cần."
-    },
-    {
-        "input": "question Các mẹo nào giúp chọn đáp án đúng trong Part 5?",
-        "target": "answer Đọc toàn bộ câu trước khi chọn Khi làm bài hãy đọc toàn bộ câu để hiểu ngữ cảnh trước khi xem xét các lựa chọn. Đôi khi ngữ cảnh sẽ gợi ý cho bạn từ hoặc cụm từ chính xác cần điền."
-    },
-    {
-        "input": "question Có cần chú ý đến ngữ cảnh không?",
-        "target": "answer Rất cần thiết Ngữ cảnh của câu có thể ảnh hưởng lớn đến lựa chọn từ. Hãy chú ý đến các từ xung quanh để xác định loại từ cần thiết danh từ động từ tính từ hay giới từ."
-    },
-    {
-        "input": "question Phương pháp nào giúp cải thiện điểm số trong Part 5?",
-        "target": "answer Luyện tập thường xuyên Làm bài kiểm tra mẫu và các bài tập điền vào chỗ trống sẽ giúp bạn làm quen với định dạng câu hỏi và cải thiện kỹ năng. Hãy đặt ra mục tiêu hàng tuần để luyện tập và theo dõi tiến độ của mình."
-    },
-    {
-        "input": "question Cách xử lý khi không chắc chắn về đáp án?",
-        "target": "answer Loại bỏ các lựa chọn sai Nếu bạn không chắc chắn về câu trả lời hãy cố gắng loại bỏ các lựa chọn mà bạn biết là sai. Điều này sẽ tăng khả năng chọn đúng trong số các lựa chọn còn lại."
-    },
-    {
-        "input": "question Có nên tham gia lớp học luyện thi không?",
-        "target": "answer Rất nên Tham gia lớp học luyện thi có thể giúp bạn nắm vững kiến thức và cung cấp các kỹ năng cần thiết để làm tốt bài thi. Hãy tìm kiếm các lớp học có giáo viên có kinh nghiệm trong việc giảng dạy TOEIC."
-    },
-    {
-        "input": "question Có cần chú ý đến các cụm từ cố định không?",
-        "target": "answer Có rất quan trọng Nhiều câu trong Part 5 có thể yêu cầu bạn sử dụng các cụm từ cố định. Hãy học thuộc các cụm từ thông dụng và cách sử dụng của chúng trong ngữ cảnh khác nhau."
-    },
-    {
-        "input": "question Có thể tự học để cải thiện kỹ năng Part 5 không?",
-        "target": "answer Có nhưng cần kỷ luật Bạn hoàn toàn có thể tự học để cải thiện kỹ năng. Hãy lập kế hoạch học tập cụ thể sử dụng tài liệu học trực tuyến và thực hành thường xuyên để nâng cao khả năng của mình."
-    },
-    {
-        "input": "question Tại sao nên làm bài kiểm tra mẫu cho Part 5?",
-        "target": "answer Để làm quen với cấu trúc câu hỏi Làm bài kiểm tra mẫu giúp bạn quen với cách ra đề và các loại câu hỏi thường gặp trong Part 5. Điều này sẽ giúp bạn tự tin hơn khi làm bài thi thực tế."
-    },
-    {
-        "input": "question Part 6 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 6 là phần điền vào đoạn văn. Bạn sẽ chọn từ hoặc cụm từ phù hợp để hoàn thành đoạn văn. Ví dụ The company _____ a new product last week. A. launched B. launches C. launching D. launch. Đáp án đúng là A. launched."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 6?",
-        "target": "answer Bạn cần đọc kỹ đoạn văn và hiểu ngữ cảnh Khi làm Part 6 hãy chú ý đến ngữ cảnh của đoạn văn để xác định ý nghĩa và loại từ cần thiết. Ví dụ Nếu đoạn văn nói về sự kiện trong quá khứ bạn cần chọn động từ chia ở quá khứ."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 6?",
-        "target": "answer Part 6 có các câu hỏi về ngữ pháp từ vựng và liên kết câu. Ví dụ The new policy _____ will take effect next month. A. which B. who C. where D. when. Đáp án đúng là A. which."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 6?",
-        "target": "answer Bạn cần chú ý đến các từ gây nhiễu Trong Part 6 có thể có những từ nghe giống nhau hoặc có nghĩa tương tự nhưng không đúng trong ngữ cảnh. Ví dụ Câu hỏi yêu cầu chọn liên từ nhưng các đáp án có cả giới từ và trạng từ. Hãy đọc kỹ đoạn văn và xác định loại từ cần điền."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 6?",
-        "target": "answer Part 6 có 16 câu hỏi chia thành 4 đoạn văn. Mỗi đoạn văn có 4 câu hỏi. Ví dụ Bạn đọc một đoạn văn về kế hoạch kinh doanh và trả lời 4 câu hỏi liên quan."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 6 trong TOEIC?",
-        "target": "answer Luyện đọc hiểu Để chuẩn bị cho Part 6 bạn nên luyện tập đọc các đoạn văn tiếng Anh và chú ý đến ngữ pháp cấu trúc câu và từ vựng. Bạn có thể sử dụng sách giáo khoa bài báo và tài liệu trực tuyến để luyện tập."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 6 không?",
-        "target": "answer Có nhưng chỉ ghi chú những điểm chính Khi làm Part 6 bạn có thể ghi chú nhanh các từ khóa hoặc ngữ pháp mà bạn không chắc chắn. Điều này sẽ giúp bạn dễ dàng nhớ lại khi cần."
-    },
-    {
-        "input": "question Các mẹo nào giúp chọn đáp án đúng trong Part 6?",
-        "target": "answer Đọc toàn bộ đoạn văn trước khi chọn Đọc toàn bộ đoạn văn để hiểu ngữ cảnh và ý nghĩa tổng thể trước khi xem xét các lựa chọn. Điều này sẽ giúp bạn xác định từ hoặc cụm từ nào là phù hợp nhất."
-    },
-    {
-        "input": "question Có cần chú ý đến ngữ cảnh của từng câu trong đoạn văn không?",
-        "target": "answer Rất cần thiết Ngữ cảnh của từng câu có thể ảnh hưởng lớn đến lựa chọn từ. Hãy chú ý đến các câu trước và sau để xác định loại từ cần thiết danh từ động từ tính từ hay liên từ."
-    },
-    {
-        "input": "question Phương pháp nào giúp cải thiện điểm số trong Part 6?",
-        "target": "answer Luyện tập thường xuyên Làm bài kiểm tra mẫu và các bài tập điền vào chỗ trống sẽ giúp bạn làm quen với định dạng câu hỏi và cải thiện kỹ năng. Hãy đặt ra mục tiêu hàng tuần để luyện tập và theo dõi tiến độ của mình."
-    },
-    {
-        "input": "question Cách xử lý khi không chắc chắn về đáp án?",
-        "target": "answer Loại bỏ các lựa chọn sai Nếu bạn không chắc chắn về câu trả lời hãy cố gắng loại bỏ các lựa chọn mà bạn biết là sai. Điều này sẽ tăng khả năng chọn đúng trong số các lựa chọn còn lại."
-    },
-    {
-        "input": "question Có nên tham gia lớp học luyện thi không?",
-        "target": "answer Rất nên Tham gia lớp học luyện thi có thể giúp bạn nắm vững kiến thức và cung cấp các kỹ năng cần thiết để làm tốt bài thi. Hãy tìm kiếm các lớp học có giáo viên có kinh nghiệm trong việc giảng dạy TOEIC."
-    },
-    {
-        "input": "question Có cần chú ý đến các cụm từ cố định trong Part 6 không?",
-        "target": "answer Có rất quan trọng Nhiều câu trong Part 6 có thể yêu cầu bạn sử dụng các cụm từ cố định. Hãy học thuộc các cụm từ thông dụng và cách sử dụng của chúng trong ngữ cảnh khác nhau."
-    },
-    {
-        "input": "question Có thể tự học để cải thiện kỹ năng Part 6 không?",
-        "target": "answer Có nhưng cần kỷ luật Bạn hoàn toàn có thể tự học để cải thiện kỹ năng. Hãy lập kế hoạch học tập cụ thể sử dụng tài liệu học trực tuyến và thực hành thường xuyên để nâng cao khả năng của mình."
-    },
-    {
-        "input": "question Tại sao nên làm bài kiểm tra mẫu cho Part 6?",
-        "target": "answer Để làm quen với cấu trúc câu hỏi Làm bài kiểm tra mẫu giúp bạn quen với cách ra đề và các loại câu hỏi thường gặp trong Part 6. Điều này sẽ giúp bạn tự tin hơn khi làm bài thi thực tế."
-    },
-    {
-        "input": "question Part 7 trong TOEIC có dạng câu hỏi nào?",
-        "target": "answer Part 7 là phần đọc hiểu. Bạn sẽ đọc các đoạn văn và trả lời câu hỏi. Ví dụ bạn đọc một email về lịch họp và trả lời câu hỏi như What is the purpose of the email?."
-    },
-    {
-        "input": "question Làm thế nào để làm tốt Part 7?",
-        "target": "answer Bạn cần đọc lướt để nắm ý chính và đọc kỹ để tìm chi tiết Khi làm Part 7 hãy bắt đầu bằng việc đọc lướt để hiểu nội dung tổng thể của đoạn văn. Sau đó đọc kỹ từng phần để tìm các thông tin cụ thể. Ví dụ nếu đoạn văn nói về thông báo tuyển dụng bạn cần tìm thông tin về vị trí và yêu cầu."
-    },
-    {
-        "input": "question Có những loại câu hỏi nào trong Part 7?",
-        "target": "answer Part 7 có các câu hỏi về ý chính chi tiết và suy luận. Ví dụ What is the main idea of the passage? ý chính và Who is the email intended for? chi tiết."
-    },
-    {
-        "input": "question Làm thế nào để tránh bẫy trong Part 7?",
-        "target": "answer Bạn cần chú ý đến các từ đồng nghĩa hoặc cách diễn đạt khác Đôi khi câu hỏi có thể sử dụng từ ngữ khác với đoạn văn nhưng có nghĩa tương tự. Ví dụ đoạn văn nói The event will start at 9 a.m. nhưng câu hỏi hỏi When does the event begin?. Bạn cần nhận diện rằng begin có nghĩa giống start."
-    },
-    {
-        "input": "question Có bao nhiêu câu hỏi trong Part 7?",
-        "target": "answer Part 7 có 54 câu hỏi chia thành các đoạn văn đơn và đôi. Ví dụ bạn đọc một đoạn văn về thông báo công ty và trả lời 5 câu hỏi liên quan."
-    },
-    {
-        "input": "question Cách chuẩn bị cho Part 7 trong TOEIC?",
-        "target": "answer Luyện tập đọc hiểu Để chuẩn bị cho Part 7 bạn nên đọc các loại văn bản tiếng Anh khác nhau như bài báo email quảng cáo và thông báo. Hãy chú ý đến ngữ pháp từ vựng và cấu trúc câu."
-    },
-    {
-        "input": "question Có nên ghi chú khi làm Part 7 không?",
-        "target": "answer Có nhưng hãy ghi chú một cách có tổ chức Khi đọc bạn có thể ghi chú lại các điểm quan trọng hoặc từ khóa để dễ dàng tìm lại thông tin khi trả lời câu hỏi."
-    },
-    {
-        "input": "question Các mẹo nào giúp chọn đáp án đúng trong Part 7?",
-        "target": "answer Đọc kỹ câu hỏi trước khi xem đáp án Đôi khi việc đọc câu hỏi trước sẽ giúp bạn tìm kiếm thông tin cần thiết trong đoạn văn một cách hiệu quả hơn."
-    },
-    {
-        "input": "question Có cần chú ý đến cấu trúc đoạn văn không?",
-        "target": "answer Rất cần thiết Cấu trúc của đoạn văn có thể cung cấp manh mối về ý chính và cách mà thông tin được sắp xếp. Hãy chú ý đến các từ chuyển tiếp như however in addition và for example."
-    },
-    {
-        "input": "question Phương pháp nào giúp cải thiện điểm số trong Part 7?",
-        "target": "answer Luyện tập thường xuyên và đánh giá kết quả Làm bài kiểm tra mẫu và tự kiểm tra để xem bạn còn thiếu sót ở điểm nào. Hãy phân tích các câu trả lời sai và tìm hiểu lý do."
-    },
-    {
-        "input": "question Cách xử lý khi không chắc chắn về đáp án?",
-        "target": "answer Loại bỏ các lựa chọn sai Nếu bạn không chắc chắn về câu trả lời hãy cố gắng loại bỏ các lựa chọn mà bạn biết là sai. Điều này sẽ tăng khả năng chọn đúng trong số các lựa chọn còn lại."
-    },
-    {
-        "input": "question Có nên tham gia lớp học luyện thi không?",
-        "target": "answer Rất nên Tham gia lớp học luyện thi có thể giúp bạn nắm vững kiến thức và cung cấp các kỹ năng cần thiết để làm tốt bài thi. Hãy tìm kiếm các lớp học có giáo viên có kinh nghiệm trong việc giảng dạy TOEIC."
-    },
-    {
-        "input": "question Có cần chú ý đến các cụm từ cố định trong Part 7 không?",
-        "target": "answer Có rất quan trọng Nhiều câu trong Part 7 có thể yêu cầu bạn sử dụng các cụm từ cố định. Hãy học thuộc các cụm từ thông dụng và cách sử dụng của chúng trong ngữ cảnh khác nhau."
-    },
-    {
-        "input": "question Có thể tự học để cải thiện kỹ năng Part 7 không?",
-        "target": "answer Có nhưng cần kỷ luật Bạn hoàn toàn có thể tự học để cải thiện kỹ năng. Hãy lập kế hoạch học tập cụ thể sử dụng tài liệu học trực tuyến và thực hành thường xuyên để nâng cao khả năng của mình."
-    },
-    {
-        "input": "question Tại sao nên làm bài kiểm tra mẫu cho Part 7?",
-        "target": "answer Để làm quen với cấu trúc câu hỏi Làm bài kiểm tra mẫu giúp bạn quen với cách ra đề và các loại câu hỏi thường gặp trong Part 7. Điều này sẽ giúp bạn tự tin hơn khi làm bài thi thực tế."
-    },
-    {
-        "input": "question Làm thế nào để quản lý thời gian khi thi TOEIC?",
-        "target": "answer Phân bổ thời gian một cách hợp lý là yếu tố then chốt để đạt điểm cao trong kỳ thi TOEIC. Phần Listening 45 phút Hãy tận dụng tối đa thời gian giữa các phần nghe để đọc trước các câu hỏi tiếp theo. Điều này giúp bạn định hình được nội dung cần nghe và tăng khả năng nắm bắt thông tin. Đừng quá sa đà vào một câu hỏi khó. Nếu bạn không chắc chắn hãy chọn đáp án mà bạn cho là đúng nhất và chuyển sang câu tiếp theo. Phần Reading 75 phút Part 5 6 30 phút Mục tiêu là hoàn thành hai phần này càng nhanh càng tốt để có thêm thời gian cho Part 7. Tập trung vào việc nhận diện cấu trúc ngữ pháp và từ vựng. Đừng mất quá nhiều thời gian cho một câu hỏi. Part 7 45 phút Đây là phần thi đòi hỏi nhiều thời gian nhất. Hãy chia nhỏ thời gian cho từng đoạn văn tùy thuộc vào độ dài và độ khó của chúng. Kỹ năng đọc lướt và đọc quét rất quan trọng. Hãy luyện tập để có thể nhanh chóng tìm ra thông tin cần thiết trong đoạn văn. Mẹo bổ sung Sử dụng đồng hồ để theo dõi thời gian thường xuyên. Điều này giúp bạn kiểm soát được tốc độ làm bài. Trong quá trình luyện tập hãy ghi chú lại thời gian bạn cần để hoàn thành từng phần. Điều này giúp bạn điều chỉnh chiến lược làm bài cho phù hợp."
-    },
-    {
-        "input": "question Cách giữ bình tĩnh khi thi TOEIC?",
-        "target": "answer Giữ bình tĩnh là yếu tố quan trọng để bạn có thể tập trung và làm bài thi một cách tốt nhất. Hít thở sâu Khi cảm thấy căng thẳng hãy hít thở sâu và chậm. Điều này giúp làm giảm nhịp tim và mang lại cảm giác thư giãn. Tập trung vào từng câu hỏi Đừng lo lắng về những câu hỏi tiếp theo hoặc kết quả của bài thi. Hãy tập trung vào câu hỏi hiện tại và cố gắng trả lời tốt nhất có thể. Tư duy tích cực Hãy tin tưởng vào khả năng của bản thân và những gì bạn đã học. Nhắc nhở bản thân rằng bạn đã chuẩn bị kỹ lưỡng cho kỳ thi này. Nếu gặp câu hỏi khó đừng quá lo lắng hãy đánh dấu lại và sau đó quay lại làm sau. Nếu bạn thấy quá căng thẳng hãy hít thở sâu và để cho bản thân một vài giây để lấy lại bình tĩnh."
-    },
-    {
-        "input": "question Kinh nghiệm làm bài thi TOEIC phần Listening?",
-        "target": "answer Phần Listening đòi hỏi bạn phải có khả năng nghe và hiểu tiếng Anh một cách nhanh chóng và chính xác. Đọc câu hỏi trước khi nghe Điều này giúp bạn biết được thông tin cần tìm trong đoạn ghi âm. Chú ý đến từ khóa Hãy tập trung vào những từ khóa và cụm từ quan trọng trong câu hỏi và đoạn ghi âm. Ghi chú Nếu được phép hãy ghi chú những thông tin quan trọng trong quá trình nghe. Điều này giúp bạn dễ dàng nhớ lại và trả lời câu hỏi. Luyện tập thường xuyên Luyện tập nghe các bài nghe mẫu và làm bài tập thường xuyên để cải thiện kỹ năng nghe của bạn. Làm quen với các giọng khác nhau Bài thi TOEIC có thể có nhiều giọng khác nhau vì vậy hãy luyện tập nghe nhiều giọng để làm quen."
-    },
-    {
-        "input": "question Kinh nghiệm làm bài thi TOEIC phần Reading?",
-        "target": "answer Phần Reading đòi hỏi bạn phải có khả năng đọc hiểu và phân tích văn bản tiếng Anh. Part 5 6 Đọc kỹ câu hỏi và các lựa chọn đáp án trước khi đọc đoạn văn. Tập trung vào việc nhận diện cấu trúc ngữ pháp và từ vựng. Loại trừ các đáp án sai để tăng khả năng chọn được đáp án đúng. Part 7 Đọc lướt đoạn văn để nắm bắt ý chính trước khi trả lời câu hỏi. Đọc kỹ câu hỏi và tìm kiếm thông tin liên quan trong đoạn văn. Sử dụng kỹ năng đọc quét để nhanh chóng tìm ra thông tin cần thiết. Quản lý thời gian Phân bổ thời gian hợp lý cho từng phần thi. Đừng mất quá nhiều thời gian cho một câu hỏi khó. Hãy đánh dấu lại và quay lại sau."
-    },
-    {
-        "input": "question Cách ôn tập trong tuần cuối trước khi thi TOEIC?",
-        "target": "answer Tuần cuối trước kỳ thi là thời gian quan trọng để bạn củng cố kiến thức và chuẩn bị tâm lý. Luyện đề Làm các đề thi mẫu để làm quen với cấu trúc và định dạng của bài thi. Điều này giúp bạn giảm bớt căng thẳng và làm quen với áp lực thời gian. Xem lại các lỗi sai Phân tích các lỗi sai trong quá trình luyện tập để hiểu rõ nguyên nhân và tránh lặp lại trong kỳ thi thật. Ôn tập từ vựng và ngữ pháp Tập trung vào những chủ đề và cấu trúc mà bạn còn yếu. Sử dụng flashcards hoặc các ứng dụng học từ vựng để ôn tập hiệu quả. Giữ gìn sức khỏe Ngủ đủ giấc ăn uống lành mạnh và tập thể dục nhẹ nhàng để duy trì sức khỏe tốt nhất. Tránh thức khuya và làm việc quá sức. Tạo tâm lý thoải mái Dành thời gian thư giãn và làm những điều bạn thích để giảm bớt căng thẳng. Tránh suy nghĩ tiêu cực và giữ tinh thần lạc quan."
-    },
-    {
-        "input": "question Khi nào sử dụng thì Hiện Tại Đơn Present Simple?",
-        "target": "answer Diễn tả thói quen sự thật hiển nhiên hoặc trạng thái. Dùng để nói về lịch trình thời gian biểu. Dùng để diễn tả sự thật chung hoặc chân lý. Cấu trúc Khẳng định S Vses. Phủ định S dodoes not V. Nghi vấn DoDoes S V? Ví dụ What do you usually do on weekends? Does she play the piano?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Quá Khứ Đơn Past Simple?",
-        "target": "answer Diễn tả hành động đã xảy ra và kết thúc trong quá khứ. Dùng với các từ chỉ thời gian như yesterday last week in 2010. Dùng để kể lại các sự kiện trong quá khứ. Cấu trúc Khẳng định S V2. Phủ định S did not V. Nghi vấn Did S V? Ví dụ What did you do last summer? Did he finish his homework yesterday?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Hiện Tại Hoàn Thành Present Perfect?",
-        "target": "answer Diễn tả hành động xảy ra trong quá khứ nhưng còn liên quan đến hiện tại. Dùng để nói về những kinh nghiệm trong đời hoặc hành động vừa mới hoàn thành. Dùng để diễn tả hành động xảy ra nhiều lần trong quá khứ. Cấu trúc Khẳng định S havehas V3. Phủ định S havehas not V3. Nghi vấn HaveHas S V3? Ví dụ Have you ever been to Paris? Has she finished her project yet?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Tương Lai Đơn Future Simple?",
-        "target": "answer Diễn tả hành động sẽ xảy ra trong tương lai. Thường có từ chỉ thời gian như tomorrow next week in the future. Dùng để diễn tả quyết định tức thời hoặc lời hứa. Cấu trúc Khẳng định S will V. Phủ định S will not V. Nghi vấn Will S V? Ví dụ Will you join us for dinner tomorrow? What will he do next year?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Hiện Tại Tiếp Diễn Present Continuous?",
-        "target": "answer Diễn tả hành động đang xảy ra tại thời điểm nói hoặc hành động tạm thời. Dùng để nói về kế hoạch trong tương lai gần. Dùng để diễn tả hành động đang diễn ra trong một khoảng thời gian nhất định. Cấu trúc Khẳng định S amisare Ving. Phủ định S amisare not Ving. Nghi vấn AmIsAre S Ving? Ví dụ What are you doing right now? Are they watching a movie at the moment?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Quá Khứ Tiếp Diễn Past Continuous?",
-        "target": "answer Diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ. Dùng để chỉ hành động đang diễn ra khi có một hành động khác xen vào. Dùng để mô tả bối cảnh trong một câu chuyện. Cấu trúc Khẳng định S waswere Ving. Phủ định S waswere not Ving. Nghi vấn WasWere S Ving? Ví dụ What were you doing at 8 PM last night? Was she reading a book when you called?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Hiện Tại Hoàn Thành Tiếp Diễn Present Perfect Continuous?",
-        "target": "answer Diễn tả hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn hoặc vừa mới kết thúc với một kết quả rõ ràng. Thường nhấn mạnh khoảng thời gian hoặc quá trình. Dùng để diễn tả hành động kéo dài liên tục đến hiện tại. Cấu trúc Khẳng định S havehas been Ving. Phủ định S havehas not been Ving. Nghi vấn HaveHas S been Ving? Ví dụ How long have you been studying English? Have they been working here for a long time?"
-    },
-    {
-        "input": "question Khi nào sử dụng thì Tương Lai Tiếp Diễn Future Continuous?",
-        "target": "answer Diễn tả hành động sẽ đang xảy ra tại một thời điểm trong tương lai. Dùng để nói về hành động sẽ xảy ra trong một khoảng thời gian cụ thể trong tương lai. Dùng để diễn tả dự đoán về một hành động trong tương lai. Cấu trúc Khẳng định S will be Ving. Phủ định S will not be Ving. Nghi vấn Will S be Ving? Ví dụ What will you be doing at 10 AM tomorrow? Will she be attending the meeting next week?"
-    },
-    {
-        "input": "question Cấu trúc câu điều kiện loại 1 là gì?",
-        "target": "answer Câu điều kiện loại 1 được sử dụng để diễn tả các tình huống có thể xảy ra trong tương lai thường là những điều kiện thực tế và có khả năng xảy ra. Cấu trúc If S Vses S will V. Trong đó If từ nối điều kiện. S chủ ngữ. Vses động từ chia theo ngôi thêm s hoặc es nếu chủ ngữ là ngôi thứ ba số ít. will trợ động từ chỉ tương lai. V động từ nguyên thể. Ví dụ If it rains we will stay at home. Trong câu này nếu trời mưa điều kiện có thể xảy ra thì chúng tôi sẽ ở nhà kết quả có thể xảy ra."
-    },
-    {
-        "input": "question Cấu trúc câu điều kiện loại 2 là gì?",
-        "target": "answer Câu điều kiện loại 2 được sử dụng để diễn tả các tình huống không có thật ở hiện tại. Điều này có nghĩa là điều kiện được nêu ra là giả định và không thể xảy ra trong thực tế. Cấu trúc If S V2ed S would V. Trong đó V2ed động từ ở dạng quá khứ đối với động từ quy tắc thêm ed động từ bất quy tắc có dạng riêng. would trợ động từ chỉ giả định. Ví dụ If I were you I would take the job. Trong câu này người nói không phải là người nghe điều kiện không có thật nhưng nếu anh ta là người nghe anh ta sẽ nhận công việc đó kết quả giả định."
-    },
-    {
-        "input": "question Cấu trúc câu điều kiện loại 3 là gì?",
-        "target": "answer Câu điều kiện loại 3 được sử dụng để diễn tả các tình huống không có thật trong quá khứ. Điều này có nghĩa là điều kiện được nêu ra không xảy ra và do đó kết quả cũng không xảy ra. Cấu trúc If S had V3ed S would have V3ed. Trong đó had trợ động từ chỉ quá khứ. V3ed động từ ở dạng quá khứ phân từ. would have cấu trúc chỉ kết quả không xảy ra. Ví dụ If I had studied harder I would have passed the exam. Trong câu này người nói không học chăm chỉ điều kiện không có thật trong quá khứ do đó họ đã không vượt qua kỳ thi kết quả không xảy ra."
-    },
-    {
-        "input": "question Câu điều kiện loại 1 có thể sử dụng với các động từ nào?",
-        "target": "answer Câu điều kiện loại 1 có thể sử dụng với bất kỳ động từ nào miễn là chúng có thể được chia theo quy tắc thì hiện tại đơn. Ví dụ động từ go có thể trở thành goes cho ngôi thứ ba số ít If he goes to the party he will have fun."
-    },
-    {
-        "input": "question Câu điều kiện loại 2 có thể được sử dụng với động từ to be như thế nào?",
-        "target": "answer Trong câu điều kiện loại 2 động từ to be thường được sử dụng dưới dạng were cho tất cả các ngôi. Ví dụ If I were a bird I would fly. Điều này là một quy tắc ngữ pháp đặc biệt trong tiếng Anh."
-    },
-    {
-        "input": "question Có thể sử dụng câu điều kiện loại 1 để diễn tả một sự thật chung không?",
-        "target": "answer Không câu điều kiện loại 1 được sử dụng cho các tình huống có thể xảy ra trong tương lai không phải để diễn tả sự thật chung. Để diễn tả sự thật chung ta thường sử dụng thì hiện tại đơn mà không cần if. Ví dụ Water boils at 100 degrees Celsius."
-    },
-    {
-        "input": "question Câu điều kiện loại 3 có thể sử dụng để nói về điều gì?",
-        "target": "answer Câu điều kiện loại 3 được sử dụng để nói về các tình huống không có thật trong quá khứ. Nó diễn tả điều kiện mà nếu xảy ra kết quả đã có thể khác. Ví dụ If I had known about the party I would have gone."
-    },
-    {
-        "input": "question Có thể kết hợp nhiều loại câu điều kiện trong một câu không?",
-        "target": "answer Có thể nhưng cần phải làm rõ ý nghĩa. Ví dụ If I win the lottery loại 1 I would travel the world loại 2. Câu này kết hợp điều kiện thực tế với một điều giả định."
-    },
-    {
-        "input": "question Khi nào nên sử dụng would và could trong câu điều kiện?",
-        "target": "answer Would được sử dụng để diễn tả một kết quả có thể xảy ra trong trường hợp điều kiện được đáp ứng. Could được sử dụng để diễn tả khả năng hoặc sự cho phép. Ví dụ If I had more time I would help you diễn tả ý muốn và If I had more time I could help you diễn tả khả năng."
-    },
-    {
-        "input": "question Câu điều kiện loại 1 có thể diễn tả một điều kiện không chắc chắn không?",
-        "target": "answer Có câu điều kiện loại 1 có thể diễn tả một điều kiện không chắc chắn nhưng vẫn có khả năng xảy ra. Ví dụ If it doesnt rain tomorrow we will go for a picnic."
-    },
-    {
-        "input": "question Câu điều kiện có thể được sử dụng trong văn viết chính thức không?",
-        "target": "answer Có câu điều kiện có thể được sử dụng trong cả văn viết chính thức và không chính thức. Tuy nhiên trong văn viết chính thức người viết thường cẩn thận hơn về cách sử dụng và cấu trúc câu."
-    },
-    {
-        "input": "question Câu điều kiện loại 2 có thể được diễn đạt khác không?",
-        "target": "answer Có câu điều kiện loại 2 có thể được diễn đạt bằng cách sử dụng were to để nhấn mạnh tính giả định. Ví dụ If I were to win the lottery I would buy a house."
-    },
-    {
-        "input": "question Làm thế nào để xác định loại câu điều kiện?",
-        "target": "answer Để xác định loại câu điều kiện bạn cần xem xét thời gian và tính thực tế của điều kiện Loại 1 Điều kiện có thể xảy ra trong tương lai hiện tại đơn will. Loại 2 Điều kiện không có thật ở hiện tại quá khứ đơn would. Loại 3 Điều kiện không có thật trong quá khứ had V3 would have V3."
-    },
-    {
-        "input": "question Khi nào sử dụng who trong mệnh đề quan hệ?",
-        "target": "answer Who được sử dụng trong mệnh đề quan hệ để thay thế cho danh từ chỉ người. Điều này thường xảy ra khi bạn muốn cung cấp thêm thông tin về một người cụ thể trong câu. Who được sử dụng như một chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ. Ví dụ The man who is standing there is my teacher. Trong câu này who is standing there là mệnh đề quan hệ cung cấp thêm thông tin về the man. Lưu ý Nếu who đóng vai trò là tân ngữ trong mệnh đề quan hệ bạn có thể thay thế bằng whom. Tuy nhiên trong ngữ cảnh thông thường who thường được sử dụng nhiều hơn."
-    },
-    {
-        "input": "question Khi nào sử dụng which trong mệnh đề quan hệ?",
-        "target": "answer Which được sử dụng trong mệnh đề quan hệ để thay thế cho danh từ chỉ vật. Which thường được dùng khi bạn muốn chỉ định một đối tượng cụ thể trong một nhóm hoặc danh sách. Ví dụ The book which is on the table is mine. Trong câu này which is on the table là mệnh đề quan hệ cung cấp thêm thông tin về the book. Lưu ý Which thường được dùng trong các mệnh đề quan hệ không xác định nondefining relative clauses nơi mà thông tin được cung cấp không cần thiết để hiểu rõ danh từ chính. Ví dụ My car which is red is parked outside."
-    },
-    {
-        "input": "question Khi nào sử dụng that trong mệnh đề quan hệ?",
-        "target": "answer That có thể thay thế cho cả danh từ chỉ người và vật trong mệnh đề quan hệ. Nó thường được sử dụng trong mệnh đề quan hệ xác định defining relative clauses nơi mà thông tin là cần thiết để xác định danh từ chính. Ví dụ The car that I bought is very fast. Trong câu này that I bought là mệnh đề quan hệ cung cấp thông tin cần thiết để xác định the car. Lưu ý Trong nhiều trường hợp that có thể được sử dụng thay cho who hoặc which. Tuy nhiên that không được sử dụng trong mệnh đề quan hệ không xác định nondefining relative clauses. Ví dụ bạn không thể nói My car that is red is parked outside. Thay vào đó bạn nên sử dụng which My car which is red is parked outside."
-    },
-    {
-        "input": "question Mệnh đề quan hệ là gì?",
-        "target": "answer Mệnh đề quan hệ là một phần của câu sử dụng đại từ quan hệ như who which that để cung cấp thêm thông tin về một danh từ. Mệnh đề quan hệ có thể xác định defining hoặc không xác định nondefining. Ví dụ The girl who is wearing a red dress is my sister. mệnh đề xác định My brother who lives in London is visiting us. mệnh đề không xác định"
-    },
-    {
-        "input": "question Công thức của mệnh đề quan hệ xác định là gì?",
-        "target": "answer Mệnh đề quan hệ xác định defining relative clause là mệnh đề không có dấu phẩy và cung cấp thông tin cần thiết để xác định danh từ chính. Công thức chung là Cấu trúc Danh từ mệnh đề quan hệ Trong đó mệnh đề quan hệ bắt đầu bằng who which hoặc that. Ví dụ The book that I read was fascinating. The students who study hard will pass the exam."
-    },
-    {
-        "input": "question Công thức của mệnh đề quan hệ không xác định là gì?",
-        "target": "answer Mệnh đề quan hệ không xác định nondefining relative clause là mệnh đề có dấu phẩy và cung cấp thông tin bổ sung không cần thiết để xác định danh từ chính. Công thức chung là Cấu trúc Danh từ mệnh đề quan hệ Trong đó mệnh đề quan hệ bắt đầu bằng who hoặc which. Ví dụ My father who is a doctor works at a hospital. The Eiffel Tower which is in Paris is a famous landmark."
-    },
-    {
-        "input": "question Có thể sử dụng that trong mệnh đề không xác định không?",
-        "target": "answer Không that không được sử dụng trong mệnh đề quan hệ không xác định. Trong những trường hợp này bạn nên sử dụng who hoặc which. Ví dụ sai My brother that is a musician plays guitar. sai Ví dụ đúng My brother who is a musician plays guitar. đúng"
-    },
-    {
-        "input": "question Mệnh đề quan hệ có thể nằm ở vị trí nào trong câu?",
-        "target": "answer Mệnh đề quan hệ có thể nằm ngay sau danh từ mà nó bổ nghĩa hoặc ở vị trí khác trong câu tùy thuộc vào cách diễn đạt. Tuy nhiên nó thường đứng ngay sau danh từ. Ví dụ The car that I bought is red. đứng sau danh từ car I have a friend who loves to travel. đứng sau danh từ friend"
-    },
-    {
-        "input": "question Làm thế nào để rút gọn mệnh đề quan hệ?",
-        "target": "answer Mệnh đề quan hệ có thể được rút gọn bằng cách bỏ đại từ quan hệ và động từ to be khi có thể. Ví dụ The man who is standing there is my teacher. có thể rút gọn thành The man standing there is my teacher. The book that was written by her is interesting. có thể rút gọn thành The book written by her is interesting."
-    },
-    {
-        "input": "question Có thể sử dụng mệnh đề quan hệ ở thì quá khứ không?",
-        "target": "answer Có mệnh đề quan hệ có thể được sử dụng ở thì quá khứ bằng cách sử dụng động từ ở dạng quá khứ trong mệnh đề. Ví dụ The teacher who taught me last year is retiring. The movie that we watched yesterday was amazing."
-    },
-    {
-        "input": "question Khi nào nên sử dụng mệnh đề quan hệ với động từ to be?",
-        "target": "answer Mệnh đề quan hệ với động từ to be thường được sử dụng để cung cấp thông tin về trạng thái hoặc đặc điểm của danh từ. Ví dụ This is the house that was built in 1900. The artist who is known for his paintings is coming to our town."
-    },
-    {
-        "input": "question Cấu trúc câu bị động ở thì hiện tại đơn là gì?",
-        "target": "answer Câu bị động ở thì hiện tại đơn được sử dụng để diễn tả một hành động mà chủ ngữ không phải là người thực hiện hành động mà là người hoặc vật nhận hành động. Cấu trúc S amisare V3ed. Trong đó S Chủ ngữ người hoặc vật nhận hành động. amisare Động từ to be chia theo chủ ngữ. Am dùng với I is dùng với ngôi thứ ba số ít và are dùng cho các ngôi còn lại. V3ed Động từ ở dạng quá khứ phân từ Past Participle. Đối với động từ quy tắc ta thêm ed vào động từ trong khi động từ bất quy tắc có dạng riêng. Ví dụ The letter is written by John. Trong câu này the letter là chủ ngữ nhận hành động viết written từ John."
-    },
-    {
-        "input": "question Cấu trúc câu bị động ở thì quá khứ đơn là gì?",
-        "target": "answer Câu bị động ở thì quá khứ đơn được sử dụng để diễn tả một hành động đã xảy ra trong quá khứ nơi chủ ngữ không phải là người thực hiện hành động. Cấu trúc S waswere V3ed. Trong đó S Chủ ngữ. waswere Động từ to be chia theo chủ ngữ. Was dùng với ngôi số ít I he she it và were dùng với ngôi số nhiều you we they. V3ed Động từ ở dạng quá khứ phân từ. Ví dụ The house was built in 1990. Trong câu này the house là chủ ngữ đã nhận hành động được xây dựng built vào năm 1990."
-    },
-    {
-        "input": "question Cấu trúc câu bị động ở thì hiện tại hoàn thành là gì?",
-        "target": "answer Câu bị động ở thì hiện tại hoàn thành được sử dụng để diễn tả một hành động đã xảy ra trong quá khứ và còn liên quan đến hiện tại. Cấu trúc S havehas been V3ed. Trong đó S Chủ ngữ. havehas Động từ to have chia theo chủ ngữ. Has dùng với ngôi số ít he she it và have dùng với các ngôi còn lại. been Động từ to be ở dạng quá khứ phân từ. V3ed Động từ ở dạng quá khứ phân từ. Ví dụ The project has been completed. Trong câu này the project là chủ ngữ đã nhận hành động hoàn thành completed và việc hoàn thành này còn liên quan đến hiện tại."
-    },
-    {
-        "input": "question Câu bị động có thể được sử dụng trong những thì nào?",
-        "target": "answer Câu bị động có thể được sử dụng trong hầu hết các thì trong tiếng Anh bao gồm Thì hiện tại đơn The book is read by many people. Thì quá khứ đơn The song was sung by the choir. Thì hiện tại hoàn thành The homework has been completed. Thì quá khứ hoàn thành The documents had been signed before the meeting. Thì tương lai đơn The project will be finished by next week. Thì tương lai hoàn thành The work will have been done by the deadline. Mỗi thì có cấu trúc riêng nhưng nguyên tắc chung là thay đổi động từ to be và sử dụng quá khứ phân từ V3ed của động từ chính."
-    },
-    {
-        "input": "question Khi nào nên sử dụng câu bị động thay vì câu chủ động?",
-        "target": "answer Sử dụng câu bị động khi Không biết ai thực hiện hành động The car was stolen. Không biết ai đã lấy trộm xe. Người thực hiện hành động không quan trọng The cake was eaten. Ai ăn bánh không quan trọng. Muốn nhấn mạnh vào hành động hoặc kết quả của hành động The novel was published in 2020. Nhấn mạnh vào việc xuất bản tiểu thuyết. Khi đối tượng của hành động quan trọng hơn chủ thể The patient was treated immediately. Nhấn mạnh vào việc điều trị bệnh nhân."
-    },
-    {
-        "input": "question Làm thế nào để chuyển từ câu chủ động sang câu bị động?",
-        "target": "answer Để chuyển từ câu chủ động sang câu bị động bạn có thể làm theo các bước sau 1. Xác định chủ ngữ động từ và tân ngữ trong câu chủ động. 2. Đổi tân ngữ thành chủ ngữ trong câu bị động. 3. Thay đổi động từ thành dạng bị động bằng cách sử dụng động từ to be phù hợp với thì và thêm quá khứ phân từ V3ed của động từ chính. 4. Giữ nguyên hoặc bỏ chủ ngữ nếu không quan trọng. Ví dụ Câu chủ động The teacher teaches the students. Câu bị động The students are taught by the teacher."
-    },
-    {
-        "input": "question Câu bị động có thể được rút gọn không?",
-        "target": "answer Có câu bị động có thể được rút gọn đặc biệt khi đại từ quan hệ by không cần thiết. Điều này thường xảy ra khi người thực hiện hành động không quan trọng hoặc không được nêu rõ. Ví dụ Câu đầy đủ The song was sung by the choir. Câu rút gọn The song was sung. Câu rút gọn vẫn giữ nguyên ý nghĩa nhưng ngắn gọn hơn."
-    },
-    {
-        "input": "question Có thể sử dụng câu bị động với động từ không cần tân ngữ không?",
-        "target": "answer Không câu bị động chỉ có thể được sử dụng với các động từ mà có tân ngữ. Nếu động từ không có tân ngữ thì không thể chuyển sang dạng bị động. Ví dụ Động từ có tân ngữ She reads the book. The book is read by her. Động từ không có tân ngữ He sleeps. Không thể chuyển thành câu bị động."
-    },
-    {
-        "input": "question Câu bị động có thể dùng trong văn viết chính thức không?",
-        "target": "answer Có câu bị động thường được sử dụng trong văn viết chính thức và học thuật chẳng hạn như trong tài liệu khoa học báo cáo hay luận văn. Việc sử dụng câu bị động giúp nhấn mạnh vào hành động hoặc kết quả thay vì chủ thể thực hiện hành động. Ví dụ The experiment was conducted to test the hypothesis. Nhấn mạnh vào thí nghiệm hơn là người thực hiện thí nghiệm."
-    },
-    {
-        "input": "question Cấu trúc so sánh hơn là gì?",
-        "target": "answer Cấu trúc so sánh hơn được sử dụng để so sánh hai đối tượng trong đó một đối tượng có đặc điểm hoặc tính chất nào đó vượt trội hơn đối tượng kia. Cấu trúc S V adjadv er than. Trong đó S Chủ ngữ subject. V Động từ verb. adjadv er Tính từ hoặc trạng từ được thêm er. Đối với tính từ một âm tiết ta thường thêm er vào cuối. Ví dụ tall thành taller. than Giới từ để chỉ sự so sánh. Ví dụ She is taller than me. Trong câu này taller là tính từ so sánh hơn cho thấy rằng she có chiều cao lớn hơn me. Lưu ý Đối với các tính từ dài hoặc các tính từ có hai âm tiết không kết thúc bằng y ta thường sử dụng more trước tính từ. Ví dụ more beautiful."
-    },
-    {
-        "input": "question Cấu trúc so sánh nhất là gì?",
-        "target": "answer Cấu trúc so sánh nhất được sử dụng để diễn tả rằng một đối tượng có đặc điểm hoặc tính chất vượt trội hơn tất cả các đối tượng khác trong một nhóm. Cấu trúc S V the adjadv est. Trong đó S Chủ ngữ. V Động từ. the adjadv est Tính từ hoặc trạng từ ở dạng so sánh nhất. Đối với tính từ một âm tiết ta thêm est vào cuối. Ví dụ tall thành tallest. Ví dụ He is the smartest student in the class. Trong câu này smartest cho thấy rằng he có độ thông minh lớn nhất so với tất cả các sinh viên khác trong lớp. Lưu ý Đối với các tính từ dài ta sử dụng most trước tính từ. Ví dụ the most beautiful."
-    },
-    {
-        "input": "question Cấu trúc so sánh bằng là gì?",
-        "target": "answer Cấu trúc so sánh bằng được sử dụng để diễn tả rằng hai đối tượng có đặc điểm hoặc tính chất tương đương nhau. Cấu trúc S V as adjadv as. Trong đó S Chủ ngữ. V Động từ. as adjadv as Tính từ hoặc trạng từ được sử dụng trong cấu trúc so sánh bằng. Ví dụ This book is as interesting as that one. Trong câu này as interesting as cho thấy rằng mức độ thú vị của this book tương đương với that one. Lưu ý Cấu trúc này có thể được sử dụng cho cả tính từ và trạng từ và nó cho thấy rằng hai đối tượng không khác nhau về mặt tính chất được so sánh."
-    },
-    {
-        "input": "question Có thể so sánh ba đối tượng không? Nếu có cấu trúc như thế nào?",
-        "target": "answer Có bạn có thể so sánh ba hoặc nhiều đối tượng bằng cách sử dụng cấu trúc so sánh hơn với the most hoặc the best cho đối tượng vượt trội nhất. Cấu trúc S V the adjadv est ofin group. Trong đó the adjadv est Tính từ hoặc trạng từ ở dạng so sánh nhất. ofin group Giới từ chỉ ra nhóm mà đối tượng thuộc về. Ví dụ She is the smartest of all the students in the class. Trong câu này smartest chỉ ra rằng she có độ thông minh lớn nhất trong số tất cả các sinh viên trong lớp."
-    },
-    {
-        "input": "question Tính từ nào không thể sử dụng với cấu trúc so sánh hơn?",
-        "target": "answer Một số tính từ không thể sử dụng với cấu trúc so sánh hơn vì chúng không có hình thức so sánh. Những tính từ này thường là những tính từ tuyệt đối hoặc có tính chất cố định. Ví dụ Tính từ như unique độc nhất perfect hoàn hảo và dead chết không thể được so sánh. Bạn không thể nói more unique hay more perfect. Cách sử dụng đúng This solution is unique. Giải pháp này là độc nhất. She is perfect. Cô ấy hoàn hảo."
-    },
-    {
-        "input": "question Làm thế nào để so sánh hai trạng từ?",
-        "target": "answer Cấu trúc so sánh cho trạng từ tương tự như cấu trúc so sánh cho tính từ nhưng bạn sẽ sử dụng trạng từ thay vì tính từ. Cấu trúc S V adv er than. đối với trạng từ một âm tiết S V more adv than. đối với trạng từ dài hơn một âm tiết Ví dụ She runs faster than her brother. Cô ấy chạy nhanh hơn anh trai. He speaks more clearly than anyone else. Anh ấy nói rõ hơn bất kỳ ai khác."
-    },
-    {
-        "input": "question Khi nào nên sử dụng the more... the more...?",
-        "target": "answer Cấu trúc the more... the more... được sử dụng để chỉ ra rằng khi một điều kiện gia tăng điều kiện khác cũng tăng theo. Cấu trúc The more adjadv S V the more S V. Ví dụ The more you practice the better you get. Trong câu này the more you practice chỉ ra rằng càng luyện tập nhiều thì the better you get bạn càng trở nên tốt hơn."
-    },
-    {
-        "input": "question Có thể sử dụng so sánh trong câu phủ định không?",
-        "target": "answer Có bạn có thể sử dụng cấu trúc so sánh trong câu phủ định. Điều này thường được thực hiện để chỉ ra rằng đối tượng không đủ tiêu chuẩn để so sánh. Cấu trúc S V not as adjadv as. Ví dụ This book is not as interesting as that one. Trong câu này not as interesting as cho thấy rằng mức độ thú vị của this book không bằng that one."
-    },
-    {
-        "input": "question Khi nào sử dụng although?",
-        "target": "answer Although là một liên từ được sử dụng để diễn tả sự tương phản giữa hai mệnh đề. Nó cho thấy rằng dù có một điều gì đó xảy ra thì một điều khác vẫn đúng hoặc diễn ra. Cấu trúc Although mệnh đề 1 mệnh đề 2. Ví dụ Although it was raining we went out. Trong câu này it was raining là một tình huống không thuận lợi nhưng we went out cho thấy rằng hành động ra ngoài vẫn diễn ra bất chấp thời tiết xấu. Lưu ý Although thường được sử dụng ở đầu câu hoặc giữa câu. Nếu although đứng ở đầu câu cần phải có dấu phẩy trước mệnh đề tiếp theo."
-    },
-    {
-        "input": "question Khi nào sử dụng because?",
-        "target": "answer Because là một liên từ được sử dụng để chỉ ra nguyên nhân hoặc lý do cho một hành động hoặc tình huống. Nó giúp giải thích tại sao một điều gì đó xảy ra. Cấu trúc Mệnh đề 1 because mệnh đề 2. Ví dụ She stayed home because she was sick. Trong câu này she was sick là nguyên nhân khiến she stayed home. Câu này làm rõ lý do tại sao cô ấy không ra ngoài. Lưu ý Because không cần phải có dấu phẩy trước nó trừ khi mệnh đề 1 là một câu độc lập và mệnh đề 2 là câu giải thích nguyên nhân."
-    },
-    {
-        "input": "question Khi nào sử dụng however?",
-        "target": "answer However là một liên từ được sử dụng để diễn tả sự tương phản tương tự như but. Nó thường được sử dụng để nối hai câu hoặc hai mệnh đề lại với nhau cho thấy rằng điều thứ hai trái ngược với điều thứ nhất. Cấu trúc Mệnh đề 1 however mệnh đề 2. Ví dụ He is rich however he is not happy. Trong câu này he is rich và he is not happy là hai mệnh đề trái ngược nhau. However làm nổi bật sự khác biệt giữa sự giàu có và cảm giác hạnh phúc của anh ta. Lưu ý However thường được đặt sau dấu chấm phẩy và trước dấu phẩy. Nó có thể sử dụng ở đầu câu hoặc giữa câu nhưng khi bắt đầu câu cần có dấu phẩy sau however."
-    },
-    {
-        "input": "question Cách sử dụng and trong câu?",
-        "target": "answer And là một liên từ được sử dụng để nối các từ cụm từ hoặc mệnh đề lại với nhau thể hiện sự bổ sung hoặc liên kết giữa các yếu tố. Cấu trúc Mệnh đề 1 and mệnh đề 2. Ví dụ I like coffee and tea. Trong câu này and nối hai danh từ coffee và tea để chỉ ra rằng cả hai đều được thích. Lưu ý And có thể được sử dụng để nối nhiều yếu tố trong cùng một câu. Nếu cả hai mệnh đề có chủ ngữ khác nhau có thể cần phải nhắc lại chủ ngữ."
-    },
-    {
-        "input": "question Khi nào sử dụng but?",
-        "target": "answer But là một liên từ được sử dụng để diễn tả sự tương phản giữa hai mệnh đề. Nó cho thấy rằng điều thứ hai trái ngược hoặc khác biệt so với điều thứ nhất. Cấu trúc Mệnh đề 1 but mệnh đề 2. Ví dụ I wanted to go for a walk but it was raining. Trong câu này I wanted to go for a walk là một mong muốn nhưng it was raining là lý do ngăn cản việc ấy xảy ra. Lưu ý But thường được sử dụng để nối hai mệnh đề độc lập lại với nhau và không cần dấu phẩy khi nối các yếu tố ngắn."
-    },
-    {
-        "input": "question Cách sử dụng or trong câu?",
-        "target": "answer Or là một liên từ được sử dụng để đưa ra sự lựa chọn hoặc sự thay thế giữa các yếu tố trong câu. Cấu trúc Mệnh đề 1 or mệnh đề 2. Ví dụ Would you like coffee or tea? Trong câu này or được sử dụng để đưa ra hai lựa chọn cho người nghe. Lưu ý Or có thể được sử dụng trong các cấu trúc lựa chọn phức tạp hơn như either... or... để nhấn mạnh sự lựa chọn."
-    },
-    {
-        "input": "question Khi nào sử dụng neither... nor...?",
-        "target": "answer Cấu trúc neither... nor... được sử dụng để diễn tả rằng hai điều đều không đúng hoặc không xảy ra. Cấu trúc Neither mệnh đề 1 nor mệnh đề 2. Ví dụ Neither the manager nor the employees were present. Trong câu này cấu trúc này cho thấy rằng cả the manager và the employees đều không có mặt. Lưu ý Khi sử dụng neither... nor... động từ thường được chia theo chủ ngữ gần nhất."
-    },
-    {
-        "input": "question Cách sử dụng whether... or...?",
-        "target": "answer Cấu trúc whether... or... được sử dụng để chỉ ra rằng có hai hoặc nhiều lựa chọn và một trong số đó sẽ được thực hiện. Cấu trúc Whether mệnh đề 1 or mệnh đề 2. Ví dụ I will go to the party whether you come or not. Trong câu này whether you come or not chỉ ra rằng quyết định đi đến bữa tiệc không phụ thuộc vào việc người khác có đi hay không. Lưu ý Whether thường được sử dụng khi có sự lựa chọn rõ ràng giữa hai hoặc nhiều khả năng."
-    }
-]
+{
+    "intents": [
+        {
+            "tag": "chào",
+            "patterns": [
+                "Xin chào",
+                "Chào bạn",
+                "Bạn khỏe không?",
+                "Có ai ở đó không?",
+                "Xin chào",
+                "Chúc một ngày tốt lành"
+            ],
+            "responses": [
+                "Chào bạn :-)",
+                "Xin chào, cảm ơn bạn đã ghé thăm",
+                "Xin chào, tôi có thể giúp gì cho bạn?",
+                "Xin chào, tôi có thể hỗ trợ bạn như thế nào?"
+            ]
+        },
+        {
+            "tag": "tạm biệt",
+            "patterns": [
+                "Tạm biệt",
+                "Hẹn gặp lại",
+                "Giã từ"
+            ],
+            "responses": [
+                "Hẹn gặp lại, cảm ơn bạn đã ghé thăm",
+                "Chúc bạn một ngày tốt lành",
+                "Tạm biệt! Hãy quay lại sớm nhé."
+            ]
+        },
+        {
+            "tag": "cảm ơn",
+            "patterns": [
+                "Cảm ơn",
+                "Cảm ơn bạn",
+                "Điều đó hữu ích",
+                "Cảm ơn rất nhiều!"
+            ],
+            "responses": [
+                "Rất vui được giúp đỡ!",
+                "Bất cứ lúc nào!",
+                "Vui lòng thôi"
+            ]
+        },
+        {
+            "tag": "bat_dau_on_luyen",
+            "patterns": [
+                "Tôi nên bắt đầu ôn luyện TOEIC từ đâu?",
+                "Tôi không biết bắt đầu ôn thi TOEIC từ đâu."
+            ],
+            "responses": [
+                "Bạn nên bắt đầu với các bài kiểm tra mẫu. Bắt đầu bằng cách làm quen với cấu trúc đề thi và các dạng câu hỏi sẽ giúp bạn hiểu rõ hơn về yêu cầu của kỳ thi."
+            ]
+        },
+        {
+            "tag": "tai_lieu_khuyen_dung",
+            "patterns": [
+                "Có tài liệu nào bạn khuyên dùng không?",
+                "Có tài liệu nào tốt cho việc ôn luyện không?",
+                "Có sách nào bạn gợi ý cho tôi không?"
+            ],
+            "responses": [
+                "Bạn có thể tham khảo sách Barrons TOEIC. Đây là một trong những tài liệu phổ biến và hữu ích cho việc ôn luyện TOEIC."
+            ]
+        },
+        {
+            "tag": "lich_trinh_on_luyen",
+            "patterns": [
+                "Lịch trình ôn luyện bao lâu thì đủ?",
+                "Thời gian ôn thi TOEIC là bao lâu?"
+            ],
+            "responses": [
+                "Tôi khuyên bạn nên ôn luyện ít nhất 3 tháng. Thời gian này sẽ cho bạn đủ thời gian để làm quen với từng phần của bài thi."
+            ]
+        },
+        {
+            "tag": "hoc_ki_nang",
+            "patterns": [
+                "Tôi nên học gì để chuẩn bị cho kỳ thi TOEIC?"
+            ],
+            "responses": [
+                "Bạn nên bắt đầu với các bài kiểm tra mẫu. Ngoài ra hãy chú trọng vào các kỹ năng ngôn ngữ như ngữ pháp, từ vựng và kỹ năng nghe."
+            ]
+        },
+        {
+            "tag": "so_cau_hoi",
+            "patterns": [
+                "Đề thi TOEIC có bao nhiêu phần?",
+                "Mỗi phần trong đề thi TOEIC có bao nhiêu câu hỏi?"
+            ],
+            "responses": [
+                "Đề thi TOEIC có 2 phần chính Listening và Reading. Mỗi phần có 100 câu hỏi."
+            ]
+        },
+        {
+            "tag": "toeic_time",
+            "patterns": [
+                "thời gian làm bài thi TOEIC là bao lâu",
+                "bài thi TOEIC kéo dài bao lâu",
+                "TOEIC thi trong bao lâu"
+            ],
+            "responses": [
+                "Thời gian làm bài thi TOEIC tổng cộng là 2 giờ. Trong đó, thí sinh có 45 phút cho phần Listening và 75 phút cho phần Reading.",
+                "Bài thi TOEIC kéo dài 2 tiếng, bao gồm 45 phút cho phần Nghe và 75 phút cho phần Đọc."
+            ]
+        },
+        {
+            "tag": "phuong_thuc_lam_thi_listening",
+            "patterns": [
+                "Phần Listening trong TOEIC gồm những dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Phần Listening gồm các dạng câu hỏi như sau Part 1 Photographs, Part 2 Questions and Responses, Part 3 Conversations, Part 4 Talks."
+            ]
+        },
+        {
+            "tag": "phuong_thuc_lam_thi_reading",
+            "patterns": [
+                "Phần Reading trong TOEIC gồm những dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Phần Reading gồm các dạng câu hỏi như sau Part 5 Incomplete Sentences, Part 6 Text Completion, Part 7 Reading Comprehension."
+            ]
+        },
+        {
+            "tag": "thong_tin_part_1",
+            "patterns": [
+                "Part 1 trong TOEIC là phần gì?"
+            ],
+            "responses": [
+                "Part 1 là phần Photographs. Trong phần này thí sinh sẽ nhìn vào một bức ảnh và nghe một câu mô tả."
+            ]
+        },
+        {
+            "tag": "yeu_cau_part_2",
+            "patterns": [
+                "Part 2 trong TOEIC yêu cầu thí sinh làm gì?"
+            ],
+            "responses": [
+                "Part 2 yêu cầu thí sinh nghe câu hỏi và chọn câu trả lời phù hợp nhất từ các lựa chọn."
+            ]
+        },
+        {
+            "tag": "so_sanh_part_3_va_part_4",
+            "patterns": [
+                "Part 3 và Part 4 trong TOEIC khác nhau như thế nào?"
+            ],
+            "responses": [
+                "Part 3 gồm các cuộc hội thoại giữa 2 hoặc nhiều người, trong khi Part 4 là các bài nói đơn lẻ."
+            ]
+        },
+        {
+            "tag": "ky_nang_part_5",
+            "patterns": [
+                "Part 5 trong TOEIC tập trung vào kỹ năng gì?"
+            ],
+            "responses": [
+                "Part 5 tập trung vào kỹ năng ngữ pháp và từ vựng thông qua các câu hỏi điền vào chỗ trống."
+            ]
+        },
+        {
+            "tag": "khac_biet_part_6_va_part_7",
+            "patterns": [
+                "Part 6 và Part 7 trong TOEIC có gì đặc biệt?"
+            ],
+            "responses": [
+                "Part 6 yêu cầu thí sinh hoàn thành các đoạn văn ngắn, trong khi Part 7 yêu cầu đọc và hiểu các đoạn văn dài hơn."
+            ]
+        },
+        {
+            "tag": "so_cau_hoi_listening",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong phần Listening?"
+            ],
+            "responses": [
+                "Có 100 câu hỏi trong phần Listening."
+            ]
+        },
+        {
+            "tag": "so_cau_hoi_reading",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong phần Reading?"
+            ],
+            "responses": [
+                "Có 100 câu hỏi trong phần Reading."
+            ]
+        },
+        {
+            "tag": "diem_so_toi_da",
+            "patterns": [
+                "Điểm số tối đa của bài thi TOEIC là bao nhiêu?"
+            ],
+            "responses": [
+                "Điểm số tối đa của bài thi TOEIC là 990 điểm."
+            ]
+        },
+        {
+            "tag": "cach_tinh_diem",
+            "patterns": [
+                "Cách tính điểm bài thi TOEIC như thế nào?"
+            ],
+            "responses": [
+                "Điểm số từ phần Listening và Reading được tính riêng và sau đó cộng lại để có tổng điểm."
+            ]
+        },
+        {
+            "tag": "phan_thi_noi_viet",
+            "patterns": [
+                "Có phần thi Nói và Viết trong TOEIC không?"
+            ],
+            "responses": [
+                "Đề thi TOEIC truyền thống không bao gồm phần thi Nói và Viết nhưng có một phiên bản khác gọi là TOEIC Speaking and Writing."
+            ]
+        },
+        {
+            "tag": "chuan_bi_truoc_thi",
+            "patterns": [
+                "Thí sinh cần chuẩn bị gì trước khi thi TOEIC?"
+            ],
+            "responses": [
+                "Thí sinh cần mang theo giấy tờ tùy thân và bút chì để làm bài."
+            ]
+        },
+        {
+            "tag": "danh_sach_dang_bai",
+            "patterns": [
+                "Đề thi TOEIC có bao nhiêu dạng bài?"
+            ],
+            "responses": [
+                "Đề thi TOEIC có nhiều dạng bài bao gồm các câu hỏi nghe, đọc hiểu, ngữ pháp và từ vựng."
+            ]
+        },
+        {
+            "tag": "thi_truc_tuyen",
+            "patterns": [
+                "Thí sinh có thể làm bài thi TOEIC trực tuyến không?"
+            ],
+            "responses": [
+                "Có, hiện nay có nhiều trung tâm tổ chức thi TOEIC trực tuyến."
+            ]
+        },
+        {
+            "tag": "thoi_gian_thong_bao_ket_qua",
+            "patterns": [
+                "Thời gian thông báo kết quả thi TOEIC là bao lâu?"
+            ],
+            "responses": [
+                "Kết quả thi TOEIC thường được công bố trong vòng 7-10 ngày làm việc."
+            ]
+        },
+        {
+            "tag": "thoi_han_diem_so",
+            "patterns": [
+                "Điểm số TOEIC có thời hạn bao lâu?"
+            ],
+            "responses": [
+                "Điểm số TOEIC có thời hạn trong 2 năm kể từ ngày thi."
+            ]
+        },
+        {
+            "tag": "cai_thien_ky_nang_nghe",
+            "patterns": [
+                "Làm thế nào để cải thiện kỹ năng nghe TOEIC?"
+            ],
+            "responses": [
+                "Nghe các bản tin podcast và video tiếng Anh hàng ngày."
+            ]
+        },
+        {
+            "tag": "cach_lam_part_1",
+            "patterns": [
+                "Cách làm phần Part 1 trong TOEIC hiệu quả?"
+            ],
+            "responses": [
+                "Quan sát kỹ hình ảnh và chú ý đến các chi tiết trong hình ảnh."
+            ]
+        },
+        {
+            "tag": "cach_lam_part_2",
+            "patterns": [
+                "Làm thế nào để làm tốt phần Part 2 trong TOEIC?"
+            ],
+            "responses": [
+                "Lắng nghe kỹ câu hỏi và phân tích các lựa chọn trước khi nghe."
+            ]
+        },
+        {
+            "tag": "phan_bon_phan_reading",
+            "patterns": [
+                "Cách phân bổ thời gian cho phần Reading trong TOEIC?"
+            ],
+            "responses": [
+                "Dành khoảng 1 phút cho mỗi câu hỏi cụ thể là 25 phút cho Part 5, 20 phút cho Part 6 và 30 phút cho Part 7."
+            ]
+        },
+        {
+            "tag": "cai_thien_ky_nang_doc_hieu",
+            "patterns": [
+                "Làm thế nào để cải thiện kỹ năng đọc hiểu TOEIC?"
+            ],
+            "responses": [
+                "Đọc sách báo tiếng Anh hàng ngày sẽ giúp bạn nâng cao từ vựng và khả năng hiểu văn bản."
+            ]
+        },
+        {
+            "tag": "cach_lam_part_5",
+            "patterns": [
+                "Cách làm phần Part 5 trong TOEIC nhanh và chính xác?"
+            ],
+            "responses": [
+                "Đọc kỹ câu và hiểu rõ ngữ cảnh của câu sẽ giúp bạn nhận diện được từ cần chọn."
+            ]
+        },
+        {
+            "tag": "cach_lam_part_7",
+            "patterns": [
+                "Làm thế nào để làm tốt phần Part 7 trong TOEIC?"
+            ],
+            "responses": [
+                "Đọc lướt qua đoạn văn và tìm kiếm thông tin cụ thể."
+            ]
+        },
+        {
+            "tag": "luyen_nghe_tai_nha",
+            "patterns": [
+                "Cách luyện nghe TOEIC tại nhà hiệu quả?"
+            ],
+            "responses": [
+                "Sử dụng tài nguyên đúng và chọn tài liệu luyện nghe phù hợp như bài nghe TOEIC audio từ sách học."
+            ]
+        },
+        {
+            "tag": "tang_toc_do_doc_hieu",
+            "patterns": [
+                "Làm thế nào để tăng tốc độ đọc hiểu trong TOEIC?"
+            ],
+            "responses": [
+                "Thực hành đọc nhanh và áp dụng kỹ thuật scanning và skimming."
+            ]
+        },
+        {
+            "tag": "xu_ly_cau_hoi_kho_reading",
+            "patterns": [
+                "Cách xử lý các câu hỏi khó trong phần Reading?"
+            ],
+            "responses": [
+                "Đọc kỹ câu hỏi và tìm kiếm từ khóa trong đoạn văn để xác định thông tin cần thiết."
+            ]
+        },
+        {
+            "tag": "ghi_nho_tu_vung",
+            "patterns": [
+                "Làm thế nào để ghi nhớ từ vựng TOEIC lâu hơn?"
+            ],
+            "responses": [
+                "Sử dụng flashcards và áp dụng từ vựng vào thực tế hàng ngày."
+            ]
+        },
+        {
+            "tag": "luyen_tap_part_3_va_4",
+            "patterns": [
+                "Cách luyện tập để làm tốt phần Part 3 và Part 4?"
+            ],
+            "responses": [
+                "Nghe các đoạn hội thoại thực tế và ghi chú trong quá trình nghe."
+            ]
+        },
+        {
+            "tag": "tranh_bay_trong_de_thi",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong đề thi TOEIC?"
+            ],
+            "responses": [
+                "Đọc kỹ câu hỏi và cẩn thận với các lựa chọn."
+            ]
+        },
+        {
+            "tag": "luyen_nghe_toc_do_cao",
+            "patterns": [
+                "Cách luyện nghe TOEIC với tốc độ nhanh?"
+            ],
+            "responses": [
+                "Nghe tài liệu tốc độ cao và điều chỉnh tốc độ phát lại ở mức thấp hơn rồi tăng dần."
+            ]
+        },
+        {
+            "tag": "dat_diem_cao",
+            "patterns": [
+                "Làm thế nào để làm bài thi TOEIC đạt điểm cao?"
+            ],
+            "responses": [
+                "Lên kế hoạch học tập và tham gia lớp học luyện thi TOEIC nếu có thể."
+            ]
+        },
+        {
+            "tag": "tham_gia_khoa_hoc",
+            "patterns": [
+                "Có nên tham gia khóa học luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "Có, tham gia khóa học luyện thi TOEIC có thể giúp bạn nhận được sự hướng dẫn từ giáo viên."
+            ]
+        },
+        {
+            "tag": "thoi_gian_hoc_optim",
+            "patterns": [
+                "Thời gian học TOEIC tối ưu là bao lâu?"
+            ],
+            "responses": [
+                "Tùy thuộc vào mức độ hiện tại, thời gian có thể kéo dài từ 3 tháng đến 1 năm."
+            ]
+        },
+        {
+            "tag": "phan_mem_luyen_thi",
+            "patterns": [
+                "Phần mềm nào giúp luyện thi TOEIC tốt?"
+            ],
+            "responses": [
+                "TOEIC Test cung cấp nhiều bài thi mẫu với cấu trúc giống như bài thi thực tế."
+            ]
+        },
+        {
+            "tag": "tai_lieu_mien_phi",
+            "patterns": [
+                "Có tài liệu nào miễn phí để luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "Nhiều tài nguyên miễn phí trên internet cung cấp tài liệu luyện thi TOEIC."
+            ]
+        },
+        {
+            "tag": "tu_danh_gia_trinh_do",
+            "patterns": [
+                "Làm thế nào để tự đánh giá trình độ TOEIC của mình?"
+            ],
+            "responses": [
+                "Làm các bài thi mẫu và so sánh điểm số của bạn với tiêu chuẩn để đánh giá trình độ."
+            ]
+        },
+        {
+            "tag": "tu_vung_thuong_gap",
+            "patterns": [
+                "Từ vựng thường gặp trong TOEIC là gì?"
+            ],
+            "responses": [
+                "Một số từ vựng quan trọng bao gồm revenue, profit, investment, và itinerary."
+            ]
+        },
+        {
+            "tag": "cau_truc_ngu_phap",
+            "patterns": [
+                "Cấu trúc ngữ pháp nào quan trọng trong TOEIC?"
+            ],
+            "responses": [
+                "Cần hiểu và sử dụng đúng các thì cơ bản như hiện tại đơn, hiện tại tiếp diễn, quá khứ đơn và tương lai."
+            ]
+        },
+        {
+            "tag": "hoc_tu_vung_hieu_qua",
+            "patterns": [
+                "Làm thế nào để học từ vựng TOEIC hiệu quả?"
+            ],
+            "responses": [
+                "Sử dụng flashcards và ôn tập thường xuyên để củng cố kiến thức."
+            ]
+        },
+        {
+            "tag": "cum_tu_thuong_xuat_hien",
+            "patterns": [
+                "Những cụm từ thường xuất hiện trong phần Listening TOEIC?"
+            ],
+            "responses": [
+                "Các cụm từ thông dụng như Can you please..., I would like to..., In order to..., According to..."
+            ]
+        },
+        {
+            "tag": "phan_biet_thi",
+            "patterns": [
+                "Cách phân biệt các thì trong tiếng Anh khi làm TOEIC?"
+            ],
+            "responses": [
+                "Thì hiện tại dùng cho hành động đang diễn ra, thì quá khứ dùng cho hành động đã xảy ra, thì tương lai dùng cho hành động sẽ xảy ra."
+            ]
+        },
+        {
+            "tag": "gioi_tu_thuong_gap",
+            "patterns": [
+                "Những giới từ thường gặp trong TOEIC?"
+            ],
+            "responses": [
+                "Giới từ chỉ thời gian: in, on, at; Giới từ chỉ địa điểm: in, on, at."
+            ]
+        },
+        {
+            "tag": "nhan_biet_loai_tu",
+            "patterns": [
+                "Cách nhận biết các loại từ danh từ động từ tính từ trong TOEIC?"
+            ],
+            "responses": [
+                "Danh từ thường có mạo từ đứng trước, động từ có thể xuất hiện ở dạng nguyên thể, quá khứ hoặc gerund."
+            ]
+        },
+        {
+            "tag": "cau_truc_cau_pho_bien",
+            "patterns": [
+                "Những cấu trúc câu phổ biến trong phần Reading TOEIC?"
+            ],
+            "responses": [
+                "Câu đơn giản S V O, câu phức có mệnh đề chính và mệnh đề phụ."
+            ]
+        },
+        {
+            "tag": "lam_tot_ngu_phap_part_5",
+            "patterns": [
+                "Làm thế nào để làm tốt phần ngữ pháp trong Part 5?"
+            ],
+            "responses": [
+                "Đọc kỹ câu và hiểu ngữ cảnh trước khi chọn từ."
+            ]
+        },
+        {
+            "tag": "phan_mem_luyen_thi",
+            "patterns": [
+                "Phần mềm nào giúp luyện thi TOEIC tốt?"
+            ],
+            "responses": [
+                "TOEIC Test cung cấp nhiều bài thi mẫu với cấu trúc giống như bài thi thực tế."
+            ]
+        },
+        {
+            "tag": "tai_lieu_mien_phi",
+            "patterns": [
+                "Có tài liệu nào miễn phí để luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "Nhiều tài nguyên miễn phí trên internet cung cấp tài liệu luyện thi TOEIC."
+            ]
+        },
+        {
+            "tag": "tu_danh_gia_trinh_do",
+            "patterns": [
+                "Làm thế nào để tự đánh giá trình độ TOEIC của mình?"
+            ],
+            "responses": [
+                "Làm các bài thi mẫu và so sánh điểm số của bạn với tiêu chuẩn để đánh giá trình độ."
+            ]
+        },
+        {
+            "tag": "tu_vung_thuong_gap",
+            "patterns": [
+                "Từ vựng thường gặp trong TOEIC là gì?"
+            ],
+            "responses": [
+                "Một số từ vựng quan trọng bao gồm revenue, profit, investment, và itinerary."
+            ]
+        },
+        {
+            "tag": "cau_truc_ngu_phap",
+            "patterns": [
+                "Cấu trúc ngữ pháp nào quan trọng trong TOEIC?"
+            ],
+            "responses": [
+                "Cần hiểu và sử dụng đúng các thì cơ bản như hiện tại đơn, hiện tại tiếp diễn, quá khứ đơn và tương lai."
+            ]
+        },
+        {
+            "tag": "hoc_tu_vung_hieu_qua",
+            "patterns": [
+                "Làm thế nào để học từ vựng TOEIC hiệu quả?"
+            ],
+            "responses": [
+                "Sử dụng flashcards và ôn tập thường xuyên để củng cố kiến thức."
+            ]
+        },
+        {
+            "tag": "cum_tu_thuong_xuat_hien",
+            "patterns": [
+                "Những cụm từ thường xuất hiện trong phần Listening TOEIC?"
+            ],
+            "responses": [
+                "Các cụm từ thông dụng như Can you please..., I would like to..., In order to..., According to..."
+            ]
+        },
+        {
+            "tag": "phan_biet_thi",
+            "patterns": [
+                "Cách phân biệt các thì trong tiếng Anh khi làm TOEIC?"
+            ],
+            "responses": [
+                "Thì hiện tại dùng cho hành động đang diễn ra, thì quá khứ dùng cho hành động đã xảy ra, thì tương lai dùng cho hành động sẽ xảy ra."
+            ]
+        },
+        {
+            "tag": "gioi_tu_thuong_gap",
+            "patterns": [
+                "Những giới từ thường gặp trong TOEIC?"
+            ],
+            "responses": [
+                "Giới từ chỉ thời gian: in, on, at; Giới từ chỉ địa điểm: in, on, at."
+            ]
+        },
+        {
+            "tag": "nhan_biet_loai_tu",
+            "patterns": [
+                "Cách nhận biết các loại từ danh từ động từ tính từ trong TOEIC?"
+            ],
+            "responses": [
+                "Danh từ thường có mạo từ đứng trước, động từ có thể xuất hiện ở dạng nguyên thể, quá khứ hoặc gerund."
+            ]
+        },
+        {
+            "tag": "cau_truc_cau_pho_bien",
+            "patterns": [
+                "Những cấu trúc câu phổ biến trong phần Reading TOEIC?"
+            ],
+            "responses": [
+                "Câu đơn giản S V O, câu phức có mệnh đề chính và mệnh đề phụ."
+            ]
+        },
+        {
+            "tag": "lam_tot_ngu_phap_part_5",
+            "patterns": [
+                "Làm thế nào để làm tốt phần ngữ pháp trong Part 5?"
+            ],
+            "responses": [
+                "Đọc kỹ câu và hiểu ngữ cảnh trước khi chọn từ."
+            ]
+        },
+        {
+            "tag": "tu_dong_nghia",
+            "patterns": [
+                "Những từ đồng nghĩa thường gặp trong TOEIC?"
+            ],
+            "responses": [
+                "Một số từ đồng nghĩa như begin/start, assist/help, finish/complete, purchase/buy, important/essential."
+            ]
+        },
+        {
+            "tag": "cuam_dong_tu_phrasal_verbs",
+            "patterns": [
+                "Cách học cụm động từ phrasal verbs cho TOEIC?"
+            ],
+            "responses": [
+                "Tạo danh sách các cụm động từ phổ biến và nghĩa của chúng."
+            ]
+        },
+        {
+            "tag": "loi_ngu_phap_thuong_gap",
+            "patterns": [
+                "Những lỗi ngữ pháp thường gặp trong TOEIC?"
+            ],
+            "responses": [
+                "Các lỗi phổ biến bao gồm sử dụng sai thì, thiếu chủ ngữ, và sử dụng sai giới từ."
+            ]
+        },
+        {
+            "tag": "su_dung_mao_tu",
+            "patterns": [
+                "Cách sử dụng mạo từ a an the trong TOEIC?"
+            ],
+            "responses": [
+                "Mạo từ không xác định a dùng với phụ âm, an với nguyên âm, the dùng khi đề cập đến đối tượng cụ thể."
+            ]
+        },
+        {
+            "tag": "tu_noi_linking_words",
+            "patterns": [
+                "Những từ nối linking words thường gặp trong TOEIC?"
+            ],
+            "responses": [
+                "Một số từ nối như and, but, so, therefore, however, although."
+            ]
+        },
+        {
+            "tag": "bai_tap_dien_tu",
+            "patterns": [
+                "Cách làm bài tập điền từ vào chỗ trống trong TOEIC?"
+            ],
+            "responses": [
+                "Đọc kỹ câu, phân tích từ vựng và dự đoán từ cần điền."
+            ]
+        },
+        {
+            "tag": "su_dung_tu_dien",
+            "patterns": [
+                "Có nên sử dụng từ điển khi làm bài TOEIC không?"
+            ],
+            "responses": [
+                "Có thể sử dụng từ điển nhưng nên hạn chế vì thời gian có hạn."
+            ]
+        },
+        {
+            "tag": "xac_dinh_trong_am",
+            "patterns": [
+                "Cách xác định trọng âm trong từ vựng TOEIC?"
+            ],
+            "responses": [
+                "Trọng âm thường đặt ở âm tiết đầu tiên hoặc âm tiết thứ hai tùy thuộc vào từ."
+            ]
+        },
+        {
+            "tag": "cai_thien_ky_nang_viet",
+            "patterns": [
+                "Làm thế nào để cải thiện kỹ năng viết cho TOEIC?"
+            ],
+            "responses": [
+                "Thực hành viết đoạn văn ngắn sử dụng từ vựng và ngữ pháp đã học."
+            ]
+        },
+        {
+            "tag": "tham_gia_lop_hoc_tieng_anh",
+            "patterns": [
+                "Có nên tham gia lớp học tiếng Anh trước khi thi TOEIC không?"
+            ],
+            "responses": [
+                "Tham gia lớp học có thể giúp bạn ôn tập và nhận được phản hồi từ giáo viên."
+            ]
+        },
+        {
+            "tag": "hoc_cau_truc_ngu_phap",
+            "patterns": [
+                "Làm thế nào để ghi nhớ các cấu trúc ngữ pháp hiệu quả?"
+            ],
+            "responses": [
+                "Tạo bảng tóm tắt các cấu trúc ngữ pháp và ôn tập thường xuyên."
+            ]
+        },
+        {
+            "tag": "tai_lieu_on_thi",
+            "patterns": [
+                "Tài liệu nào phù hợp để ôn thi TOEIC?"
+            ],
+            "responses": [
+                "Tài liệu ôn thi nên bao gồm sách giáo trình, bài tập thực hành và các đề thi mẫu."
+            ]
+        },
+        {
+            "tag": "sach_luyen_nghe",
+            "patterns": [
+                "Sách nào tốt để luyện nghe TOEIC?"
+            ],
+            "responses": [
+                "Target TOEIC Second Edition bao gồm nhiều bài nghe và câu hỏi thực hành giúp cải thiện kỹ năng nghe."
+            ]
+        },
+        {
+            "tag": "sach_luyen_doc",
+            "patterns": [
+                "Sách nào tốt để luyện đọc TOEIC?"
+            ],
+            "responses": [
+                "Reading Comprehension for the TOEIC cung cấp các bài đọc và câu hỏi theo định dạng TOEIC."
+            ]
+        },
+        {
+            "tag": "ung_dung_hong_thi",
+            "patterns": [
+                "Có ứng dụng nào hỗ trợ luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "TOEIC Test Pro cung cấp nhiều bài thi mẫu và bài tập."
+            ]
+        },
+        {
+            "tag": "tai_lieu_hoc_tu_vung",
+            "patterns": [
+                "Tài liệu nào giúp học từ vựng TOEIC hiệu quả?"
+            ],
+            "responses": [
+                "TOEIC Vocabulary Flashcards giúp bạn ghi nhớ từ vựng nhanh chóng."
+            ]
+        },
+        {
+            "tag": "sach_moi_bat_dau",
+            "patterns": [
+                "Sách nào phù hợp cho người mới bắt đầu học TOEIC?"
+            ],
+            "responses": [
+                "Oxford Preparation Course for the TOEIC rất phù hợp với người mới bắt đầu."
+            ]
+        },
+        {
+            "tag": "website_mien_phi",
+            "patterns": [
+                "Có trang web nào miễn phí để luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "ETS TOEICs Official Website cung cấp một số tài nguyên miễn phí."
+            ]
+        },
+        {
+            "tag": "tai_lieu_luyen_de_thi",
+            "patterns": [
+                "Tài liệu nào giúp luyện đề thi TOEIC sát với thực tế?"
+            ],
+            "responses": [
+                "Official TOEIC Practice Tests được thiết kế tương tự như trong bài thi thực tế."
+            ]
+        },
+        {
+            "tag": "sach_luyen_ky_nang_nhanh",
+            "patterns": [
+                "Sách nào giúp luyện kỹ năng làm bài TOEIC nhanh?"
+            ],
+            "responses": [
+                "TOEIC Test Success tập trung vào các chiến lược làm bài và mẹo để đạt điểm cao."
+            ]
+        },
+        {
+            "tag": "sach_tap_trung_part_7",
+            "patterns": [
+                "Có sách nào tập trung vào Part 7 trong TOEIC không?"
+            ],
+            "responses": [
+                "TOEIC Reading Part 7 Strategies cung cấp các chiến lược và bài tập cho Part 7."
+            ]
+        },
+        {
+            "tag": "tai_lieu_luyen_ngu_phap",
+            "patterns": [
+                "Tài liệu nào giúp luyện ngữ pháp TOEIC hiệu quả?"
+            ],
+            "responses": [
+                "English Grammar for the TOEIC cung cấp lý thuyết và bài tập ngữ pháp."
+            ]
+        },
+        {
+            "tag": "sach_luyen_cap_toc",
+            "patterns": [
+                "Sách nào phù hợp để luyện thi TOEIC cấp tốc?"
+            ],
+            "responses": [
+                "TOEIC in 30 Days cung cấp lộ trình ôn tập nhanh chóng và hiệu quả."
+            ]
+        },
+        {
+            "tag": "sach_chuyen_tu_vung",
+            "patterns": [
+                "Có sách nào chuyên về từ vựng TOEIC không?"
+            ],
+            "responses": [
+                "TOEIC Vocabulary Builder cung cấp từ vựng cần thiết cho bài thi cùng với bài tập thực hành."
+            ]
+        },
+        {
+            "tag": "tai_lieu_luyen_nghe",
+            "patterns": [
+                "Tài liệu nào giúp luyện kỹ năng nghe TOEIC từ cơ bản đến nâng cao?"
+            ],
+            "responses": [
+                "Comprehensive Listening for the TOEIC hướng dẫn từ cơ bản đến nâng cao với nhiều bài nghe thực tế."
+            ]
+        },
+        {
+            "tag": "sach_luyen_diem_cao",
+            "patterns": [
+                "Sách nào phù hợp để luyện thi TOEIC đạt 800?"
+            ],
+            "responses": [
+                "Cracking the TOEIC cung cấp các chiến lược và mẹo để đạt điểm cao."
+            ]
+        },
+        {
+            "tag": "tham_gia_lop_hoc",
+            "patterns": [
+                "Có nên tham gia lớp học luyện thi TOEIC không?"
+            ],
+            "responses": [
+                "Tham gia lớp học có thể giúp bạn nhận được sự hướng dẫn từ giáo viên."
+            ]
+        },
+        {
+            "tag": "thoi_gian_hoc_toi_uu",
+            "patterns": [
+                "Thời gian học TOEIC tối ưu là bao lâu?"
+            ],
+            "responses": [
+                "Thời gian học thường từ 3 đến 6 tháng là hợp lý để chuẩn bị."
+            ]
+        },
+        {
+            "tag": "chon_sach_luyen_thi",
+            "patterns": [
+                "Cách chọn sách luyện thi TOEIC phù hợp?"
+            ],
+            "responses": [
+                "Lựa chọn sách dựa trên mục tiêu của bạn và phong cách học tập."
+            ]
+        },
+        {
+            "tag": "luyen_thi_video_youtube",
+            "patterns": [
+                "Có nên luyện thi TOEIC qua các video trên YouTube không?"
+            ],
+            "responses": [
+                "Có rất nhiều video hữu ích giúp bạn cải thiện kỹ năng nghe."
+            ]
+        },
+        {
+            "tag": "meo_thi",
+            "patterns": [
+                "Các mẹo thi TOEIC nào cần nhớ?"
+            ],
+            "responses": [
+                "Quản lý thời gian và thực hành nhiều đề thi mẫu để quen với định dạng."
+            ]
+        },
+        {
+            "tag": "quan_ly_thoi_gian_thi",
+            "patterns": [
+                "Làm thế nào để quản lý thời gian khi thi TOEIC?"
+            ],
+            "responses": [
+                "Lập kế hoạch cho từng phần thi và theo dõi thời gian sử dụng đồng hồ."
+            ]
+        },
+        {
+            "tag": "giu_binh_tinh_khi_thi",
+            "patterns": [
+                "Cách giữ bình tĩnh khi thi TOEIC?"
+            ],
+            "responses": [
+                "Thực hành thi thử và hít thở sâu trước khi bắt đầu thi."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_diem_cao",
+            "patterns": [
+                "Kinh nghiệm làm bài thi TOEIC đạt điểm cao?"
+            ],
+            "responses": [
+                "Ôn tập đều đặn và thực hành làm bài thi mẫu."
+            ]
+        },
+        {
+            "tag": "chuan_bi_tam_ly",
+            "patterns": [
+                "Cách chuẩn bị tâm lý trước khi thi TOEIC?"
+            ],
+            "responses": [
+                "Có lịch trình ôn tập hợp lý và thư giãn trước ngày thi."
+            ]
+        },
+        {
+            "tag": "tap_trung_phong_thi",
+            "patterns": [
+                "Làm thế nào để tập trung trong phòng thi TOEIC?"
+            ],
+            "responses": [
+                "Tránh phân tâm và đọc kỹ từng câu hỏi một."
+            ]
+        },
+        {
+            "tag": "xu_ly_cau_hỏi_kho",
+            "patterns": [
+                "Cách xử lý khi gặp câu hỏi khó trong TOEIC?"
+            ],
+            "responses": [
+                "Đánh dấu câu hỏi và sử dụng phương pháp loại trừ để quyết định."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_listening",
+            "patterns": [
+                "Kinh nghiệm làm bài thi TOEIC phần Listening?"
+            ],
+            "responses": [
+                "Lắng nghe kỹ và ghi chú lại thông tin quan trọng."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_part_reading",
+            "patterns": [
+                "Kinh nghiệm làm bài thi TOEIC phần Reading?"
+            ],
+            "responses": [
+                "Sử dụng kỹ thuật đọc lướt để tìm kiếm thông tin chính."
+            ]
+        },
+        {
+            "tag": "phan_bo_thoi_gian",
+            "patterns": [
+                "Cách phân bổ thời gian cho từng phần trong TOEIC?"
+            ],
+            "responses": [
+                "Phần Listening 45 phút cho 100 câu hỏi; phần Reading 75 phút cho 100 câu hỏi."
+            ]
+        },
+        {
+            "tag": "tranh_mat_diem_oan",
+            "patterns": [
+                "Làm thế nào để tránh bị mất điểm oan trong TOEIC?"
+            ],
+            "responses": [
+                "Đọc kỹ câu hỏi và không chọn ngẫu nhiên."
+            ]
+        },
+        {
+            "tag": "on_tap_tuan_cuoi",
+            "patterns": [
+                "Cách ôn tập trong tuần cuối trước khi thi TOEIC?"
+            ],
+            "responses": [
+                "Ôn tập nhẹ nhàng và làm một số bài thi mẫu."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_cho_nguoi_moi_bat_dau",
+            "patterns": [
+                "Kinh nghiệm thi TOEIC cho người mới bắt đầu?"
+            ],
+            "responses": [
+                "Nắm vững ngữ pháp cơ bản và thực hành đều đặn."
+            ]
+        },
+        {
+            "tag": "lam_bai_khi_khong_co_nhieu_thoi_gian",
+            "patterns": [
+                "Cách làm bài thi TOEIC khi không có nhiều thời gian ôn tập?"
+            ],
+            "responses": [
+                "Tập trung vào các phần quan trọng và sử dụng tài liệu tóm tắt."
+            ]
+        },
+        {
+            "tag": "dat_diem_cao_part_listening",
+            "patterns": [
+                "Làm thế nào để đạt điểm cao trong phần Listening TOEIC?"
+            ],
+            "responses": [
+                "Luyện nghe thường xuyên và ghi chú thông tin quan trọng."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_cho_nguoi_di_lam",
+            "patterns": [
+                "Kinh nghiệm thi TOEIC cho người đi làm?"
+            ],
+            "responses": [
+                "Sắp xếp thời gian hợp lý và học từ vựng theo chủ đề công việc."
+            ]
+        },
+        {
+            "tag": "ghi_nho_tu_vung_hieu_qua",
+            "patterns": [
+                "Cách ghi nhớ từ vựng hiệu quả khi ôn thi TOEIC?"
+            ],
+            "responses": [
+                "Sử dụng flashcards và học từ trong ngữ cảnh."
+            ]
+        },
+        {
+            "tag": "tham_gia_lop_hoc",
+            "patterns": [
+                "Tại sao nên tham gia lớp học luyện thi TOEIC?"
+            ],
+            "responses": [
+                "Hướng dẫn từ giáo viên và tạo động lực học tập."
+            ]
+        },
+        {
+            "tag": "su_dung_tu_dien",
+            "patterns": [
+                "Có nên sử dụng từ điển khi làm bài thi TOEIC không?"
+            ],
+            "responses": [
+                "Nên hạn chế sử dụng từ điển trong điều kiện thi thực tế."
+            ]
+        },
+        {
+            "tag": "toan_tinh_kha_nang_nghe",
+            "patterns": [
+                "Cách tối ưu hóa kỹ năng nghe trong thời gian ngắn?"
+            ],
+            "responses": [
+                "Nghe nhiều loại tài liệu khác nhau và thực hành nghe chủ động."
+            ]
+        },
+        {
+            "tag": "danh_gia_tien_bo",
+            "patterns": [
+                "Cách đánh giá tiến bộ trong quá trình ôn tập?"
+            ],
+            "responses": [
+                "Thực hiện bài kiểm tra mẫu thường xuyên và ghi lại điểm số."
+            ]
+        },
+        {
+            "tag": "part_1_cau_hoi",
+            "patterns": [
+                "Part 1 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 1 là phần mô tả tranh với 4 câu mô tả khác nhau."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_1",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 1 trong TOEIC?"
+            ],
+            "responses": [
+                "Tập trung quan sát tranh và nghe kỹ các mô tả."
+            ]
+        },
+        {
+            "tag": "loai_tranh_part_1",
+            "patterns": [
+                "Có những loại tranh nào thường xuất hiện trong Part 1?"
+            ],
+            "responses": [
+                "Các cảnh trong văn phòng, nhà hàng, siêu thị hoặc ngoài trời."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_1",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 1?"
+            ],
+            "responses": [
+                "Chú ý đến các chi tiết nhỏ trong tranh để xác định câu chính xác."
+            ]
+        },
+        {
+            "tag": "so_cau_part_1",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 1?"
+            ],
+            "responses": [
+                "Part 1 có 6 câu hỏi với 4 câu mô tả cho mỗi bức tranh."
+            ]
+        },
+        {
+            "tag": "prepare_part_1",
+            "patterns": [
+                "Cách chuẩn bị cho Part 1 trong TOEIC?"
+            ],
+            "responses": [
+                "Thực hành với tranh và làm quen với các loại tranh thường gặp."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_1",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 1 không?"
+            ],
+            "responses": [
+                "Có nhưng hạn chế; ghi chú có thể giúp bạn nhớ lại các chi tiết quan trọng."
+            ]
+        },
+        {
+            "tag": "thoi_gian_part_1",
+            "patterns": [
+                "Thời gian làm Part 1 là bao lâu?"
+            ],
+            "responses": [
+                "Thời gian cho Part 1 là khoảng 6 phút."
+            ]
+        },
+        {
+            "tag": "cai_thien_ky_nang_nghe_part_1",
+            "patterns": [
+                "Làm thế nào để cải thiện kỹ năng nghe cho Part 1?"
+            ],
+            "responses": [
+                "Nghe các đoạn hội thoại thực tế và chú ý đến cách mọi người mô tả hình ảnh."
+            ]
+        },
+        {
+            "tag": "hoc_tu_vung_chuyen_nganh",
+            "patterns": [
+                "Có cần học từ vựng chuyên ngành không?"
+            ],
+            "responses": [
+                "Có, việc học từ vựng liên quan đến các chủ đề thường gặp sẽ giúp ích."
+            ]
+        },
+        {
+            "tag": "phuong_phap_chon_cau_dung_part_1",
+            "patterns": [
+                "Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 1?"
+            ],
+            "responses": [
+                "Phân tích các từ khóa trong từng câu mô tả."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_1",
+            "patterns": [
+                "Có nên làm bài kiểm tra mẫu cho Part 1 không?"
+            ],
+            "responses": [
+                "Rất nên, làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi."
+            ]
+        },
+        {
+            "tag": "tu_tin_lam_part_1",
+            "patterns": [
+                "Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 1?"
+            ],
+            "responses": [
+                "Thực hành thường xuyên và tham gia vào các nhóm học."
+            ]
+        },
+        {
+            "tag": "yeu_to_anh_huong_diem_so_part_1",
+            "patterns": [
+                "Các yếu tố nào ảnh hưởng đến điểm số trong Part 1?"
+            ],
+            "responses": [
+                "Kỹ năng nghe, khả năng quan sát và vốn từ vựng phong phú."
+            ]
+        },
+        {
+            "tag": "part_2_cau_hoi",
+            "patterns": [
+                "Part 2 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 2 là phần hỏi đáp, bạn sẽ nghe một câu hỏi và chọn câu trả lời phù hợp."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_2",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 2?"
+            ],
+            "responses": [
+                "Tập trung nghe từ khóa trong câu hỏi."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_2",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 2?"
+            ],
+            "responses": [
+                "Part 2 có các loại câu hỏi như hỏi thông tin, Yes/No và lựa chọn."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_2",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 2?"
+            ],
+            "responses": [
+                "Chú ý đến các câu trả lời có từ khóa tương tự nhưng không liên quan."
+            ]
+        },
+        {
+            "tag": "so_cau_part_2",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 2?"
+            ],
+            "responses": [
+                "Part 2 có 25 câu hỏi với 3 lựa chọn trả lời cho mỗi câu."
+            ]
+        },
+        {
+            "tag": "prepare_part_2",
+            "patterns": [
+                "Cách chuẩn bị cho Part 2 trong TOEIC?"
+            ],
+            "responses": [
+                "Thực hành nghe các đoạn hội thoại tiếng Anh, đặc biệt là các tình huống giao tiếp hàng ngày."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_2",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 2 không?"
+            ],
+            "responses": [
+                "Có nhưng hạn chế; ghi chú có thể giúp bạn nhớ lại câu hỏi và các lựa chọn trả lời."
+            ]
+        },
+        {
+            "tag": "thoi_gian_part_2",
+            "patterns": [
+                "Thời gian làm Part 2 là bao lâu?"
+            ],
+            "responses": [
+                "Thời gian cho Part 2 là khoảng 25 phút."
+            ]
+        },
+        {
+            "tag": "cai_thien_ky_nang_nghe_part_2",
+            "patterns": [
+                "Làm thế nào để cải thiện kỹ năng nghe cho Part 2?"
+            ],
+            "responses": [
+                "Xem phim hoặc chương trình tiếng Anh có phụ đề để cải thiện khả năng nghe."
+            ]
+        },
+        {
+            "tag": "hoc_tu_vung_part_2",
+            "patterns": [
+                "Có cần học từ vựng liên quan đến các chủ đề trong Part 2 không?"
+            ],
+            "responses": [
+                "Có, việc học từ vựng liên quan đến các chủ đề thường gặp sẽ giúp bạn dễ dàng hiểu câu hỏi."
+            ]
+        },
+        {
+            "tag": "phuong_phap_chon_cau_dung_part_2",
+            "patterns": [
+                "Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 2?"
+            ],
+            "responses": [
+                "Lắng nghe kỹ và phân tích câu hỏi để xác định chủ đề chính và từ khóa."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_2",
+            "patterns": [
+                "Có nên làm bài kiểm tra mẫu cho Part 2 không?"
+            ],
+            "responses": [
+                "Rất nên, làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi."
+            ]
+        },
+        {
+            "tag": "tu_tin_lam_part_2",
+            "patterns": [
+                "Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 2?"
+            ],
+            "responses": [
+                "Thực hành liên tục với các bài kiểm tra mẫu."
+            ]
+        },
+        {
+            "tag": "yeu_to_anh_huong_diem_so_part_2",
+            "patterns": [
+                "Các yếu tố nào ảnh hưởng đến điểm số trong Part 2?"
+            ],
+            "responses": [
+                "Kỹ năng nghe và khả năng phân tích câu hỏi và câu trả lời."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_hieu_cau_hoi_part_2",
+            "patterns": [
+                "Cách xử lý khi không hiểu câu hỏi trong Part 2?"
+            ],
+            "responses": [
+                "Đừng hoảng sợ, hãy lắng nghe cẩn thận và nắm bắt từ khóa chính."
+            ]
+        },
+        {
+            "tag": "part_3_cau_hoi",
+            "patterns": [
+                "Part 3 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 3 là phần hội thoại ngắn, bạn sẽ nghe một đoạn hội thoại và trả lời câu hỏi."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_3",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 3?"
+            ],
+            "responses": [
+                "Tập trung nghe các chi tiết như tên người, địa điểm, thời gian."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_3",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 3?"
+            ],
+            "responses": [
+                "Part 3 có các câu hỏi về thông tin chi tiết, ý chính và suy luận."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_3",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 3?"
+            ],
+            "responses": [
+                "Chú ý đến các từ đồng âm hoặc từ gây nhiễu."
+            ]
+        },
+        {
+            "tag": "so_cau_part_3",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 3?"
+            ],
+            "responses": [
+                "Part 3 có 39 câu hỏi chia thành 13 đoạn hội thoại."
+            ]
+        },
+        {
+            "tag": "prepare_part_3",
+            "patterns": [
+                "Cách chuẩn bị cho Part 3 trong TOEIC?"
+            ],
+            "responses": [
+                "Luyện nghe hội thoại thực tế từ phim hoặc chương trình truyền hình."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_3",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 3 không?"
+            ],
+            "responses": [
+                "Có nhưng nên ghi chú các điểm quan trọng để giúp nhớ dễ hơn."
+            ]
+        },
+        {
+            "tag": "thoi_gian_part_3",
+            "patterns": [
+                "Thời gian làm Part 3 là bao lâu?"
+            ],
+            "responses": [
+                "Thời gian cho Part 3 là khoảng 30 phút."
+            ]
+        },
+        {
+            "tag": "cai_thien_kha_nang_lan_ngoan_part_3",
+            "patterns": [
+                "Làm thế nào để cải thiện khả năng lắng nghe cho Part 3?"
+            ],
+            "responses": [
+                "Thực hành với các bài tập nghe và sử dụng tài liệu luyện thi."
+            ]
+        },
+        {
+            "tag": "chu_y_ngu_dieu_part_3",
+            "patterns": [
+                "Có cần chú ý đến ngữ điệu trong Part 3 không?"
+            ],
+            "responses": [
+                "Có, ngữ điệu rất quan trọng để hiểu rõ hơn về cảm xúc và ý định của người nói."
+            ]
+        },
+        {
+            "tag": "phuong_phap_chon_cau_dung_part_3",
+            "patterns": [
+                "Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 3?"
+            ],
+            "responses": [
+                "Lắng nghe kỹ và phân tích các từ khoá và thông tin chính."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_3",
+            "patterns": [
+                "Có nên làm bài kiểm tra mẫu cho Part 3 không?"
+            ],
+            "responses": [
+                "Rất nên, làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi."
+            ]
+        },
+        {
+            "tag": "tu_tin_lam_part_3",
+            "patterns": [
+                "Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 3?"
+            ],
+            "responses": [
+                "Thực hành liên tục với các bài kiểm tra mẫu."
+            ]
+        },
+        {
+            "tag": "yeu_to_anh_huong_diem_so_part_3",
+            "patterns": [
+                "Các yếu tố nào ảnh hưởng đến điểm số trong Part 3?"
+            ],
+            "responses": [
+                "Kỹ năng nghe và khả năng phân tích nội dung hội thoại."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_hieu_hon_thoai_part_3",
+            "patterns": [
+                "Cách xử lý khi không hiểu đoạn hội thoại trong Part 3?"
+            ],
+            "responses": [
+                "Đừng hoảng sợ, hãy lắng nghe cẩn thận và cố gắng nắm bắt từ khoá chính."
+            ]
+        },
+        {
+            "tag": "part_4_cau_hoi",
+            "patterns": [
+                "Part 4 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 4 là phần bài nói ngắn, bạn sẽ nghe một đoạn độc thoại và sau đó trả lời câu hỏi."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_4",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 4?"
+            ],
+            "responses": [
+                "Tập trung nghe các từ khóa như tên người, địa điểm, thời gian."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_4",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 4?"
+            ],
+            "responses": [
+                "Part 4 có các câu hỏi về thông tin chi tiết, ý chính và suy luận."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_4",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 4?"
+            ],
+            "responses": [
+                "Chú ý đến các từ đồng âm hoặc từ gây nhiễu."
+            ]
+        },
+        {
+            "tag": "so_cau_part_4",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 4?"
+            ],
+            "responses": [
+                "Part 4 có 30 câu hỏi chia thành 10 bài nói."
+            ]
+        },
+        {
+            "tag": "prepare_part_4",
+            "patterns": [
+                "Cách chuẩn bị cho Part 4 trong TOEIC?"
+            ],
+            "responses": [
+                "Luyện nghe các bài nói thực tế từ thông báo hoặc podcast."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_4",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 4 không?"
+            ],
+            "responses": [
+                "Có nhưng nên ghi chú các điểm quan trọng để giúp nhớ dễ hơn."
+            ]
+        },
+        {
+            "tag": "thoi_gian_part_4",
+            "patterns": [
+                "Thời gian làm Part 4 là bao lâu?"
+            ],
+            "responses": [
+                "Thời gian cho Part 4 là khoảng 30 phút."
+            ]
+        },
+        {
+            "tag": "cai_thien_kha_nang_lan_ngoan_part_4",
+            "patterns": [
+                "Làm thế nào để cải thiện khả năng lắng nghe cho Part 4?"
+            ],
+            "responses": [
+                "Thực hành với các bài tập nghe và sử dụng tài liệu luyện thi."
+            ]
+        },
+        {
+            "tag": "chu_y_ngu_dieu_part_4",
+            "patterns": [
+                "Có cần chú ý đến ngữ điệu trong Part 4 không?"
+            ],
+            "responses": [
+                "Có, ngữ điệu rất quan trọng để hiểu ngữ cảnh tốt hơn."
+            ]
+        },
+        {
+            "tag": "phuong_phap_chon_cau_dung_part_4",
+            "patterns": [
+                "Phương pháp nào giúp dễ dàng chọn câu đúng trong Part 4?"
+            ],
+            "responses": [
+                "Lắng nghe kỹ và phân tích các từ khoá và thông tin chính."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_4",
+            "patterns": [
+                "Có nên làm bài kiểm tra mẫu cho Part 4 không?"
+            ],
+            "responses": [
+                "Rất nên, làm bài kiểm tra mẫu giúp bạn làm quen với định dạng câu hỏi."
+            ]
+        },
+        {
+            "tag": "tu_tin_lam_part_4",
+            "patterns": [
+                "Kinh nghiệm nào giúp bạn tự tin hơn khi làm Part 4?"
+            ],
+            "responses": [
+                "Thực hành liên tục với các bài kiểm tra mẫu."
+            ]
+        },
+        {
+            "tag": "yeu_to_anh_huong_diem_so_part_4",
+            "patterns": [
+                "Các yếu tố nào ảnh hưởng đến điểm số trong Part 4?"
+            ],
+            "responses": [
+                "Kỹ năng nghe và khả năng phân tích nội dung bài nói."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_hieu_bai_noi_part_4",
+            "patterns": [
+                "Cách xử lý khi không hiểu bài nói trong Part 4?"
+            ],
+            "responses": [
+                "Đừng hoảng sợ, hãy lắng nghe cẩn thận và cố gắng nắm bắt từ khoá chính."
+            ]
+        },
+        {
+            "tag": "part_5_cau_hoi",
+            "patterns": [
+                "Part 5 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 5 là phần điền vào chỗ trống, bạn sẽ chọn từ hoặc cụm từ phù hợp để hoàn thành câu."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_5",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 5?"
+            ],
+            "responses": [
+                "Bạn cần nắm vững ngữ pháp và từ vựng để chọn câu trả lời đúng."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_5",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 5?"
+            ],
+            "responses": [
+                "Part 5 có các câu hỏi về ngữ pháp, từ vựng và cụm từ cố định."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_5",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 5?"
+            ],
+            "responses": [
+                "Bạn cần chú ý đến các từ gây nhiễu trong ngữ cảnh."
+            ]
+        },
+        {
+            "tag": "so_cau_part_5",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 5?"
+            ],
+            "responses": [
+                "Part 5 có 30 câu hỏi với 4 lựa chọn cho mỗi câu."
+            ]
+        },
+        {
+            "tag": "prepare_part_5",
+            "patterns": [
+                "Cách chuẩn bị cho Part 5 trong TOEIC?"
+            ],
+            "responses": [
+                "Học ngữ pháp và từ vựng thường gặp trong các bài thi."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_5",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 5 không?"
+            ],
+            "responses": [
+                "Có nhưng chỉ ghi chú những điểm chính mà bạn không chắc chắn."
+            ]
+        },
+        {
+            "tag": "meo_chon_dap_an_part_5",
+            "patterns": [
+                "Các mẹo nào giúp chọn đáp án đúng trong Part 5?"
+            ],
+            "responses": [
+                "Đọc toàn bộ câu trước khi chọn để hiểu ngữ cảnh."
+            ]
+        },
+        {
+            "tag": "chu_y_ngu_context_part_5",
+            "patterns": [
+                "Có cần chú ý đến ngữ cảnh không?"
+            ],
+            "responses": [
+                "Rất cần thiết để xác định loại từ cần điền."
+            ]
+        },
+        {
+            "tag": "cai_thien_diem_so_part_5",
+            "patterns": [
+                "Phương pháp nào giúp cải thiện điểm số trong Part 5?"
+            ],
+            "responses": [
+                "Luyện tập thường xuyên với các bài kiểm tra mẫu."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_chac_chan_part_5",
+            "patterns": [
+                "Cách xử lý khi không chắc chắn về đáp án?"
+            ],
+            "responses": [
+                "Loại bỏ các lựa chọn sai để tăng khả năng chọn đúng."
+            ]
+        },
+        {
+            "tag": "chu_y_cum_tu_part_5",
+            "patterns": [
+                "Có cần chú ý đến các cụm từ cố định không?"
+            ],
+            "responses": [
+                "Có, nhiều câu có thể yêu cầu bạn sử dụng các cụm từ cố định."
+            ]
+        },
+        {
+            "tag": "tu_hoc_part_5",
+            "patterns": [
+                "Có thể tự học để cải thiện kỹ năng Part 5 không?"
+            ],
+            "responses": [
+                "Có, nhưng cần kỷ luật và lập kế hoạch học tập cụ thể."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_5",
+            "patterns": [
+                "Tại sao nên làm bài kiểm tra mẫu cho Part 5?"
+            ],
+            "responses": [
+                "Để làm quen với cấu trúc câu hỏi và tự tin hơn."
+            ]
+        },
+        {
+            "tag": "part_6_cau_hoi",
+            "patterns": [
+                "Part 6 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 6 là phần điền vào đoạn văn với từ hoặc cụm từ phù hợp."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_6",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 6?"
+            ],
+            "responses": [
+                "Đọc kỹ đoạn văn và hiểu ngữ cảnh để xác định loại từ cần thiết."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_6",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 6?"
+            ],
+            "responses": [
+                "Part 6 có các câu hỏi về ngữ pháp, từ vựng và liên kết câu."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_6",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 6?"
+            ],
+            "responses": [
+                "Chú ý đến các từ gây nhiễu trong ngữ cảnh."
+            ]
+        },
+        {
+            "tag": "so_cau_part_6",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 6?"
+            ],
+            "responses": [
+                "Part 6 có 16 câu hỏi chia thành 4 đoạn văn."
+            ]
+        },
+        {
+            "tag": "prepare_part_6",
+            "patterns": [
+                "Cách chuẩn bị cho Part 6 trong TOEIC?"
+            ],
+            "responses": [
+                "Luyện đọc hiểu và chú ý đến ngữ pháp, cấu trúc câu."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_6",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 6 không?"
+            ],
+            "responses": [
+                "Có, nhưng chỉ ghi chú những điểm chính để nhớ dễ hơn."
+            ]
+        },
+        {
+            "tag": "meo_chon_dap_an_part_6",
+            "patterns": [
+                "Các mẹo nào giúp chọn đáp án đúng trong Part 6?"
+            ],
+            "responses": [
+                "Đọc toàn bộ đoạn văn trước khi chọn để hiểu ngữ cảnh."
+            ]
+        },
+        {
+            "tag": "chu_y_ngu_context_part_6",
+            "patterns": [
+                "Có cần chú ý đến ngữ cảnh của từng câu trong đoạn văn không?"
+            ],
+            "responses": [
+                "Rất cần thiết để xác định loại từ cần thiết."
+            ]
+        },
+        {
+            "tag": "cai_thien_diem_so_part_6",
+            "patterns": [
+                "Phương pháp nào giúp cải thiện điểm số trong Part 6?"
+            ],
+            "responses": [
+                "Luyện tập thường xuyên với các bài kiểm tra mẫu."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_chac_chan",
+            "patterns": [
+                "Cách xử lý khi không chắc chắn về đáp án?"
+            ],
+            "responses": [
+                "Loại bỏ các lựa chọn sai để tăng khả năng chọn đúng."
+            ]
+        },
+        {
+            "tag": "tham_gia_lop_hoc",
+            "patterns": [
+                "Có nên tham gia lớp học luyện thi không?"
+            ],
+            "responses": [
+                "Rất nên, tham gia lớp học giúp bạn nắm vững kiến thức."
+            ]
+        },
+        {
+            "tag": "chu_y_cum_tu_part_6",
+            "patterns": [
+                "Có cần chú ý đến các cụm từ cố định trong Part 6 không?"
+            ],
+            "responses": [
+                "Có, rất quan trọng để sử dụng các cụm từ cố định đúng cách."
+            ]
+        },
+        {
+            "tag": "tu_hoc_part_6",
+            "patterns": [
+                "Có thể tự học để cải thiện kỹ năng Part 6 không?"
+            ],
+            "responses": [
+                "Có nhưng cần kỷ luật và lập kế hoạch cụ thể."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_6",
+            "patterns": [
+                "Tại sao nên làm bài kiểm tra mẫu cho Part 6?"
+            ],
+            "responses": [
+                "Để làm quen với cấu trúc câu hỏi và tự tin hơn."
+            ]
+        },
+        {
+            "tag": "part_7_cau_hoi",
+            "patterns": [
+                "Part 7 trong TOEIC có dạng câu hỏi nào?"
+            ],
+            "responses": [
+                "Part 7 là phần đọc hiểu với các đoạn văn và câu hỏi liên quan."
+            ]
+        },
+        {
+            "tag": "lam_tot_part_7",
+            "patterns": [
+                "Làm thế nào để làm tốt Part 7?"
+            ],
+            "responses": [
+                "Đọc lướt để nắm ý chính và đọc kỹ để tìm chi tiết."
+            ]
+        },
+        {
+            "tag": "loai_cau_hoi_part_7",
+            "patterns": [
+                "Có những loại câu hỏi nào trong Part 7?"
+            ],
+            "responses": [
+                "Part 7 có các câu hỏi về ý chính, chi tiết và suy luận."
+            ]
+        },
+        {
+            "tag": "tranh_bay_part_7",
+            "patterns": [
+                "Làm thế nào để tránh bẫy trong Part 7?"
+            ],
+            "responses": [
+                "Chú ý đến các từ đồng nghĩa hoặc cách diễn đạt khác."
+            ]
+        },
+        {
+            "tag": "so_cau_part_7",
+            "patterns": [
+                "Có bao nhiêu câu hỏi trong Part 7?"
+            ],
+            "responses": [
+                "Part 7 có 54 câu hỏi chia thành các đoạn văn đơn và đôi."
+            ]
+        },
+        {
+            "tag": "prepare_part_7",
+            "patterns": [
+                "Cách chuẩn bị cho Part 7 trong TOEIC?"
+            ],
+            "responses": [
+                "Luyện tập đọc hiểu với các loại văn bản tiếng Anh khác nhau."
+            ]
+        },
+        {
+            "tag": "ghi_chu_part_7",
+            "patterns": [
+                "Có nên ghi chú khi làm Part 7 không?"
+            ],
+            "responses": [
+                "Có, nhưng hãy ghi chú một cách có tổ chức."
+            ]
+        },
+        {
+            "tag": "meo_chon_dap_an_part_7",
+            "patterns": [
+                "Các mẹo nào giúp chọn đáp án đúng trong Part 7?"
+            ],
+            "responses": [
+                "Đọc kỹ câu hỏi trước khi xem đáp án."
+            ]
+        },
+        {
+            "tag": "chu_y_cau_truc_doan_van",
+            "patterns": [
+                "Có cần chú ý đến cấu trúc đoạn văn không?"
+            ],
+            "responses": [
+                "Rất cần thiết để xác định ý chính và cách sắp xếp thông tin."
+            ]
+        },
+        {
+            "tag": "cai_thien_diem_so_part_7",
+            "patterns": [
+                "Phương pháp nào giúp cải thiện điểm số trong Part 7?"
+            ],
+            "responses": [
+                "Luyện tập thường xuyên và đánh giá kết quả."
+            ]
+        },
+        {
+            "tag": "xu_ly_khi_khong_chac_chan_part_7",
+            "patterns": [
+                "Cách xử lý khi không chắc chắn về đáp án trong Part 7?"
+            ],
+            "responses": [
+                "Loại bỏ các lựa chọn sai để tăng khả năng chọn đúng."
+            ]
+        },
+        {
+            "tag": "chu_y_cum_tu_part_7",
+            "patterns": [
+                "Có cần chú ý đến các cụm từ cố định trong Part 7 không?"
+            ],
+            "responses": [
+                "Có, rất quan trọng để sử dụng đúng các cụm từ cố định."
+            ]
+        },
+        {
+            "tag": "tu_hoc_part_7",
+            "patterns": [
+                "Có thể tự học để cải thiện kỹ năng Part 7 không?"
+            ],
+            "responses": [
+                "Có nhưng cần kỷ luật và lập kế hoạch học tập cụ thể."
+            ]
+        },
+        {
+            "tag": "lam_bai_kiem_tra_mau_part_7",
+            "patterns": [
+                "Tại sao nên làm bài kiểm tra mẫu cho Part 7?"
+            ],
+            "responses": [
+                "Để làm quen với cấu trúc câu hỏi và tự tin hơn."
+            ]
+        },
+        {
+            "tag": "giu_binh_tinh_khi_thi",
+            "patterns": [
+                "Cách giữ bình tĩnh khi thi TOEIC?"
+            ],
+            "responses": [
+                "Giữ bình tĩnh, hít thở sâu và tập trung vào câu hỏi hiện tại."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_part_listening",
+            "patterns": [
+                "Kinh nghiệm làm bài thi TOEIC phần Listening?"
+            ],
+            "responses": [
+                "Đọc câu hỏi trước khi nghe và chú ý đến từ khóa."
+            ]
+        },
+        {
+            "tag": "kinh_nghiem_part_reading",
+            "patterns": [
+                "Kinh nghiệm làm bài thi TOEIC phần Reading?"
+            ],
+            "responses": [
+                "Đọc kỹ câu hỏi và sử dụng kỹ năng đọc quét để tìm thông tin."
+            ]
+        },
+        {
+            "tag": "on_tap_tuan_cuoi",
+            "patterns": [
+                "Cách ôn tập trong tuần cuối trước khi thi TOEIC?"
+            ],
+            "responses": [
+                "Luyện đề, xem lại lỗi sai và giữ gìn sức khỏe."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_present_simple",
+            "patterns": [
+                "Khi nào sử dụng thì Hiện Tại Đơn Present Simple?"
+            ],
+            "responses": [
+                "Diễn tả thói quen, sự thật hiển nhiên hoặc lịch trình."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_past_simple",
+            "patterns": [
+                "Khi nào sử dụng thì Quá Khứ Đơn Past Simple?"
+            ],
+            "responses": [
+                "Diễn tả hành động đã xảy ra và kết thúc trong quá khứ."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_present_perfect",
+            "patterns": [
+                "Khi nào sử dụng thì Hiện Tại Hoàn Thành Present Perfect?"
+            ],
+            "responses": [
+                "Diễn tả hành động xảy ra trong quá khứ nhưng còn liên quan đến hiện tại."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_future_simple",
+            "patterns": [
+                "Khi nào sử dụng thì Tương Lai Đơn Future Simple?"
+            ],
+            "responses": [
+                "Diễn tả hành động sẽ xảy ra trong tương lai, thường có từ chỉ thời gian như tomorrow, next week."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_present_continuous",
+            "patterns": [
+                "Khi nào sử dụng thì Hiện Tại Tiếp Diễn Present Continuous?"
+            ],
+            "responses": [
+                "Diễn tả hành động đang xảy ra tại thời điểm nói hoặc kế hoạch trong tương lai gần."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_past_continuous",
+            "patterns": [
+                "Khi nào sử dụng thì Quá Khứ Tiếp Diễn Past Continuous?"
+            ],
+            "responses": [
+                "Diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_present_perfect_continuous",
+            "patterns": [
+                "Khi nào sử dụng thì Hiện Tại Hoàn Thành Tiếp Diễn Present Perfect Continuous?"
+            ],
+            "responses": [
+                "Diễn tả hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn hoặc vừa mới kết thúc."
+            ]
+        },
+        {
+            "tag": "thoi_diem_su_dung_future_continuous",
+            "patterns": [
+                "Khi nào sử dụng thì Tương Lai Tiếp Diễn Future Continuous?"
+            ],
+            "responses": [
+                "Diễn tả hành động sẽ đang xảy ra tại một thời điểm trong tương lai."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_1",
+            "patterns": [
+                "Cấu trúc câu điều kiện loại 1 là gì?"
+            ],
+            "responses": [
+                "If S V, S will V. Diễn tả tình huống có thể xảy ra trong tương lai."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_2",
+            "patterns": [
+                "Cấu trúc câu điều kiện loại 2 là gì?"
+            ],
+            "responses": [
+                "If S V2, S would V. Diễn tả tình huống không có thật ở hiện tại."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_3",
+            "patterns": [
+                "Cấu trúc câu điều kiện loại 3 là gì?"
+            ],
+            "responses": [
+                "If S had V3, S would have V3. Diễn tả tình huống không có thật trong quá khứ."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_1_dong_tu",
+            "patterns": [
+                "Câu điều kiện loại 1 có thể sử dụng với các động từ nào?"
+            ],
+            "responses": [
+                "Có thể sử dụng với bất kỳ động từ nào có thể chia theo quy tắc thì hiện tại đơn."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_2_dong_tu",
+            "patterns": [
+                "Câu điều kiện loại 2 có thể được sử dụng với động từ to be như thế nào?"
+            ],
+            "responses": [
+                "Động từ to be thường được sử dụng dưới dạng were cho tất cả các ngôi."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_1_su_that_chung",
+            "patterns": [
+                "Có thể sử dụng câu điều kiện loại 1 để diễn tả một sự thật chung không?"
+            ],
+            "responses": [
+                "Không, câu điều kiện loại 1 không dùng để diễn tả sự thật chung."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_3_tinh_huong",
+            "patterns": [
+                "Câu điều kiện loại 3 có thể sử dụng để nói về điều gì?"
+            ],
+            "responses": [
+                "Để nói về các tình huống không có thật trong quá khứ."
+            ]
+        },
+        {
+            "tag": "ket_hop_cau_dieu_kien",
+            "patterns": [
+                "Có thể kết hợp nhiều loại câu điều kiện trong một câu không?"
+            ],
+            "responses": [
+                "Có thể nhưng cần làm rõ ý nghĩa."
+            ]
+        },
+        {
+            "tag": "su_dung_would_va_could",
+            "patterns": [
+                "Khi nào nên sử dụng would và could trong câu điều kiện?"
+            ],
+            "responses": [
+                "Would diễn tả một kết quả có thể xảy ra, còn could diễn tả khả năng."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_1_khong_chac_chan",
+            "patterns": [
+                "Câu điều kiện loại 1 có thể diễn tả một điều kiện không chắc chắn không?"
+            ],
+            "responses": [
+                "Có, nhưng vẫn có khả năng xảy ra."
+            ]
+        },
+        {
+            "tag": "su_dung_cau_dieu_kien_trong_van_ban_chinh_thuc",
+            "patterns": [
+                "Câu điều kiện có thể được sử dụng trong văn viết chính thức không?"
+            ],
+            "responses": [
+                "Có, câu điều kiện có thể được sử dụng trong cả văn viết chính thức và không chính thức."
+            ]
+        },
+        {
+            "tag": "cau_dieu_kien_loai_2_bien_dien",
+            "patterns": [
+                "Câu điều kiện loại 2 có thể được diễn đạt khác không?"
+            ],
+            "responses": [
+                "Có thể sử dụng were to để nhấn mạnh tính giả định."
+            ]
+        },
+        {
+            "tag": "xac_dinh_loai_cau_dieu_kien",
+            "patterns": [
+                "Làm thế nào để xác định loại câu điều kiện?"
+            ],
+            "responses": [
+                "Xem xét thời gian và tính thực tế của điều kiện."
+            ]
+        },
+        {
+            "tag": "su_dung_who_trong_menh_de_quan_he",
+            "patterns": [
+                "Khi nào sử dụng who trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Để thay thế cho danh từ chỉ người trong mệnh đề quan hệ."
+            ]
+        },
+        {
+            "tag": "su_dung_which_trong_menh_de_quan_he",
+            "patterns": [
+                "Khi nào sử dụng which trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Để thay thế cho danh từ chỉ vật trong mệnh đề quan hệ."
+            ]
+        },
+        {
+            "tag": "su_dung_that_trong_menh_de_quan_he",
+            "patterns": [
+                "Khi nào sử dụng that trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Thay thế cho cả danh từ chỉ người và vật trong mệnh đề quan hệ."
+            ]
+        },
+        {
+            "tag": "khai niem_menh_de_quan_he",
+            "patterns": [
+                "Mệnh đề quan hệ là gì?"
+            ],
+            "responses": [
+                "Là phần của câu sử dụng đại từ quan hệ để cung cấp thêm thông tin."
+            ]
+        },
+        {
+            "tag": "cau_truc_menh_de_quan_he_xac_dinh",
+            "patterns": [
+                "Công thức của mệnh đề quan hệ xác định là gì?"
+            ],
+            "responses": [
+                "Cấu trúc không có dấu phẩy và cung cấp thông tin cần thiết."
+            ]
+        },
+        {
+            "tag": "cau_truc_menh_de_quan_he_khong_xac_dinh",
+            "patterns": [
+                "Công thức của mệnh đề quan hệ không xác định là gì?"
+            ],
+            "responses": [
+                "Mệnh đề có dấu phẩy và cung cấp thông tin bổ sung không cần thiết."
+            ]
+        },
+        {
+            "tag": "su_dung_that_trong_menh_de_khong_xac_dinh",
+            "patterns": [
+                "Có thể sử dụng that trong mệnh đề không xác định không?"
+            ],
+            "responses": [
+                "Không, bạn nên sử dụng who hoặc which."
+            ]
+        },
+        {
+            "tag": "vi_tri_menh_de_quan_he_trong_cau",
+            "patterns": [
+                "Mệnh đề quan hệ có thể nằm ở vị trí nào trong câu?"
+            ],
+            "responses": [
+                "Có thể nằm ngay sau danh từ mà nó bổ nghĩa."
+            ]
+        },
+        {
+            "tag": "rut_gon_menh_de_quan_he",
+            "patterns": [
+                "Làm thế nào để rút gọn mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Bằng cách bỏ đại từ quan hệ và động từ to be nếu có thể."
+            ]
+        },
+        {
+            "tag": "su_dung_menh_de_quan_he_o_thi_qua_khu",
+            "patterns": [
+                "Có thể sử dụng mệnh đề quan hệ ở thì quá khứ không?"
+            ],
+            "responses": [
+                "Có, sử dụng động từ ở dạng quá khứ trong mệnh đề."
+            ]
+        },
+        {
+            "tag": "su_dung_menh_de_quan_he_voi_dong_tu_to_be",
+            "patterns": [
+                "Khi nào nên sử dụng mệnh đề quan hệ với động từ to be?"
+            ],
+            "responses": [
+                "Để cung cấp thông tin về trạng thái hoặc đặc điểm của danh từ."
+            ]
+        },
+        {
+            "tag": "cau_bi_dong_hien_tai_don",
+            "patterns": [
+                "Cấu trúc câu bị động ở thì hiện tại đơn là gì?"
+            ],
+            "responses": [
+                "Cấu trúc S am/is/are V3ed."
+            ]
+        },
+        {
+            "tag": "cau_bi_dong_qua_khu_don",
+            "patterns": [
+                "Cấu trúc câu bị động ở thì quá khứ đơn là gì?"
+            ],
+            "responses": [
+                "Cấu trúc S was/were V3ed."
+            ]
+        },
+        {
+            "tag": "cau_bi_dong_hien_tai_hoan_thanh",
+            "patterns": [
+                "Cấu trúc câu bị động ở thì hiện tại hoàn thành là gì?"
+            ],
+            "responses": [
+                "Cấu trúc S have/has been V3ed."
+            ]
+        },
+        {
+            "tag": "cau_bi_dong_trong_cac_thi",
+            "patterns": [
+                "Câu bị động có thể được sử dụng trong những thì nào?"
+            ],
+            "responses": [
+                "Có thể sử dụng trong hầu hết các thì như hiện tại đơn, quá khứ đơn, hiện tại hoàn thành..."
+            ]
+        },
+        {
+            "tag": "su_dung_cau_bi_dong",
+            "patterns": [
+                "Khi nào nên sử dụng câu bị động thay vì câu chủ động?"
+            ],
+            "responses": [
+                "Khi không biết ai thực hiện hành động hoặc khi muốn nhấn mạnh vào hành động."
+            ]
+        },
+        {
+            "tag": "chuyen_tu_chu_dong_sang_bi_dong",
+            "patterns": [
+                "Làm thế nào để chuyển từ câu chủ động sang câu bị động?"
+            ],
+            "responses": [
+                "Thay đổi tân ngữ thành chủ ngữ và sử dụng động từ to be."
+            ]
+        },
+        {
+            "tag": "rut_gon_cau_bi_dong",
+            "patterns": [
+                "Câu bị động có thể được rút gọn không?"
+            ],
+            "responses": [
+                "Có, đặc biệt khi đại từ quan hệ 'by' không cần thiết."
+            ]
+        },
+        {
+            "tag": "dong_tu_khong_can_tan_ngu",
+            "patterns": [
+                "Có thể sử dụng câu bị động với động từ không cần tân ngữ không?"
+            ],
+            "responses": [
+                "Không, câu bị động chỉ sử dụng với động từ có tân ngữ."
+            ]
+        },
+        {
+            "tag": "van_ban_chinh_thuc",
+            "patterns": [
+                "Câu bị động có thể dùng trong văn viết chính thức không?"
+            ],
+            "responses": [
+                "Có, thường được sử dụng trong văn viết chính thức và học thuật."
+            ]
+        },
+        {
+            "tag": "cau_bi_dong_loai_2",
+            "patterns": [
+                "Câu điều kiện loại 2 có thể được diễn đạt khác không?"
+            ],
+            "responses": [
+                "Có thể sử dụng 'were to' để nhấn mạnh tính giả định."
+            ]
+        },
+        {
+            "tag": "xac_dinh_loai_cau_dieu_kien",
+            "patterns": [
+                "Làm thế nào để xác định loại câu điều kiện?"
+            ],
+            "responses": [
+                "Xem xét thời gian và tính thực tế của điều kiện."
+            ]
+        },
+        {
+            "tag": "su_dung_who",
+            "patterns": [
+                "Khi nào sử dụng who trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Để thay thế cho danh từ chỉ người."
+            ]
+        },
+        {
+            "tag": "su_dung_which",
+            "patterns": [
+                "Khi nào sử dụng which trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Để thay thế cho danh từ chỉ vật."
+            ]
+        },
+        {
+            "tag": "su_dung_that",
+            "patterns": [
+                "Khi nào sử dụng that trong mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Để thay thế cho cả danh từ chỉ người và vật."
+            ]
+        },
+        {
+            "tag": "khai_niem_menh_de_quan_he",
+            "patterns": [
+                "Mệnh đề quan hệ là gì?"
+            ],
+            "responses": [
+                "Là phần của câu sử dụng đại từ quan hệ để cung cấp thêm thông tin."
+            ]
+        },
+        {
+            "tag": "cau_truc_menh_de_quan_he_xac_dinh",
+            "patterns": [
+                "Công thức của mệnh đề quan hệ xác định là gì?"
+            ],
+            "responses": [
+                "Cấu trúc không có dấu phẩy và cung cấp thông tin cần thiết."
+            ]
+        },
+        {
+            "tag": "cau_truc_menh_de_quan_he_khong_xac_dinh",
+            "patterns": [
+                "Công thức của mệnh đề quan hệ không xác định là gì?"
+            ],
+            "responses": [
+                "Mệnh đề có dấu phẩy và cung cấp thông tin bổ sung không cần thiết."
+            ]
+        },
+        {
+            "tag": "su_dung_that_trong_menh_de_khong_xac_dinh",
+            "patterns": [
+                "Có thể sử dụng that trong mệnh đề không xác định không?"
+            ],
+            "responses": [
+                "Không, bạn nên sử dụng who hoặc which."
+            ]
+        },
+        {
+            "tag": "vi_tri_menh_de_quan_he",
+            "patterns": [
+                "Mệnh đề quan hệ có thể nằm ở vị trí nào trong câu?"
+            ],
+            "responses": [
+                "Có thể nằm ngay sau danh từ mà nó bổ nghĩa."
+            ]
+        },
+        {
+            "tag": "rut_gon_menh_de_quan_he",
+            "patterns": [
+                "Làm thế nào để rút gọn mệnh đề quan hệ?"
+            ],
+            "responses": [
+                "Bằng cách bỏ đại từ quan hệ và động từ to be nếu có thể."
+            ]
+        },
+        {
+            "tag": "su_dung_menh_de_quan_he_o_thi_qua_khu",
+            "patterns": [
+                "Có thể sử dụng mệnh đề quan hệ ở thì quá khứ không?"
+            ],
+            "responses": [
+                "Có, sử dụng động từ ở dạng quá khứ trong mệnh đề."
+            ]
+        },
+        {
+            "tag": "su_dung_menh_de_quan_he_voi_dong_tu_to_be",
+            "patterns": [
+                "Khi nào nên sử dụng mệnh đề quan hệ với động từ to be?"
+            ],
+            "responses": [
+                "Để cung cấp thông tin về trạng thái hoặc đặc điểm của danh từ."
+            ]
+        },
+        {
+            "tag": "so_sanh_trang_tu",
+            "patterns": [
+                "Làm thế nào để so sánh hai trạng từ?"
+            ],
+            "responses": [
+                "Cấu trúc S V adv er than cho trạng từ một âm tiết, hoặc S V more adv than cho trạng từ dài hơn một âm tiết."
+            ]
+        },
+        {
+            "tag": "the_more_the_more",
+            "patterns": [
+                "Khi nào nên sử dụng the more... the more...?"
+            ],
+            "responses": [
+                "Để chỉ ra rằng khi một điều kiện gia tăng, điều kiện khác cũng tăng theo."
+            ]
+        },
+        {
+            "tag": "so_sanh_trong_cau_phu_dinh",
+            "patterns": [
+                "Có thể sử dụng so sánh trong câu phủ định không?"
+            ],
+            "responses": [
+                "Có, sử dụng cấu trúc S V not as adj/adv as."
+            ]
+        },
+        {
+            "tag": "su_dung_albeit",
+            "patterns": [
+                "Khi nào sử dụng although?"
+            ],
+            "responses": [
+                "Để diễn tả sự tương phản giữa hai mệnh đề."
+            ]
+        },
+        {
+            "tag": "su_dung_because",
+            "patterns": [
+                "Khi nào sử dụng because?"
+            ],
+            "responses": [
+                "Để chỉ ra nguyên nhân hoặc lý do cho một hành động."
+            ]
+        },
+        {
+            "tag": "su_dung_however",
+            "patterns": [
+                "Khi nào sử dụng however?"
+            ],
+            "responses": [
+                "Để diễn tả sự tương phản tương tự như but."
+            ]
+        },
+        {
+            "tag": "su_dung_and",
+            "patterns": [
+                "Cách sử dụng and trong câu?"
+            ],
+            "responses": [
+                "Để nối các từ, cụm từ hoặc mệnh đề lại với nhau."
+            ]
+        },
+        {
+            "tag": "su_dung_but",
+            "patterns": [
+                "Khi nào sử dụng but?"
+            ],
+            "responses": [
+                "Để diễn tả sự tương phản giữa hai mệnh đề."
+            ]
+        },
+        {
+            "tag": "su_dung_or",
+            "patterns": [
+                "Cách sử dụng or trong câu?"
+            ],
+            "responses": [
+                "Để đưa ra sự lựa chọn hoặc sự thay thế giữa các yếu tố."
+            ]
+        },
+        {
+            "tag": "su_dung_neither_nor",
+            "patterns": [
+                "Khi nào sử dụng neither... nor...?"
+            ],
+            "responses": [
+                "Để diễn tả rằng hai điều đều không đúng hoặc không xảy ra."
+            ]
+        },
+        {
+            "tag": "su_dung_whether_or",
+            "patterns": [
+                "Cách sử dụng whether... or...?"
+            ],
+            "responses": [
+                "Để chỉ ra rằng có hai hoặc nhiều lựa chọn."
+            ]
+        }
+    ]
+}
